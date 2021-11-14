@@ -1,0 +1,30 @@
+{
+	title: "§d§l绿色的网络",
+	x: -10.0d,
+	y: 5.0d,
+	dependencies: [
+		"9a5bd104"
+	],
+	tasks: [{
+		uid: "2af82841",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:gramary"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bca4f859",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "180e4c72",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

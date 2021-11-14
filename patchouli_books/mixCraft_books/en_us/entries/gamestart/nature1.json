@@ -1,0 +1,69 @@
+{
+    "sortnum": 7,
+	"name": "§3§l自然灵气（一）",
+    "icon": "naturesaura:gold_leaf",
+    "category": "patchouli:gamestart_category",
+    "advancement": "naturesaura:gold_leaf",
+    "turnin": "naturesaura:gold_leaf",
+	"read_by_default": false,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(li)$(5)$(l)自然灵气篇章。$(br2)$(3)$(l)使用自然的力量合成一些特殊物品。$(br2)$(4)$(l)一切的一切需要灵气哦$(br2)$(d)$(l)自然之力的基础第一章$(br2)$(3)$(l)使用环境之眼查看附近灵气$(br2)$(7)$(l)从森林仪式开始"
+        },
+		{
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:tree_ritual",
+            "text": "$(br2)$(3)$(l)森林仪式摆放方法$(4)$(l)使用可视化锚定"
+        },
+		{
+            "type": "crafting",
+            "text": "$(br2)$(3)$(l)木墩墩的合成",
+            "recipe": "naturesaura:wood_stand"
+        },
+		{
+            "type": "crafting",
+            "text": "$(br2)$(3)$(l)瓶子木塞$(br2)$(6)$(l)在不同世界右键即可装入$(br)$(2)小提示：如果装不了说明灵气不够啦",
+            "recipe": "naturesaura:bottle_two_the_rebottling"
+        },
+		{
+            "type": "tree_ritual",
+            "recipe": "naturesaura:ancient_sapling",
+            "text": "$(br2)$(8)$(l)荒古树苗$(3)$(l)灵气来源"
+        },
+		
+	{
+            "type": "tree_ritual",
+            "recipe": "naturesaura:nature_altar",
+            "text": "$(br2)$(8)$(l)自然祭坛合成"
+        },
+		{
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:altar",
+            "text": "$(br2)$(8)$(l)自然祭坛多方块摆放方法"
+        },
+		
+	    {
+            "type": "altar",
+            "text": "$(br2)$(8)$(l)自然祭坛灌注合成$(br2)$(6)$(l)需要灵气哦",
+            "recipe": "naturesaura:infused_stone"
+        },
+		{
+            "type": "altar",
+            "text": "$(br2)$(8)$(l)自然祭坛灌注合成$(br2)$(6)$(l)需要灵气哦",
+            "recipe": "ingredient"
+        },
+		{
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:offering_table",
+            "text": "$(br2)$(c)$(l)献给众神$(6)$(l)可视化摆放"
+        },
+		 {
+            "type": "offering",
+            "text": "$(br2)$(c)$(l)献给众神",
+            "recipe": "botania_altar"
+        }
+		
+		
+    ]
+}

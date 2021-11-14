@@ -1,0 +1,36 @@
+{
+	x: -24.5d,
+	y: -6.5d,
+	dependencies: [
+		"77db8c16"
+	],
+	tasks: [{
+		uid: "5d4f0461",
+		type: "item",
+		items: [{
+			item: "botania:petal"
+		}],
+		count: 8L
+	},
+	{
+		uid: "e6f7cd2d",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 2"
+		}],
+		count: 8L
+	},
+	{
+		uid: "9770bb9b",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 8"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "58707320",
+		type: "random",
+		table: 0
+	}]
+}

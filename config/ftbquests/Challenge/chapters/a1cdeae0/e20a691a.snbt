@@ -1,0 +1,33 @@
+{
+	x: -3.5d,
+	y: 10.5d,
+	dependencies: [
+		"a8d3dd4c"
+	],
+	tasks: [{
+		uid: "d4ffdcd3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_gold_tier"
+		}]
+	}],
+	rewards: [{
+		uid: "a6fbfe48",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "e85aabee",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		}
+	}]
+}

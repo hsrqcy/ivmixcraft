@@ -1,0 +1,12 @@
+{
+	title: "§e§l农场物语",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "mysticalworld:amethyst_hoe"
+	},
+	always_invisible: false,
+	group: 1516875669,
+	default_quest_shape: ""
+}

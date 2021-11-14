@@ -1,0 +1,27 @@
+{
+	x: 3.0d,
+	y: 10.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "101a3c87",
+		type: "fluid",
+		fluid: "contentfluid_bluelover",
+		amount: 100000
+	}],
+	rewards: [{
+		uid: "cf16194b",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "0c6ecdc1",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "7c2f839c",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 10
+	}]
+}

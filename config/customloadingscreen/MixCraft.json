@@ -1,0 +1,210 @@
+{
+    "constants": {
+        "image_interval": 12.0,
+        "transition_duration": 20,
+        "tip_interval": 18.0,
+        "random_slide_order": false,
+
+        "tip_seed": "generate_seed()",
+        "slideshow_seed": "generate_seed()"
+    },
+    "functions": {
+        "slideshow_frame_inner(float timeSub)": "floor((time - timeSub) / image_interval)",
+        "slideshow_frame(float timeSub, int count)": "random_slide_order ? ( random_int( slideshow_seed, slideshow_frame_inner(timeSub), count ) ) : slideshow_frame_inner(timeSub)"
+    },
+    "variables": {
+    },
+    "renders": [
+        {
+            "image": {
+                "parent": "builtin/slideshow",
+                "image": "mainmenu:backgrounds/1.png",
+                "frame": "slideshow_frame(transition_duration, frame_count)",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER",
+                "colour": "0xFF_FF_FF_FF",
+                "position": {
+                    "x": "0",
+                    "y": "0",
+                    "width": "screen_width + 1",
+                    "height": "screen_height + 1"
+                },
+                "texture": {
+                    "x": "0",
+                    "y": "0",
+                    "width": "1",
+                    "height": "1"
+                }
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/slideshow",
+                "image": "mainmenu:backgrounds/2.png",
+                "frame": "slideshow_frame(0, frame_count)",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER",
+                "colour": "0xFF_FF_FF | (0xFF_00_00_00 & (0x01_00_00_00 * floor(0xFF * min(1, ((transition_duration <= 0.01) ? (0) : (time/transition_duration)) % image_interval  ))))",
+                "position": {
+                    "x": "0",
+                    "y": "0",
+                    "width": "screen_width + 1",
+                    "height": "screen_height + 1"
+                },
+                "texture": {
+                    "x": "0",
+                    "y": "0",
+                    "width": "1",
+                    "height": "1"
+                }
+            }
+        },
+		{
+            "image": {
+                "parent": "builtin/slideshow",
+                "image": "mainmenu:backgrounds/1.png",
+                "frame": "slideshow_frame(0, frame_count)",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER",
+				"colour": "0xFF_FF_FF | (0xFF_00_00_00 & (0x01_00_00_00 * floor(0xFF * min(1, ((transition_duration <= 0.01) ? (0) : (time/transition_duration)) % image_interval  ))))",
+                "position": {
+                    "x": "0",
+                    "y": "0",
+                    "width": "screen_width + 1",
+                    "height": "screen_height + 1"
+                },
+                "texture": {
+                    "x": "0",
+                    "y": "0",
+                    "width": "1",
+                    "height": "1"
+                }
+            }
+        },	
+		{
+            "image": {
+                "parent": "builtin/image",
+                "image": "customloadingscreen:image/logo.png",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER",
+                "position": {
+                    "x": "0",
+                    "y": "-screen_height * 0.1",
+                    "width": "screen_width * 0.6",
+                    "height": "screen_width * 0.3"
+                },
+                "texture": {
+                    "x": "0",
+                    "y": "0",
+                    "width": "1",
+                    "height": "1"
+                }
+            }
+        },
+        {
+            "image": {
+                "parent": "sample/bottom_bar",
+                "position_type": "BOTTOM_LEFT",
+                "offset_pos": "BOTTOM_LEFT",
+                "colour": "0xFF_00_00_00",
+                "position": {
+                    "width": "screen_width",
+                    "y": "-32"
+                }
+            }
+        },
+        {
+            "image": {
+                "parent": "sample/bottom_bar",
+                "position_type": "BOTTOM_LEFT",
+                "offset_pos": "BOTTOM_LEFT",
+                "colour": "0xFF_FF_FF_FF",
+                "position": {
+                    "y": "-32"
+                }
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/text",
+				"image": "customloadingscreen:image/font.png",
+                "text": "status",
+                "position_type": "BOTTOM_LEFT",
+                "offset_pos": "BOTTOM_LEFT",
+                "position": { "x": 10, "y": -16 }
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/text",
+				"image": "customloadingscreen:image/font.png",
+                "text": "sub_status",
+                "position_type": "BOTTOM_LEFT",
+                "offset_pos": "BOTTOM_LEFT",
+                "position": { "x": 10, "y": -4 }
+            }
+        },
+		{
+            "image": {
+                "parent": "builtin/text",
+				"image": "customloadingscreen:image/font.png",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER",
+                "scale": 1.3,
+				"text": "' Memory Used: ' + memory_used() + 'MB / ' + memory_max() + 'MB'",
+                "position": {
+                "x": "0",
+                "y": "75",
+                "width": "0",
+                "height": "0"
+            },
+            "colour": "0xcffffffff"
+            }
+        },
+		{
+            "image": {
+                "parent": "builtin/text",
+				"image": "customloadingscreen:image/font.png",
+                "position_type": "TOP_RIGHT",
+                "offset_pos": "TOP_RIGHT",
+                "scale": 1.5,
+				"text": "' Loading Time: ' + floor(time / 60) + 'm ' + floor((time % 60) / 10) + floor(time % 60 % 10) + 's'",
+                "position": {
+                "x": "0",
+                "y": "5",
+                "width": "0",
+                "height": "0"
+            },
+            "colour": "0xcffffffff"
+            }
+        },
+		
+        {
+            "image": {
+                "parent": "builtin/text",
+				"image": "customloadingscreen:image/font.png",
+                "text": "(floor(percentage * 100)) + '%'",
+                "scale": 2,
+                "position_type": "BOTTOM_RIGHT",
+                "offset_pos": "BOTTOM_RIGHT",
+                "position": { "x": -10, "y": -5 }
+            }
+        },						
+        {
+            "image": {
+                "parent": "builtin/text",
+				"image": "customloadingscreen:image/font.png",
+                "text": "(has_tips() & tip_interval > 0) ? tip(random_int(tip_seed, floor(time / tip_interval), tip_count())) : ''",
+                "position_type": "BOTTOM_CENTER",
+                "offset_pos": "BOTTOM_CENTER",
+                "position": { "x": 0, "y": -10 }
+            }
+        }
+    ],
+    "factories": [
+
+    ],
+    "actions": [
+
+    ]
+}

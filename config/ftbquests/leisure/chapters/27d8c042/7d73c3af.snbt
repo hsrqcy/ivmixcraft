@@ -1,0 +1,40 @@
+{
+	title: "§e§l轻油",
+	x: 3.0d,
+	y: -1.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "49bd7cee",
+		type: "fluid",
+		fluid: "light_oil",
+		amount: 500000
+	}],
+	rewards: [{
+		uid: "c6078b0f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "d75561b0",
+		type: "xp",
+		auto: "enabled",
+		xp: 300
+	},
+	{
+		uid: "453fb6a9",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	},
+	{
+		uid: "c9e46e7b",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 5
+	}]
+}

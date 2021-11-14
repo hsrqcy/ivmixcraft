@@ -1,0 +1,33 @@
+{
+	x: -28.5d,
+	y: 7.5d,
+	dependencies: [
+		"51b2f2d4"
+	],
+	tasks: [{
+		uid: "a0963ddc",
+		type: "item",
+		items: [{
+			item: "sakura:maple_cauldron"
+		}]
+	},
+	{
+		uid: "588537e7",
+		type: "item",
+		items: [{
+			item: "sakura:maple_spile"
+		}]
+	},
+	{
+		uid: "7040ea4d",
+		type: "item",
+		items: [{
+			item: "minecraft:magma"
+		}]
+	}],
+	rewards: [{
+		uid: "a39de6fe",
+		type: "random",
+		table: 0
+	}]
+}

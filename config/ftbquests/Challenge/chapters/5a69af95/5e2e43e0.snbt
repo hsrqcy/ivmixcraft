@@ -1,0 +1,30 @@
+{
+	x: 44.0d,
+	y: -6.5d,
+	dependencies: [
+		"c420dd77"
+	],
+	tasks: [{
+		uid: "87219c46",
+		type: "item",
+		items: [{
+			item: "skyresources:quickdropper"
+		}]
+	}],
+	rewards: [{
+		uid: "8cbe4d46",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "7d59ae6a",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "50e21182",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 5
+	}]
+}

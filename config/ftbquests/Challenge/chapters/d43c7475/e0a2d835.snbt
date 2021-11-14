@@ -1,0 +1,25 @@
+{
+	title: "§1§l真香",
+	x: 10.5d,
+	y: -12.0d,
+	dependencies: [
+		"94392ccf"
+	],
+	tasks: [{
+		uid: "bdfc989b",
+		type: "item",
+		items: [{
+			item: "bloodmagic:incense_altar"
+		}]
+	}],
+	rewards: [{
+		uid: "dbedb074",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "38ad5927",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

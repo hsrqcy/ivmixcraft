@@ -1,0 +1,23 @@
+{
+    "machine": "transformlp",
+    "registryName": "transformstarlight",
+    "recipeTime": 40,
+    "requirements": [
+        {
+            "type": "starlight",
+            "io-type": "output",
+            "amount": 3000
+        },
+		{
+            "type": "lifeessence",
+            "io-type": "input",
+            "amount": 100
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "steam",
+			"amount": 300
+        }
+    ]
+}

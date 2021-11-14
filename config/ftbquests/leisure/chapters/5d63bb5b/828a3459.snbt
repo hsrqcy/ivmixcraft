@@ -1,0 +1,48 @@
+{
+	x: -7.0d,
+	y: -19.0d,
+	can_repeat: true,
+	dependencies: [
+		"3b886823"
+	],
+	tasks: [{
+		uid: "7ec3d587",
+		type: "item",
+		items: [{
+			item: "magneticraft:battery"
+		}],
+		count: 10L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "02ab4060",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:cell",
+			tag: {
+				Recv: 1000,
+				RSControl: 0b,
+				ench: [{
+					lvl: 2s,
+					id: 37
+				}],
+				Facing: 3b,
+				RepairCost: 1,
+				Energy: 0,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				],
+				Level: 0b,
+				Send: 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -12.5d,
+	y: -15.5d,
+	dependencies: [
+		"66208fe6",
+		"4fd7d545"
+	],
+	tasks: [{
+		uid: "603f5cea",
+		type: "item",
+		items: [{
+			item: "magneticraft:steam_turbine"
+		}]
+	}],
+	rewards: [{
+		uid: "2ea96d3e",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "95651df3",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

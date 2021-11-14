@@ -1,0 +1,32 @@
+{
+	title: "§5§l灵魂网络",
+	x: 3.5d,
+	y: -9.0d,
+	dependencies: [
+		"6c48d1b5"
+	],
+	tasks: [{
+		uid: "8d5d785f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "06e747af",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "3e934d72",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

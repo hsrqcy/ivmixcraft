@@ -1,0 +1,31 @@
+{
+	x: 40.0d,
+	y: 2.0d,
+	dependencies: [
+		"d32a48dc"
+	],
+	tasks: [{
+		uid: "acd349e7",
+		type: "item",
+		items: [{
+			item: "skyresources:ironfreezer"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "710097e4",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "1941e716",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "431c1e82",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 2
+	}]
+}

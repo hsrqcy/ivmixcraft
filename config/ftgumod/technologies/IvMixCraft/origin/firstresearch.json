@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+     "item": "artisanworktables:worktable",
+        "data": 1
+    },
+    "title": {
+      "text": "第一次研究",
+      "color": "gold",
+      "bold": true
+    },
+    "description": {
+      "text": "使用创作台，放入一个工作台试试！记得放羊皮纸和羽毛哦",
+	  "color": "white",
+      "bold": true
+    },
+    "x": 2,
+    "y": 0
+  },
+  "parent": "IvMixCraft:origin/origin",
+  "idea": {
+    "amount": 1,
+    "ingredients": [
+      "minecraft:crafting_table"
+    ]
+  },
+  "unlock": [
+    {
+        "item": "artisanworktables:worktable",
+        "data": 1
+    },
+	"ftgumod:research_table"
+  ],
+   "rewards": {
+       "ingredients": [
+            {
+                "item": "minecraft:stone",
+                "data": 0
+            },
+            {
+                "item": "minecraft:cobblestone"
+            },
+            {
+                "item": "minecraft:dirt",
+                "data": 0
+            }
+       ]
+   } 
+}

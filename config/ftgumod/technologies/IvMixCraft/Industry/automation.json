@@ -1,0 +1,91 @@
+{
+  "display": {
+    "icon": {
+      "item": "artisanautomation:automator",
+	   "data": 0
+    },
+    "title": {
+       "text": "§3§l自动化初始"
+    },
+    "description": {
+      "text":"§e§l走上自动化之路，§a§l交流发电机、马达、轻薄钢板"
+    },
+    "x": 5,
+    "y": -4
+  },
+  "parent": "IvMixCraft:Industry/designer",
+  "idea": {
+    "amount": 3,
+    "ingredients": [
+	  {
+        "item": "magneticraft:crafting",
+        "data": 1
+      },
+	  {
+        "item": "magneticraft:crafting",
+        "data": 2
+      },
+	  {
+      "type": "forge:ore_dict",
+      "ore": "lightPlateSteel"
+      }
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "BSB",
+      "SRS",
+      "BSB"
+    ],
+    "key": {
+    "R": {
+      "item": {
+          "item": "magneticraft:crafting",
+          "data": 1
+        },
+        "hint": {
+          "translate": "交流发电机"
+        }
+	},
+	"S": {
+      "item": [ 
+        "magneticraft:crafting"
+       ],
+        "hint": {
+          "translate": "马达"
+        }
+	},
+	
+      "B": {
+       "item": { 
+        "type": "forge:ore_dict",
+        "ore": "lightPlateSteel"
+       },
+        "hint": {
+          "translate": "轻薄钢板"
+        }
+      }
+	
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "artisanautomation:automator",
+        "data": 0
+    },
+	{
+        "item": "artisanautomation:automator_power_rf",
+        "data": 0
+    },
+	{
+        "item": "artisanworktables:mechanical_toolbox",
+        "data": 0
+    }
+	
+	
+	
+	
+  ]
+}

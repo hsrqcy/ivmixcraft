@@ -1,0 +1,24 @@
+{
+	x: -13.0d,
+	y: 7.0d,
+	dependencies: [
+		"f58b851b"
+	],
+	tasks: [{
+		uid: "dc26bbae",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_storage 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "a5a7caac",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "be7ac6f7",
+		type: "item",
+		item: "appliedenergistics2:creative_energy_cell"
+	}]
+}

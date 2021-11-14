@@ -1,0 +1,23 @@
+{
+	x: -5.5d,
+	y: 16.0d,
+	dependencies: [
+		"decb8ebf"
+	],
+	tasks: [{
+		uid: "5346dc4d",
+		type: "forge_energy",
+		value: 880000000L
+	}],
+	rewards: [{
+		uid: "39d07a5b",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "d300bb62",
+		type: "item",
+		item: "additions:ivmixcraft-coins",
+		count: 8
+	}]
+}

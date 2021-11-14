@@ -1,0 +1,25 @@
+{
+	x: -9.0d,
+	y: -3.0d,
+	dependencies: [
+		"62b8c1d5"
+	],
+	tasks: [{
+		uid: "7ffcb700",
+		type: "item",
+		items: [{
+			item: "embers:mech_core"
+		}]
+	}],
+	rewards: [{
+		uid: "3dd71550",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "dd594b7b",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 2
+	}]
+}

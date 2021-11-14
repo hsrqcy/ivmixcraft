@@ -1,0 +1,17 @@
+{
+	title: "§e§l更高级的小木匠",
+	x: -13.5d,
+	y: -7.0d,
+	tasks: [{
+		uid: "9b5600f7",
+		type: "item",
+		items: [{
+			item: "artisanworktables:workshop 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "7ceac12d",
+		type: "random",
+		table: 0
+	}]
+}

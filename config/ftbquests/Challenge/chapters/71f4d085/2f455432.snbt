@@ -1,0 +1,34 @@
+{
+	title: "§3§l新东方烹饪第一课",
+	x: -10.5d,
+	y: -5.0d,
+	text: [
+		"§5§l终于不用烦JEI大哥做菜了"
+	],
+	dependencies: [
+		"f3e01c6f"
+	],
+	tasks: [{
+		uid: "ed3633b9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cookingforblockheads:recipe_book",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "523e7853",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "e1e98de2",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 25.0d,
+	y: -7.0d,
+	dependencies: [
+		"7e2aab31"
+	],
+	tasks: [{
+		uid: "ee54c3e8",
+		type: "item",
+		items: [{
+			item: "embers:ingot_dawnstone"
+		}]
+	}],
+	rewards: [{
+		uid: "242eb132",
+		type: "random",
+		table: 1
+	}]
+}

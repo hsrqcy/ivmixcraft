@@ -1,0 +1,28 @@
+{
+	title: "§1§l肥料emmm",
+	x: -10.5d,
+	y: -1.5d,
+	text: [
+		"§5§l骨头无法手搓啦"
+	],
+	dependencies: [
+		"ec90bdf0"
+	],
+	tasks: [{
+		uid: "a453a3ae",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "68938f3d",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "1876b6ae",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

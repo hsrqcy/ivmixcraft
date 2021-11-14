@@ -1,0 +1,50 @@
+{
+	title: "§c§l杀戮传说",
+	x: 10.5d,
+	y: -9.0d,
+	dependencies: [
+		"8608d7aa"
+	],
+	tasks: [{
+		uid: "9bb70859",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:bound_sword",
+			tag: {
+				Unbreakable: 1b,
+				activated: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "61dbc5c7",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "15f438f5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tinymobfarm:lasso",
+			tag: {}
+		}
+	},
+	{
+		uid: "41e001f6",
+		type: "item",
+		item: "tinymobfarm:iron_farm"
+	},
+	{
+		uid: "421d8536",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

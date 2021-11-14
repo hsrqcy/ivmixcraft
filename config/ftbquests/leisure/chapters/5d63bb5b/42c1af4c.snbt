@@ -1,0 +1,24 @@
+{
+	x: 17.5d,
+	y: -7.0d,
+	dependencies: [
+		"f28c972f"
+	],
+	tasks: [{
+		uid: "72775908",
+		type: "item",
+		items: [{
+			item: "forestry:sturdy_machine"
+		}]
+	}],
+	rewards: [{
+		uid: "8875dd54",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "89c89b11",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

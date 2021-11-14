@@ -1,0 +1,31 @@
+{
+	title: "§3§l黑..小作坊",
+	x: 35.5d,
+	y: -10.0d,
+	dependencies: [
+		"0c1cfe08"
+	],
+	tasks: [{
+		uid: "6007f036",
+		type: "item",
+		items: [{
+			item: "artisanworktables:workshop 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "c2a1adc9",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "b335c906",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "829fe1d2",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 5
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	title: "§e§l便携背包",
+	x: -9.0d,
+	y: -3.0d,
+	dependencies: [
+		"40223c87"
+	],
+	hide: true,
+	tasks: [{
+		uid: "12047bde",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Filter: [],
+					Inventory: []
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplybackpacks:commonbackpack",
+			tag: {
+				inv: {
+					Size: 18,
+					Items: []
+				},
+				filter: {
+					Size: 16,
+					Items: []
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "931103c2",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "17cb4bf8",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

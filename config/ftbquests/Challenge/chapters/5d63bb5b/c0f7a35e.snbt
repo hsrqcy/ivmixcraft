@@ -1,0 +1,55 @@
+{
+	title: "§c§l蒸汽动力学",
+	x: -29.5d,
+	y: -0.5d,
+	dependencies: [
+		"dff7729e",
+		"2ebcb18d"
+	],
+	tasks: [{
+		uid: "f4eac41e",
+		type: "fluid",
+		fluid: "water",
+		amount: 1000000
+	},
+	{
+		uid: "bb15bb07",
+		type: "fluid",
+		fluid: "steam",
+		amount: 100000
+	}],
+	rewards: [{
+		uid: "cfa9d442",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "4c5f9e63",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "randomthings:timeinabottle",
+			tag: {
+				timeData: {}
+			}
+		}
+	},
+	{
+		uid: "2e294b74",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "e1c8342f",
+		type: "item",
+		item: "extrautils2:ingredients 1 10"
+	},
+	{
+		uid: "ab1948bd",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 10
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "水晶石？？",
+	x: 33.5d,
+	y: -11.5d,
+	can_repeat: true,
+	dependencies: [
+		"9581b2a8"
+	],
+	tasks: [{
+		uid: "969727d3",
+		type: "fluid",
+		fluid: "heavy_oil",
+		amount: 500000
+	}],
+	rewards: [{
+		uid: "a31e285c",
+		type: "xp",
+		auto: "enabled",
+		xp: 200
+	},
+	{
+		uid: "5de56ff6",
+		type: "item",
+		item: "astralsorcery:blockcustomore",
+		count: 5
+	}]
+}

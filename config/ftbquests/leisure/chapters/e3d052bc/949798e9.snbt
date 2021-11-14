@@ -1,0 +1,21 @@
+{
+	title: "§3§l古老的混合物",
+	x: -23.5d,
+	y: -3.0d,
+	dependencies: [
+		"ff63b634"
+	],
+	tasks: [{
+		uid: "1a805409",
+		type: "item",
+		items: [{
+			item: "embers:blend_caminite"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "12179b01",
+		type: "random",
+		table: 0
+	}]
+}

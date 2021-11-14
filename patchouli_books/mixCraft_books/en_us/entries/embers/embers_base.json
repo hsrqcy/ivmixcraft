@@ -1,0 +1,53 @@
+{
+    "sortnum": 1,
+	"name": "§c§l上古科技",
+    "icon": "embers:ember_bore",
+    "category": "patchouli:Embers_category",
+	"read_by_default": false,
+    "pages": [
+        {
+            "type": "crafting",
+            "text": "$(br2)$(3)$(l)铁匠锤合成",
+            "recipe": "embers:tinker_hammer"
+        },
+		{
+            "type": "crafting",
+            "text": "$(br2)$(6)$(l)单片镜，可以看到机器各端口",
+            "recipe": "embers:tinker_lens"
+        },
+		
+		{
+            "type": "fey_crafting_template",
+            "text": "$(br2)$(2)机器核心，增加输入输出端",
+			"recipe": "mech_core" 
+        },
+		{
+            "type": "fey_crafting_template",
+            "text": "$(br2)$(2)机器核心连接，多增加3个面",
+			"recipe": "mech_accessor" 
+        },
+		{
+            "type": "fey_crafting_template",
+            "text": "$(br2)$(2)顶部加燃料，底部可用机械核心增加输出端口",
+			"recipe": "ember_bore" 
+        },
+		{
+            "type": "spotlight",
+			"item": "embers:ember_activator",
+			"title": "灰烬能量催化器",
+            "text": "$(li)$(c)$(l)灰烬能量催化器$(br2)$(6)$(l)底部端口加灰烬晶体$(br)$(5)$(l)利用管道最佳$(br2)$(4)$(l)顶部放发射器输出"
+        },
+		{
+            "type": "crafting",
+            "text": "$(br2)$(2)$(l)地质分离器，分离额外另一种流体",
+            "recipe": "embers:geo_separator"
+        },
+		{
+            "type": "crafting",
+            "text": "$(br2)$(6)$(l)搅拌机，混合三种液体",
+            "recipe": "embers:mixer"
+        }
+		
+		
+    ]
+}

@@ -1,0 +1,98 @@
+{
+  "display": {
+    "icon": {
+      "item": "embers:archaic_light", 
+	   "data": 0
+    },
+    "title": {
+       "text": "§7§l工业时代"
+    },
+    "description": {
+      "text":"§e§l研究古代科技文明，§a§l从如何使用钢铁开始"
+    },
+    "x": 0,
+    "y": 0
+  },
+  "parent": "IvMixCraft:origin/blacksmith",
+  "idea": {
+    "amount": 3,
+    "ingredients": [
+	  {
+      "type": "forge:ore_dict",
+      "ore": "ingotSteel"
+      },
+	  {
+      "type": "forge:ore_dict",
+      "ore": "ingotSteel"
+      },
+	  {
+      "type": "forge:ore_dict",
+      "ore": "ingotSteel"
+      }
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "SSS",
+      "SRS",
+      "SSS"
+    ],
+    "key": {
+    "R": {
+      "item": { 
+        "type": "forge:ore_dict",
+        "ore": "crafterWood"
+       },
+        "hint": {
+          "translate": "工作台"
+        }
+	},
+      "S": {
+      "item": { 
+        "type": "forge:ore_dict",
+        "ore": "ingotSteel"
+       },
+        "hint": {
+          "translate": "钢锭"
+        }
+      }
+	
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "embers:tinker_hammer",
+        "data": 0
+    },
+	{
+        "item": "embers:caminite_lever",
+        "data": 0
+    },
+	{
+        "item": "embers:vacuum",
+        "data": 0
+    },
+	{
+        "item": "embers:mech_core",
+        "data": 0
+    },
+	{
+        "item": "embers:mini_boiler",
+        "data": 0
+    },
+	{
+        "item": "embers:ember_gauge",
+        "data": 0
+    },
+	{
+        "item": "embers:stamper_base",
+        "data": 0
+    },
+	{
+        "item": "embers:mixer",
+        "data": 0
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "display": {
+    "icon": {
+      "item": "magneticraft:voltmeter", 
+	   "data": 0
+    },
+    "title": {
+       "text": "§7§l电力设备"
+    },
+    "description": {
+      "text":"§e§l电力设备，§a§l特斯拉线圈、交流发电机、发条齿轮"
+    },
+    "x": 8,
+    "y": 0
+  },
+  "parent": "IvMixCraft:Industry/eletric_pole",
+  "idea": {
+    "amount": 3,
+    "ingredients": [
+	  {
+        "item": "magneticraft:crafting",
+        "data": 1
+      },
+	  {
+        "item": "embers:winding_gears",
+        "data": 0
+      },
+	  "magneticraft:tesla_tower"
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "SBS",
+      "SRS",
+      "SBS"
+    ],
+    "key": {
+    "B": {
+      "item": {
+          "item": "magneticraft:crafting",
+          "data": 1
+        },
+        "hint": {
+          "translate": "交流发电机"
+        }
+	},
+	"S": {
+      "item": [ 
+        "magneticraft:tesla_tower"
+       ],
+        "hint": {
+          "translate": "特斯拉线圈"
+        }
+	},
+	
+      "R": {
+       "item": {
+          "item": "embers:winding_gears",
+          "data": 0
+        },
+        "hint": {
+          "translate": "发条齿轮"
+        }
+      }
+	
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "magneticraft:electric_engine",
+        "data": 0
+    },
+	{
+        "item": "magneticraft:multiblock_parts",
+        "data": 0
+    },
+	{
+        "item": "magneticraft:multiblock_parts",
+        "data": 1
+    },
+	{
+        "item": "magneticraft:multiblock_parts",
+        "data": 2
+    },
+	{
+        "item": "magneticraft:multiblock_parts",
+        "data": 32767
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+	title: "§6§l防火耗材",
+	x: 17.5d,
+	y: -1.5d,
+	dependencies: [
+		"7816b115"
+	],
+	tasks: [{
+		uid: "a7bd480f",
+		type: "item",
+		items: [{
+			item: "foundry:componentblock 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "abc8899b",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "c7e75754",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

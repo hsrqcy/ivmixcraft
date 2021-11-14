@@ -1,0 +1,26 @@
+{
+	x: 9.5d,
+	y: -11.5d,
+	dependencies: [
+		"62a7fa6c"
+	],
+	tasks: [{
+		uid: "badaba47",
+		type: "item",
+		items: [{
+			item: "embers:combustor"
+		}]
+	},
+	{
+		uid: "c3880e21",
+		type: "item",
+		items: [{
+			item: "embers:catalyzer"
+		}]
+	}],
+	rewards: [{
+		uid: "fa270e31",
+		type: "random",
+		table: 0
+	}]
+}

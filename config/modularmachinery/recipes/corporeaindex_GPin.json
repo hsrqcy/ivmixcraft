@@ -1,0 +1,27 @@
+
+{
+    "machine": "corporeaindex",
+    "registryName": "corporeaindex_GPin",
+    "recipeTime": 2000,
+    "requirements": [
+        {
+            "type": "grid",
+            "io-type": "input",
+            "power": 16
+        },
+		{
+        	"type": "energy",
+        	"io-type": "input",
+        	"energyPerTick": 300
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "extrautils2:suncrystal@250",
+            "amount": 1,
+            "chance": 0.3095
+        }
+		
+		
+    ]
+}

@@ -1,0 +1,24 @@
+{
+	x: 11.5d,
+	y: 0.5d,
+	dependencies: [
+		"6195cf39"
+	],
+	tasks: [{
+		uid: "363b2128",
+		type: "item",
+		items: [{
+			item: "skyresources:orealchdust 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "edf1a927",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "61d92515",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

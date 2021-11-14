@@ -1,0 +1,29 @@
+{
+	x: -5.5d,
+	y: 9.0d,
+	dependencies: [
+		"9a5bd104"
+	],
+	tasks: [{
+		uid: "6691867c",
+		type: "item",
+		items: [{
+			item: "mysticalworld:unripe_pearl"
+		}]
+	}],
+	rewards: [{
+		uid: "addbf806",
+		type: "item",
+		item: "skyresources:alchemyitemcomponent 1 10"
+	},
+	{
+		uid: "22db8b75",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "f341ddd4",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

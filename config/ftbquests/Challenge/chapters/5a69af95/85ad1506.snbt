@@ -1,0 +1,36 @@
+{
+	x: 40.0d,
+	y: 10.5d,
+	dependencies: [
+		"7c034546"
+	],
+	tasks: [{
+		uid: "802ec190",
+		type: "item",
+		items: [{
+			item: "tp:iron_furnace_block"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "6c3e0010",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_1"
+			}
+		}
+	},
+	{
+		uid: "aa3aedec",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "538c849a",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 10
+	}]
+}

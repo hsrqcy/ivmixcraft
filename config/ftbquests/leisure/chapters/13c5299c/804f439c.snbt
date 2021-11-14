@@ -1,0 +1,37 @@
+{
+	title: "§d§l绿野仙踪",
+	x: -15.0d,
+	y: 5.0d,
+	dependencies: [
+		"511bb29e"
+	],
+	tasks: [{
+		uid: "a8dce2fa",
+		type: "item",
+		items: [{
+			item: "roots:grove_stone"
+		}]
+	},
+	{
+		uid: "a9e03db9",
+		type: "item",
+		items: [{
+			item: "roots:fey_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "6b514a84",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "6ca083c8",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "073e940f",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

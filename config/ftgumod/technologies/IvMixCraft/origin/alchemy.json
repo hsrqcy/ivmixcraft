@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "item": "skyresources:fusiontable"
+    },
+    "title": {
+       "text": "§e§l准备炼金"
+    },
+    "description": {
+      "text":"§b§l炼金当然要炼金尘啦？§a§l尝试一下，三个初级炼金尘"
+    },
+    "x": 6,
+    "y": 0
+  },
+  "parent": "IvMixCraft:origin/foundry",
+  "idea": {
+    "amount": 3,
+    "ingredients": [
+	  {
+        "item": "skyresources:alchemyitemcomponent", 
+        "data": 2
+      },
+	  {
+        "item": "skyresources:alchemyitemcomponent", 
+        "data": 2
+      },
+	  {
+        "item": "skyresources:alchemyitemcomponent", 
+        "data": 2
+      }
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "SSS",
+      "SRS",
+      "SSS"
+    ],
+    "key": {
+      
+	   "R": {
+        "item": [
+          "minecraft:crafting_table"
+        ],
+        "hint": {
+          "translate": "工作台"
+        }
+      },
+	  
+      "S": {
+        "item": {
+          "item": "skyresources:alchemyitemcomponent",
+          "data": 2
+        },
+        "hint": {
+          "translate": "炼金尘"
+        }
+      }
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "skyresources:crucible",
+        "data": 32767
+    },
+	
+	{
+        "item": "skyresources:fluiddropper",
+        "data": 32767
+    },
+	{
+        "item": "skyresources:alchemy", 
+        "data": 32767
+    }
+  ]
+}

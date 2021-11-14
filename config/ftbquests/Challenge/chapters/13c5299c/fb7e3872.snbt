@@ -1,0 +1,24 @@
+{
+	title: "§a§l苔藓",
+	x: -9.5d,
+	y: -4.5d,
+	text: [
+		"§a把原石摆在水边上，右键大地孢子试试"
+	],
+	dependencies: [
+		"909f3186"
+	],
+	tasks: [{
+		uid: "54ae6264",
+		type: "item",
+		items: [{
+			item: "roots:terra_moss"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "d8dd0de3",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "§e§l液化气",
+	x: 9.0d,
+	y: -1.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "a75f443b",
+		type: "fluid",
+		fluid: "lpg",
+		amount: 500000
+	}],
+	rewards: [{
+		uid: "61edc270",
+		type: "xp",
+		auto: "enabled",
+		xp: 300
+	},
+	{
+		uid: "94882785",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "46d60062",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	},
+	{
+		uid: "080382a1",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 10
+	}]
+}

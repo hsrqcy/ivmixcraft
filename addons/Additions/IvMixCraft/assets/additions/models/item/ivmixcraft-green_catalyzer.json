@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "additions:items/ivmixcraft-green_catalyzer-layer0"
+  }
+}

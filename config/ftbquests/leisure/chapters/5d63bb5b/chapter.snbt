@@ -1,0 +1,18 @@
+{
+	title: "§3§l重工业萌芽",
+	icon: "cyclicmagic:fire_dark_anim",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 1.5d,
+		y: -3.0d,
+		width: 18.0d,
+		height: 10.0d,
+		rotation: 0.0d,
+		image: "image:heavy_industry.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,28 @@
+{
+    "machine": "attunementrelay",
+    "registryName": "astralsorcerytrans_attunementrelay",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "type": "starlight",
+            "io-type": "input",
+            "amount": 1000
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "astralsorcery:itemcraftingcomponent"
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "astralsorcery:blockcustomore@1"
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "astralsorcery.liquidstarlight",
+			"amount": 1000
+        }
+    ]
+}

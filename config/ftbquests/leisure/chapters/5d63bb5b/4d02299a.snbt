@@ -1,0 +1,38 @@
+{
+	x: 17.5d,
+	y: -17.0d,
+	dependencies: [
+		"c5faf31a"
+	],
+	tasks: [{
+		uid: "930b3d63",
+		type: "item",
+		items: [{
+			id: "xnet:netcable",
+			tag: {
+				display: {
+					LocName: "tile.xnet.netcable_blue.name"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "86b42f56",
+		type: "item",
+		items: [{
+			id: "xnet:connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.connector_blue.name"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "29eb5103",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -14.0d,
+	y: -16.5d,
+	dependencies: [
+		"90416a0d"
+	],
+	tasks: [{
+		uid: "b6f5f115",
+		type: "item",
+		items: [{
+			item: "botanicadds:pool_dreaming"
+		}]
+	}],
+	rewards: [{
+		uid: "4a6fed5c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

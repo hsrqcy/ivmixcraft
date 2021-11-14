@@ -1,0 +1,19 @@
+{
+	x: -4.5d,
+	y: 1.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "5d90cd73",
+		type: "checkmark",
+		title: "休闲 难度",
+		icon: "inventorypets:bed_pet",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "f19cc109",
+		type: "command",
+		auto: "enabled",
+		command: "/packmode leisure",
+		player_command: true
+	}]
+}

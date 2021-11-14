@@ -1,0 +1,21 @@
+{
+	x: -17.5d,
+	y: -9.5d,
+	tasks: [{
+		uid: "9b29bb92",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "1b16b53a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tp:bsc_iron_axe"
+		}
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "§b§l霍格沃兹录取通知书",
+	x: -1.0d,
+	y: 5.0d,
+	dependencies: [
+		"7a1b8192",
+		"9a5bd104"
+	],
+	tasks: [{
+		uid: "df1fcae8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:staff",
+			tag: {
+				spell_storage: {
+					selectedSlot: 1,
+					spells: {}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "17996b5e",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "076b22cb",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "97b1187a",
+		type: "item",
+		item: "scalinghealth:difficultychanger"
+	}]
+}

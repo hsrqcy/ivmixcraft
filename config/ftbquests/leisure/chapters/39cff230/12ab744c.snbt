@@ -1,0 +1,33 @@
+{
+	x: -21.5d,
+	y: -9.0d,
+	dependencies: [
+		"6d1bbeca"
+	],
+	tasks: [{
+		uid: "3cd88072",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}],
+		count: 16L
+	},
+	{
+		uid: "266957c6",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "1264cb40",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

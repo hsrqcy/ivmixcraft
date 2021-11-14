@@ -1,0 +1,15 @@
+{
+  "name": "§a§l丰收之剑",
+  "tooltip": "§a收货的季节心情喜悦",
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.maxHealth",
+      "amount": 2.0,
+      "slot": "mainhand",
+      "uuid": "e84cf23b-571e-426e-8691-c0890498ccc7"
+    }
+  ],
+  "material": "ADDITIONS-IVMIXCRAFT-NATURE_TEX",
+  "type": "additions:sword"
+}

@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "item": "sakura:maple_sapling_red", 
+	   "data": 0
+    },
+    "title": {
+       "text": "§d§l日系"
+    },
+    "description": {
+      "text":"§5§l日系风格？§a§l3个榻榻米？"
+    },
+    "x": 10,
+    "y": 4
+  },
+  "parent": "IvMixCraft:origin/barrel",
+  "idea": {
+    "amount": 3,
+    "ingredients": [
+	 
+      "sakura:tatami",
+	  "sakura:tatami",
+	  "sakura:tatami"
+    ]
+  },
+  
+  "unlock": [
+     {
+        "item": "sakura:stone_mortar",
+        "data": 0
+    },
+	 {
+        "item": "sakura:maple_cauldron",
+        "data": 0
+    },
+	 {
+        "item": "sakura:barrel",
+        "data": 0
+    },
+	{
+        "item": "sakura:barrel_distillation",
+        "data": 0
+    },
+	{
+        "item": "sakura:windbell",
+        "data": 0
+    },
+	{
+        "item": "contenttweaker:pink_up",
+        "data": 0
+    }
+  ]
+}

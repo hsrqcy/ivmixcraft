@@ -1,0 +1,19 @@
+{
+    "sortnum": 1,
+	"name": "§d§l技能点概况",
+    "icon": "minecraft:enchanted_book",
+    "category": "patchouli:skills_category",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(li)$(c)$(l)传统技能：$(br2)$(3)$(l)农耕【基础】$(br2)$(6)$(l)敏捷、防御$(br2)$(8)$(l)建造、攻击$(br2)$(d)$(l)防御、采集$(br2)$(4)$(l)魔法、矿工"
+        },
+		{
+            "type": "text",
+            "text": "$(li)$(c)$(l)新加技能：$(br2)$(3)$(l)根源魔法$(br2)$(2)$(l)血魔法 $(br2)$(5)$(l)自然灵气$(br2)$(4)$(l)工业革命、后续再继续添加"
+        }
+		
+		
+    ]
+}

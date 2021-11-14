@@ -1,0 +1,24 @@
+{
+	x: -5.5d,
+	y: -4.5d,
+	dependencies: [
+		"dfe539cc"
+	],
+	tasks: [{
+		uid: "684c1e67",
+		type: "item",
+		items: [{
+			item: "botania:corporeaindex"
+		}]
+	}],
+	rewards: [{
+		uid: "594ee6a4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

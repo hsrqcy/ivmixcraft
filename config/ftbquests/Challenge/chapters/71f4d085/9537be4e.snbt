@@ -1,0 +1,24 @@
+{
+	x: 6.5d,
+	y: 3.5d,
+	dependencies: [
+		"74756e3a"
+	],
+	tasks: [{
+		uid: "8c29aee3",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:disposable_item_turret"
+		}]
+	}],
+	rewards: [{
+		uid: "cdda8894",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "bd446206",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

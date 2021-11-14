@@ -1,0 +1,36 @@
+{
+	title: "§6§l管道？",
+	x: -39.0d,
+	y: -0.5d,
+	dependencies: [
+		"66ee112f"
+	],
+	tasks: [{
+		uid: "ccc71839",
+		type: "item",
+		items: [{
+			item: "magneticraft:iron_pipe"
+		}]
+	}],
+	rewards: [{
+		uid: "0a9ef308",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "290819f3",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "2952b43a",
+		type: "item",
+		item: "magneticraft:iron_pipe",
+		count: 24
+	},
+	{
+		uid: "c7b30be0",
+		type: "item",
+		item: "appliedenergistics2:part 1 240"
+	}]
+}

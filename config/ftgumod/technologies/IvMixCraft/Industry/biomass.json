@@ -1,0 +1,79 @@
+{
+  "display": {
+    "icon": {
+      "item": "teslathingies:sewer",
+	   "data": 0
+    },
+    "title": {
+       "text": "§6§ltesla动物废料再处理"
+    },
+    "description": {
+      "text":"§5§ltesla动物废料再处理，§a§l钢板、tesla种子"
+    },
+    "x": 15,
+    "y": 4
+  },
+  "parent": "IvMixCraft:Industry/animal_gym",
+  "idea": {
+    "amount": 2,
+    "ingredients": [
+	  {
+      "type": "forge:ore_dict",
+      "ore": "plateSteel"
+      },
+	  {
+        "item": "teslathingies:tesla_plant_seeds",
+        "data": 0
+      }
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "SRS",
+      "SRS",
+      "SRS"
+    ],
+    "key": {
+    "R": {
+      "item": {
+          "item": "teslathingies:tesla_plant_seeds",
+          "data": 0
+        },
+        "hint": {
+          "translate": "tesla种子"
+        }
+	},
+	
+	
+      "S": {
+       "item": { 
+        "type": "forge:ore_dict",
+        "ore": "plateSteel"
+       },
+        "hint": {
+          "translate": "钢板"
+        }
+      }
+	
+    }
+  },
+  "unlock": [
+     {
+        "item": "teslathingies:tree_farm",
+        "data": 0
+    },
+	{
+        "item": "teslathingies:misc_farmer",
+        "data": 0
+    },
+	{
+        "item": "teslathingies:crop_farm",
+        "data": 0
+    },
+	{
+        "item": "teslathingies:sewer",
+        "data": 0
+    }
+  ]
+}

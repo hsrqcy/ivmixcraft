@@ -1,0 +1,43 @@
+{
+	x: -17.0d,
+	y: 17.0d,
+	dependencies: [
+		"9c605c6e"
+	],
+	tasks: [{
+		uid: "e4d97cc4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:pink_up"
+		}]
+	},
+	{
+		uid: "469e4bf6",
+		type: "item",
+		items: [{
+			item: "touhou_little_maid:gashapon_coin"
+		}]
+	},
+	{
+		uid: "74150170",
+		type: "item",
+		items: [{
+			item: "sakura:sakura_diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "1a6418ef",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "736f6f44",
+		type: "item",
+		item: "touhou_little_maid:gashapon_machines"
+	},
+	{
+		uid: "08366653",
+		type: "item",
+		item: "cyclicmagic:sprinkler"
+	}]
+}

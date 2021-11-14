@@ -1,0 +1,18 @@
+{
+	title: "开启挑战模式",
+	x: 7.5d,
+	y: 1.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "3cea6751",
+		type: "checkmark",
+		icon: "minecraft:diamond_sword"
+	}],
+	rewards: [{
+		uid: "83a21406",
+		type: "command",
+		auto: "enabled",
+		command: "/packmode Challenge",
+		player_command: true
+	}]
+}

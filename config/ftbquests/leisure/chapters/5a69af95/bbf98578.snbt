@@ -1,0 +1,38 @@
+{
+	title: "§b§l这。。恒河里！？？",
+	x: 13.0d,
+	y: 7.5d,
+	dependencies: [
+		"4efee223"
+	],
+	tasks: [{
+		uid: "93b5074a",
+		type: "item",
+		items: [{
+			item: "tp:cobblegen_block"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "07bac898",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "cab87e10",
+		type: "item",
+		item: "tp:iron_cobblegen_block"
+	},
+	{
+		uid: "3685e8b7",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "7a375ad7",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 5
+	}]
+}

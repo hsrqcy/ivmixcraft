@@ -1,0 +1,24 @@
+{
+	x: -5.5d,
+	y: -13.5d,
+	dependencies: [
+		"64b980e6"
+	],
+	tasks: [{
+		uid: "7a67c901",
+		type: "item",
+		items: [{
+			item: "botanicadds:elven_altar"
+		}]
+	}],
+	rewards: [{
+		uid: "c7c6549f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

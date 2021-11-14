@@ -1,0 +1,20 @@
+{
+	x: 17.5d,
+	y: 1.0d,
+	dependencies: [
+		"a7919b02"
+	],
+	tasks: [{
+		uid: "45274855",
+		type: "item",
+		items: [{
+			item: "teslathingies:tesla_plant_seeds"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "13c63202",
+		type: "random",
+		table: 1
+	}]
+}

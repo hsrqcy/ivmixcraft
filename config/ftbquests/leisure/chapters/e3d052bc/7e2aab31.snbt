@@ -1,0 +1,19 @@
+{
+	x: 25.0d,
+	y: -3.0d,
+	dependencies: [
+		"b860287f"
+	],
+	tasks: [{
+		uid: "811a54e0",
+		type: "item",
+		items: [{
+			item: "embers:mixer"
+		}]
+	}],
+	rewards: [{
+		uid: "5b13a435",
+		type: "random",
+		table: 1
+	}]
+}

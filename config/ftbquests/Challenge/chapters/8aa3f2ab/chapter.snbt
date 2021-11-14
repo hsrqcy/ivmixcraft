@@ -1,0 +1,8 @@
+{
+	title: "开始世界",
+	icon: "minecraft:sapling",
+	disable_toast: true,
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

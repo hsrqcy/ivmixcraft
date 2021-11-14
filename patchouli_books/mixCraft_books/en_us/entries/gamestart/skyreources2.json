@@ -1,0 +1,75 @@
+{
+    "sortnum": 5,
+	"name": "§c§l天空资源（二）",
+    "icon": "skyresources:orealchdust",
+    "category": "patchouli:gamestart_category",
+    "read_by_default": false,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(li)$(3)$(l)此时进入铁器时代。$(br2)$(3)$(l)制作出炼金灌注台和液态水晶。$(br2)$(4)$(l)在搭建多方块冷凝结构$(br2)$(d)$(l)多方块结构哟$(br2)$(3)$(l)就可以实现金属炼金$(br2)$(7)$(l)可以实现自动化哟"
+        },
+		{
+            "type": "spotlight",
+			"title": "§2§l炼金灌注台",
+			"item": "skyresources:fusiontable",
+            "text": "$(br)$(2)小提示：使用高等级的炼金尘效率更快哟$(br)$(d)注：炼金尘是消耗品，可以多做一点。$()"
+        },
+		{
+            "type": "spotlight",
+			"title": "§2§l水晶碎片",
+			"item": "skyresources:alchemyitemcomponent:1",
+            "text": "$(br)$(2)小提示：放入坩埚中融化至液态水晶$(br)$(d)注：大量消耗品。$()"
+        },
+		{
+            "type": "spotlight",
+			"title": "§2§l水晶碎片",
+			"item": "skyresources:alchemyitemcomponent:1",
+            "text": "$(br)$(2)小提示：放入坩埚中融化至液态水晶$(br)$(d)注：大量消耗品。$()"
+        },
+		{
+            "type": "spotlight",
+			"title": "§2§l漏液器",
+			"item": "skyresources:fluiddropper",
+            "text": "$(br)$(2)小提示：将坩埚里的液态水晶输送至冷凝器$(br)$(d)注：搭建两格高度"
+        },
+		{
+            "type": "spotlight",
+			"title": "§2§l冷凝器",
+			"item": "skyresources:condenser",
+            "text": "$(br)$(2)小提示：底层框架里摆冷凝器$(br2)$(4)$(l)木质的实在效率不高，换石质以上的$(br)$(d)注：框架和冷凝器可以混搭，里面放炼金尘。可以输入漏斗容器中"
+        },
+		{
+      "type": "multiblock",
+      "anchor": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "C": "skyresources:casing",
+          "0": "tconstruct:wooden_hopper",
+		  "X": "minecraft:chest",
+		  "G": "minecraft:glass",
+          "F": "skyresources:fluiddropper",
+          "B": "skyresources:crucible"
+        },
+        "pattern": [
+          ["   "," FB","   "],
+          ["   "," FC","   "],
+		  [" G ","G G"," G "],
+		  ["   "," C ","   "],
+          ["   "," 0X","   "]
+      ]
+      },
+	  "enable_visualize": true,
+      "text": "$(5)$(l)小技巧：$()$(6)$(l)先摆框架再放冷凝器或加热器。$()$(3)$(l)加热器需要消耗可燃物，冷凝器需要炼金尘"
+    },
+	{
+            "type": "spotlight",
+			"title": "§2§l热量供应器",
+			"item": "skyresources:heatprovider",
+            "text": "$(br)$(2)小提示：加热坩埚。$(br)$(d)或者使用一桶岩浆代替坩埚加热。$()"
+    }
+		
+		
+		
+    ]
+}

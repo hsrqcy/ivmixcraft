@@ -1,0 +1,19 @@
+{
+	x: 24.5d,
+	y: -5.0d,
+	dependencies: [
+		"36717de8"
+	],
+	tasks: [{
+		uid: "ae292056",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:expander"
+		}]
+	}],
+	rewards: [{
+		uid: "5d38def1",
+		type: "random",
+		table: 1
+	}]
+}

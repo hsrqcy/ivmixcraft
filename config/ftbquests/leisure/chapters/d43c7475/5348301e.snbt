@@ -1,0 +1,39 @@
+{
+	title: "§c§l我看到了什么",
+	x: -1.5d,
+	y: -6.0d,
+	dependencies: [
+		"6c48d1b5"
+	],
+	tasks: [{
+		uid: "bf8ca19f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sigil_divination",
+			tag: {
+				binding: {
+					name: "AWright5",
+					id: {
+						L: -8906606618441326594L,
+						M: -4605424409192872578L
+					}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "01096d0b",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "3983a9b1",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

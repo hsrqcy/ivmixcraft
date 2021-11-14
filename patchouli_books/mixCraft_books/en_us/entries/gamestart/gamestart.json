@@ -1,0 +1,68 @@
+{
+    "sortnum": 1,
+	"name": "§d§l初入游戏",
+    "icon": "artisanworktables:worktable:1",
+    "category": "patchouli:gamestart_category",
+    "read_by_default": true,
+    "pages": [
+        
+		{
+            "type": "text",
+            "text": "$(li)$(5)$(l)意外的惊喜，有一栋温馨的小屋$(br2)$(4)$(l)记得打开背包左上角任务图标$(br2)$(d)$(l)跟着任务手搓木板$(br2)$(3)$(l)做一个工作台、木匠台$(br2)$(7)$(l)蚕卵撸树叶概率会掉"
+        },
+		{
+		     "type": "spotlight",
+			"title": "§2§l研究手册",
+			"item": "ftgumod:research_book",
+            "text": "$(br)$(2)小提示：研究解锁很多配方哦$(br)$(3)在研究手册里。$(br)$(7)跟着研究进度提示解锁。$(br)$(9)注：如果发现JEI无配方，请第一时间研究手册解锁相应章节哦。$()"
+        },
+		{
+            "type": "spotlight",
+			"title": "§2§l创作台",
+			"item": "ftgumod:idea_table",
+            "text": "$(br)$(2)小提示：需要羽毛和羊皮纸$(br)$(3)根据研究手册提示放入相应的物品。$(br)$(7)如果满足条件就可以创作成功哦。$(br)$(d)注：有时候放入一个或者多个多试试哦。$()"
+        },
+		{
+            "type": "spotlight",
+			"title": "§2§l研究台",
+			"item": "ftgumod:research_table",
+            "text": "$(br)$(2)小提示：需要放入创作台完成的图纸$(br)$(3)根据提示摆入所需研究物品。$(br)$(7)可以放入矿词物品。$(br)$(d)注：完成研究后便可以解锁相应的配方。$()"
+        },
+		
+		
+		{
+            "type": "spotlight",
+			"title": "§2§l小木匠",
+			"item": "artisanworktables:toolbox",
+            "text": "$(br)$(2)小提示：把一些新的工匠台摆一起$(br)$(3)旁边放一个工具箱。$(br)$(7)可以在UI界面中快速选择工作台。$(br)$(d)注：需要液体的工作台可以使用SHIFT排空不要的。$()"
+        },
+		{
+      "type": "multiblock",
+      "anchor": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "artisanworktables:worktable",
+          "C": "artisanworktables:toolbox",
+          "D": "minecraft:crafting_table[facing=east]",
+          "1": "tconstruct:tooltables[facing=north,half=bottom,valid=true]",
+          "2": "minecraft:chest[facing=north,half=middle,valid=true]"
+        },
+        "pattern": [
+          ["0C "," 21"]
+        ]
+      },
+	  "enable_visualize": false,
+      "text": "$(5)$(l)小技巧：$()$(3)$(l)把工匠台摆一起连起来会打开UI。$()$(5)合成站边上放个箱子也可以打开UI"
+    },
+	
+       
+	{
+      "type": "artisanintegrations:worktable",
+      "recipe": "carpenter:artisans_handsaw_wood",
+      "text_left": "$(br)$(2)小提示：记得和工具箱摆一起！$(br)$(7)如果有些配方如果看不到。那就是没有满足研究条件。",
+      "text_right": "$(br)$(3)有些合成需要一定的等级条件！$(br)$(7)部分物品可以获得副产物！当然看脸哦"
+    }
+		
+		
+    ]
+}

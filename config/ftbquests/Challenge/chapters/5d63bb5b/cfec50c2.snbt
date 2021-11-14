@@ -1,0 +1,24 @@
+{
+	x: 21.0d,
+	y: -11.5d,
+	dependencies: [
+		"f28c972f"
+	],
+	tasks: [{
+		uid: "2a2ebd2d",
+		type: "item",
+		items: [{
+			item: "magneticraft:oil_heater"
+		}]
+	}],
+	rewards: [{
+		uid: "949bcb9e",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "9d96576f",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

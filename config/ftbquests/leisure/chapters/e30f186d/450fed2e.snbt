@@ -1,0 +1,30 @@
+{
+	x: 15.5d,
+	y: -10.0d,
+	dependencies: [
+		"fde0d967"
+	],
+	tasks: [{
+		uid: "ec14952d",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockprism",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b0315428",
+		type: "random",
+		table: 1
+	}]
+}

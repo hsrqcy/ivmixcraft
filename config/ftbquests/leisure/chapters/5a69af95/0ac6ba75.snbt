@@ -1,0 +1,32 @@
+{
+	title: "§3§l铁匠铺",
+	x: 40.0d,
+	y: -6.5d,
+	dependencies: [
+		"0c1cfe08"
+	],
+	tasks: [{
+		uid: "aeec63cf",
+		type: "item",
+		items: [{
+			item: "artisanworktables:worktable 1 3"
+		}]
+	},
+	{
+		uid: "d1273ce2",
+		type: "item",
+		items: [{
+			item: "artisanworktables:workshop 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "cbc62a41",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "bf7d37a9",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

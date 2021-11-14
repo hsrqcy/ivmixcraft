@@ -1,0 +1,36 @@
+{
+	title: "§c§l粉笔",
+	x: 1.0d,
+	y: -3.0d,
+	dependencies: [
+		"8ecc5ba2"
+	],
+	tasks: [{
+		uid: "02b35547",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:arcane_ashes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7d8dea49",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "244365a7",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "cdcbde50",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 2
+	}]
+}

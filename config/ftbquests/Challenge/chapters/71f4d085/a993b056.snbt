@@ -1,0 +1,19 @@
+{
+	x: -23.5d,
+	y: 3.5d,
+	dependencies: [
+		"488ecc35"
+	],
+	tasks: [{
+		uid: "1e6817cd",
+		type: "item",
+		items: [{
+			item: "harvestcraft:tealeafitem"
+		}]
+	}],
+	rewards: [{
+		uid: "b6c38929",
+		type: "random",
+		table: 2
+	}]
+}

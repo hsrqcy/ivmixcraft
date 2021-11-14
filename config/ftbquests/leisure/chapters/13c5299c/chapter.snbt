@@ -1,0 +1,7 @@
+{
+	title: "§2§l追溯根源",
+	icon: "roots:fey_crafter",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

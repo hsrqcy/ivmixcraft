@@ -1,0 +1,83 @@
+{
+  "display": {
+    "icon": {
+      "item": "forestry:carpenter",
+	   "data": 0
+    },
+    "title": {
+       "text": "§7§l传统工业"
+    },
+    "description": {
+      "text":"§e§l传统工业，§a§l自然之锭、坚固部件、青铜块"
+    },
+    "x": 8,
+    "y": 3
+  },
+  "parent": "IvMixCraft:Industry/eletric_engine",
+  "idea": {
+    "amount": 3,
+    "ingredients": [
+	  {
+        "item": "additions:ivmixcraft-natrue_ingot",
+        "data": 0
+      },
+	  {
+        "item": "forestry:sturdy_machine",
+        "data": 0
+      },
+	  {
+      "type": "forge:ore_dict",
+      "ore": "blockBronze"
+      }
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "SBS",
+      "SRS",
+      "SBS"
+    ],
+    "key": {
+    "R": {
+      "item": {
+          "item": "forestry:sturdy_machine",
+          "data": 0
+        },
+        "hint": {
+          "translate": "坚固部件"
+        }
+	},
+	"S": {
+      "item": [ 
+        "additions:ivmixcraft-natrue_ingot"
+       ],
+        "hint": {
+          "translate": "自然之锭"
+        }
+	},
+	
+      "B": {
+       "item": { 
+        "type": "forge:ore_dict",
+        "ore": "blockBronze"
+       },
+        "hint": {
+          "translate": "青铜块"
+        }
+      }
+	
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "forestry:carpenter",
+        "data": 0
+    },
+	{
+        "item": "forestry:squeezer",
+        "data": 0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+	title: "回收",
+	x: -11.5d,
+	y: 8.5d,
+	tasks: [{
+		uid: "4771f881",
+		type: "item",
+		items: [{
+			item: "scalinghealth:difficultychanger"
+		}],
+		count: 666L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "eca04a03",
+		type: "item",
+		item: "additions:ivmixcraft-coins",
+		count: 6
+	}]
+}

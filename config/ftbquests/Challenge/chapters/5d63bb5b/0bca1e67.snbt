@@ -1,0 +1,25 @@
+{
+	title: "§e§l§ka§r§d§l发电机雏形§e§l§ka§r",
+	x: -20.5d,
+	y: -11.5d,
+	dependencies: [
+		"680c0e8e"
+	],
+	tasks: [{
+		uid: "f1e7cc88",
+		type: "item",
+		items: [{
+			item: "magneticraft:crafting 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "6905d8e9",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "d6d7779e",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

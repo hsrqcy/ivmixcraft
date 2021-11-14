@@ -1,0 +1,36 @@
+{
+	x: -6.5d,
+	y: 1.0d,
+	dependencies: [
+		"5e338b63"
+	],
+	tasks: [{
+		uid: "c48a164a",
+		type: "item",
+		items: [{
+			item: "embers:item_pump"
+		}]
+	},
+	{
+		uid: "d141026a",
+		type: "item",
+		items: [{
+			item: "embers:item_pipe"
+		}]
+	}],
+	rewards: [{
+		uid: "67628019",
+		type: "item",
+		item: "embers:item_pump"
+	},
+	{
+		uid: "5e1997c9",
+		type: "item",
+		item: "embers:item_pipe"
+	},
+	{
+		uid: "6d98eca1",
+		type: "loot",
+		table: 0
+	}]
+}

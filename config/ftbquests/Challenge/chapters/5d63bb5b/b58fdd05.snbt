@@ -1,0 +1,30 @@
+{
+	title: "§c§l性感的电动小马达",
+	x: -20.5d,
+	y: -4.0d,
+	dependencies: [
+		"91f462de"
+	],
+	tasks: [{
+		uid: "bfce15e3",
+		type: "item",
+		items: [{
+			item: "magneticraft:crafting 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "30f42a89",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "fe034fa9",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "8c1e815c",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

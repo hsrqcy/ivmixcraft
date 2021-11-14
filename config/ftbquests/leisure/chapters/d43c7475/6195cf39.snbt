@@ -1,0 +1,31 @@
+{
+	title: "§1§l高级炼金法",
+	x: 11.5d,
+	y: -3.0d,
+	dependencies: [
+		"578fa918"
+	],
+	tasks: [{
+		uid: "cb932d2b",
+		type: "item",
+		items: [{
+			item: "bloodmagic:alchemy_table"
+		}]
+	}],
+	rewards: [{
+		uid: "54809e64",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "3e7efb28",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "663a9ca9",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 2
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 9.5d,
+	y: -7.0d,
+	dependencies: [
+		"bdeec2cd"
+	],
+	tasks: [{
+		uid: "09c97994",
+		type: "item",
+		items: [{
+			item: "embers:boiler"
+		}]
+	}],
+	rewards: [{
+		uid: "bf2a218f",
+		type: "random",
+		table: 0
+	}]
+}

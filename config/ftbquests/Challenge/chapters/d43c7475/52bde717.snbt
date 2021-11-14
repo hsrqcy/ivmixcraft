@@ -1,0 +1,30 @@
+{
+	title: "§c§l独说",
+	x: -1.5d,
+	y: -9.0d,
+	dependencies: [
+		"5348301e"
+	],
+	tasks: [{
+		uid: "18fb279a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sigil_seer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8a25188e",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "c328c048",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

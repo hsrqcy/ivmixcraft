@@ -1,0 +1,45 @@
+{
+	x: 30.5d,
+	y: 18.5d,
+	dependencies: [
+		"c4e70682"
+	],
+	tasks: [{
+		uid: "aa249dca",
+		type: "item",
+		items: [{
+			item: "aroma1997sdimension:portalframe"
+		}]
+	},
+	{
+		uid: "2292f606",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -8906606618441326594L,
+					AS_Amulet_HolderMost: -4605424409192872578L
+				}
+			},
+			id: "aroma1997sdimension:miningmultitool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9f368523",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "2aa9446e",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "a517d5bd",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 5
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 23.5d,
+	y: 2.0d,
+	dependencies: [
+		"2c1f6442"
+	],
+	tasks: [{
+		uid: "945e7a23",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:antibarrel"
+		}]
+	}],
+	rewards: [{
+		uid: "847c0294",
+		type: "random",
+		table: 1
+	}]
+}

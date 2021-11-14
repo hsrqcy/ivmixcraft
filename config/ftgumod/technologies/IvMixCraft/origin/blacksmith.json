@@ -1,0 +1,94 @@
+{
+  "display": {
+    "icon": {
+      "item": "artisanworktables:workshop", 
+	   "data": 3
+    },
+    "title": {
+       "text": "§8§l铁匠"
+    },
+    "description": {
+      "text":"§e§l合格的铁匠？§a§l会打铁么？来三个铁锭"
+    },
+    "x": 9,
+    "y": 0
+  },
+  "parent": "IvMixCraft:origin/alchemy",
+  "idea": {
+    "amount": 3,
+    "ingredients": [
+	  {
+        "item": "minecraft:iron_ingot", 
+        "data": 0
+      },
+	  {
+        "item": "minecraft:iron_ingot", 
+        "data": 0
+      },
+	  {
+        "item": "minecraft:iron_ingot", 
+        "data": 0
+      }
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "SSS",
+      "SRS",
+      "BBB"
+    ],
+    "key": {
+      
+	   "R": {
+        "item": [
+          "minecraft:crafting_table"
+        ],
+        "hint": {
+          "translate": "工作台"
+        }
+      },
+	   "B": {
+        "item": [
+          "minecraft:iron_ingot"
+        ],
+        "hint": {
+          "translate": "铁锭"
+        }
+      },
+	  
+      "S": {
+        "item": {
+          "item": "thermalfoundation:material",
+          "data": 32
+        },
+        "hint": {
+          "translate": "铁板"
+        }
+      }
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "artisanworktables:workshop",
+        "data": 3
+    },
+	{
+        "item": "skyresources:ironfreezer",
+        "data": 0
+    },
+	{
+        "item": "techreborn:iron_furnace",
+        "data": 0
+    },
+	{
+        "item": "tp:iron_furnace_block", 
+        "data": 0
+    },
+	{
+        "item": "skyresources:quickdropper",
+        "data": 32767
+    }
+  ]
+}

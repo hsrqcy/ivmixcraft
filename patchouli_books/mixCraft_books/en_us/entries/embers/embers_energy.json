@@ -1,0 +1,44 @@
+{
+    "sortnum": 3,
+	"name": "§d§l灰烬能量传输",
+    "icon": "embers:ember_pulser",
+    "category": "patchouli:Embers_category",
+	"read_by_default": false,
+    "pages": [
+        {
+            "type": "crafting",
+            "text": "$(br2)$(3)$(l)能量计量表--贴在有灰烬能力缓存地方查看",
+            "recipe": "embers:ember_gauge"
+        },
+		{
+            "type": "spotlight",
+			"item": "embers:ember_emitter",
+			"title": "灰烬能量发射器",
+            "text": "$(li)$(c)$(l)灰烬能量发射器$(br2)$(6)$(l)铁锤右键绑定"
+        },
+		{
+            "type": "spotlight",
+			"item": "embers:ember_receiver",
+			"title": "灰烬能量接收器",
+            "text": "$(li)$(c)$(l)灰烬能量接收器$(br2)$(6)$(l)铁锤SHIFT+右键绑定"
+        },
+		{
+            "type": "spotlight",
+			"item": "embers:ember_relay",
+			"title": "灰烬能量中继器",
+            "text": "$(li)$(c)$(l)灰烬能量中继器"
+        },
+		{
+            "type": "crafting",
+            "text": "$(br2)$(4)$(l)灰烬能量喷发器--高效发射",
+            "recipe": "embers:ember_pulser"
+        },
+		{
+            "type": "crafting",
+            "text": "$(br2)$(7)$(l)灰烬能量漏斗--喷发器接收",
+            "recipe": "embers:ember_funnel"
+        }
+		
+		
+    ]
+}

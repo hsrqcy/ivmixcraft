@@ -1,0 +1,33 @@
+{
+	x: -3.0d,
+	y: -12.0d,
+	dependencies: [
+		"c5016699"
+	],
+	tasks: [{
+		uid: "28fa9d3d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -8906606618441326594L,
+					AS_Amulet_HolderMost: -4605424409192872578L
+				}
+			},
+			id: "danknull:dank_null_4"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "109ddda1",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 8
+	},
+	{
+		uid: "0f377624",
+		type: "random",
+		table: 1
+	}]
+}

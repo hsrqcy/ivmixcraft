@@ -1,0 +1,96 @@
+{
+  "display": {
+    "icon": {
+      "item": "forestry:fabricator",
+	   "data": 0
+    },
+    "title": {
+       "text": "§c§l热处理§e解锁（teslathingies）"
+    },
+    "description": {
+      "text":"§c§l热处理，§a§l灵魂铁锭、坚固部件、玻璃"
+    },
+    "x": 10,
+    "y": 3
+  },
+  "parent": "IvMixCraft:Industry/traditional_industry",
+  "idea": {
+    "amount": 3,
+    "ingredients": [
+	  {
+        "item": "contenttweaker:ingot1",
+        "data": 0
+      },
+	  {
+        "item": "forestry:sturdy_machine",
+        "data": 0
+      },
+	  {
+      "type": "forge:ore_dict",
+      "ore": "blockGlass"
+      }
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "SBS",
+      "SRS",
+      "BBB"
+    ],
+    "key": {
+    "R": {
+      "item": {
+          "item": "forestry:sturdy_machine",
+          "data": 0
+        },
+        "hint": {
+          "translate": "坚固部件"
+        }
+	},
+	"S": {
+      "item": [ 
+        "contenttweaker:ingot1"
+       ],
+        "hint": {
+          "translate": "灵魂铁锭"
+        }
+	},
+	
+      "B": {
+       "item": { 
+        "type": "forge:ore_dict",
+        "ore": "blockGlass"
+       },
+        "hint": {
+          "translate": "玻璃"
+        }
+      }
+	
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "forestry:fabricator",
+        "data": 0
+    },
+	{
+        "item": "forestry:centrifuge",
+        "data": 0
+    },
+	{
+        "item": "forestry:fermenter",
+        "data": 0
+    },
+	
+	{
+        "item": "forestry:moistener",
+        "data": 0
+    },
+	{
+	"type": "gamestages:stage",
+    "stage": "teslathingies"	
+	}
+  ]
+}

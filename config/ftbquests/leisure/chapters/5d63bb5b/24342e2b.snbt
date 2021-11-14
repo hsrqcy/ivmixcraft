@@ -1,0 +1,19 @@
+{
+	x: -16.5d,
+	y: 7.5d,
+	dependencies: [
+		"91eca801"
+	],
+	tasks: [{
+		uid: "d90e994c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "f934e580",
+		type: "random",
+		table: 1
+	}]
+}

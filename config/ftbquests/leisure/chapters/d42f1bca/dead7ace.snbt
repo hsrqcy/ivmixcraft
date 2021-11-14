@@ -1,0 +1,24 @@
+{
+	x: -4.5d,
+	y: 0.5d,
+	dependencies: [
+		"85f5a9e5"
+	],
+	tasks: [{
+		uid: "cbc5dd0c",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:tree_fluid_extractor"
+		}]
+	}],
+	rewards: [{
+		uid: "4370035a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

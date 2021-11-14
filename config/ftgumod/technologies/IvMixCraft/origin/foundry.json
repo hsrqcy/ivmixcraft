@@ -1,0 +1,74 @@
+{
+  "display": {
+    "icon": {
+      "item": "foundry:burner_heater"
+    },
+    "title": {
+       "text": "§r§l陶瓷冶炼"
+    },
+    "description": {
+      "text":"§9§l瓷砖和砖块好像可以做点什么？§a§l尝试一下"
+    },
+    "x": 6,
+    "y": -4
+  },
+  "parent": "IvMixCraft:origin/ceramics",
+  "idea": {
+    "amount": 2,
+    "ingredients": [
+		[
+        "minecraft:brick_block",
+        "minecraft:rotten_flesh"
+       ],
+		{
+        "item": "ceramics:unfired_clay", 
+        "data": 5
+      }
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "SSS",
+      "SRS",
+      "SSS"
+    ],
+    "key": {
+      
+	   "R": {
+        "item": [
+          "minecraft:brick_block"
+        ],
+        "hint": {
+          "translate": "砖块"
+        }
+      },
+	  
+      "S": {
+        "item": {
+          "item": "ceramics:unfired_clay",
+          "data": 5
+        },
+        "hint": {
+          "translate": "瓷砖"
+        }
+      }
+    }
+  },
+  "unlock": [
+     {
+        "item": "foundry:componentblock",
+        "data": 32767
+    },
+	{
+        "item": "foundry:machine",
+        "data": 32767
+    },
+	{
+        "item": "foundry:casting_table", 
+        "data": 32767
+    },
+	"foundry:burner_heater",
+    "foundry:mold_station"
+  ]
+}

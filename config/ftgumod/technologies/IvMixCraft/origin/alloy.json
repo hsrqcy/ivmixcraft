@@ -1,0 +1,82 @@
+{
+  "display": {
+    "icon": {
+      "item": "foundry:machine", 
+	   "data": 8
+    },
+    "title": {
+       "text": "¡ì6¡ìl½ðÊôºÏ½ð"
+    },
+    "description": {
+      "text":"¡ì7¡ìl³¢ÊÔ½ðÊôºÏ½ð£¡¡ìa¡ìlÍ­¶§Îý¶§ÊÔÊÔ£¿"
+    },
+    "x": 9,
+    "y": -2
+  },
+  "parent": "IvMixCraft:origin/blacksmith",
+  "idea": {
+    "amount": 2,
+    "ingredients": [
+	  {
+      "type": "forge:ore_dict",
+      "ore": "ingotCopper"
+    },
+	  {
+      "type": "forge:ore_dict",
+      "ore": "ingotTin"
+    }
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "SS ",
+      "SR ",
+      "   "
+    ],
+    "key": {
+      
+	"S": {
+      "item": { 
+        "type": "forge:ore_dict",
+        "ore": "ingotCopper"
+       },
+        "hint": {
+          "translate": "Í­¶§"
+        }
+	},
+      "R": {
+      "item": { 
+        "type": "forge:ore_dict",
+        "ore": "ingotTin"
+       },
+        "hint": {
+          "translate": "Îý¶§"
+        }
+      }
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "aroma1997sdimension:portalframe",
+        "data": 0
+    },
+	{
+        "item": "aroma1997sdimension:miningmultitool",
+        "data": 0
+    },
+	{
+        "item": "foundry:machine",
+        "data": 8
+    },
+	{
+        "item": "tp:iron_furnace_block", 
+        "data": 0
+    },
+	{
+        "item": "skyresources:quickdropper",
+        "data": 32767
+    }
+  ]
+}

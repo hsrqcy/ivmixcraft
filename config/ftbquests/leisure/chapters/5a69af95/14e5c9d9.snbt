@@ -1,0 +1,49 @@
+{
+	title: "§c§l有氧运动",
+	x: 8.5d,
+	y: 1.5d,
+	text: [
+		"§b§l需要一个密闭空间，顶部最好是个活板门",
+		"§e§l木质框架里面放加热器，还需要一个红石信号启动。比如说按钮",
+		"§a§l小麦种子--可以通过氧化获得"
+	],
+	dependencies: [
+		"f523132c"
+	],
+	tasks: [{
+		uid: "153c569d",
+		type: "item",
+		items: [{
+			item: "skyresources:casing"
+		}],
+		only_from_crafting: true
+	},
+	{
+		uid: "5c809bed",
+		type: "item",
+		items: [{
+			item: "skyresources:combustionheater"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "2231561f",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "617cf75b",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "318c7926",
+		type: "item",
+		item: "randomthings:itemcollector"
+	},
+	{
+		uid: "a0170de4",
+		type: "item",
+		item: "prefab:item_produce_farm"
+	}]
+}

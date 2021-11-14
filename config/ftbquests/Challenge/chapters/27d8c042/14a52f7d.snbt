@@ -1,0 +1,29 @@
+{
+	title: "§e§l变现交易",
+	x: -11.5d,
+	y: 4.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "4650c17c",
+		type: "item",
+		items: [{
+			item: "additions:ivmixcraft-coins"
+		}]
+	}],
+	rewards: [{
+		uid: "d9462071",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "75962801",
+		type: "xp",
+		xp: 30
+	},
+	{
+		uid: "9205d876",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 5
+	}]
+}

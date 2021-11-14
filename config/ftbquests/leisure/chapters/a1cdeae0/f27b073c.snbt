@@ -1,0 +1,19 @@
+{
+	x: 14.5d,
+	y: 2.0d,
+	dependencies: [
+		"6c699722"
+	],
+	tasks: [{
+		uid: "bacb55cb",
+		type: "item",
+		items: [{
+			item: "yabba:item_barrel"
+		}]
+	}],
+	rewards: [{
+		uid: "c6f062e7",
+		type: "random",
+		table: 1
+	}]
+}

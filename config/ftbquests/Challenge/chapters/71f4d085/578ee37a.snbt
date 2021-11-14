@@ -1,0 +1,26 @@
+{
+	x: -17.0d,
+	y: 7.5d,
+	dependencies: [
+		"488ecc35"
+	],
+	tasks: [{
+		uid: "afaf6900",
+		type: "item",
+		items: [{
+			item: "sakura:barrel"
+		}]
+	},
+	{
+		uid: "5fc54193",
+		type: "item",
+		items: [{
+			item: "sakura:barrel_distillation"
+		}]
+	}],
+	rewards: [{
+		uid: "e12a82c1",
+		type: "random",
+		table: 2
+	}]
+}

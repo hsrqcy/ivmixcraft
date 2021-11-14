@@ -1,0 +1,19 @@
+{
+	x: 14.5d,
+	y: -9.0d,
+	dependencies: [
+		"94392ccf"
+	],
+	tasks: [{
+		uid: "6e0a5367",
+		type: "item",
+		items: [{
+			item: "bloodmagic:decorative_brick"
+		}]
+	}],
+	rewards: [{
+		uid: "17a32a71",
+		type: "random",
+		table: 1
+	}]
+}

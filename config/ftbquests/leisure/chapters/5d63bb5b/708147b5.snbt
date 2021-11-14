@@ -1,0 +1,30 @@
+{
+	title: "§3§l西电东送",
+	x: -16.5d,
+	y: -19.5d,
+	dependencies: [
+		"2d8208da",
+		"4fd7d545"
+	],
+	tasks: [{
+		uid: "5ad31763",
+		type: "forge_energy",
+		value: 10000000L
+	}],
+	rewards: [{
+		uid: "2b6926d2",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "56c5138d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		},
+		count: 10
+	}]
+}

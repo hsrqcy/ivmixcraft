@@ -1,0 +1,29 @@
+{
+	x: 9.0d,
+	y: 7.0d,
+	dependencies: [
+		"f6feb890"
+	],
+	tasks: [{
+		uid: "cabb715d",
+		type: "item",
+		items: [{
+			item: "storagedrawers:compdrawers"
+		}]
+	}],
+	rewards: [{
+		uid: "baa4e69d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "c935160e",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "0fea1e66",
+		type: "item",
+		item: "appliedenergistics2:part 1 360"
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	x: 18.5d,
+	y: 2.0d,
+	dependencies: [
+		"f27b073c"
+	],
+	tasks: [{
+		uid: "47c05e56",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "yabba:wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3eb1ac55",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "yabba:painter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9eeb84a4",
+		type: "random",
+		table: 1
+	}]
+}

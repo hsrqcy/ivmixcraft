@@ -1,0 +1,24 @@
+{
+	title: "§c§lFirst Blood",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "bloodmagic:sentient_sword",
+		tag: {}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 4.5d,
+		y: 7.5d,
+		width: 12.0d,
+		height: 7.0d,
+		rotation: 0.0d,
+		image: "image:bloodmagic.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

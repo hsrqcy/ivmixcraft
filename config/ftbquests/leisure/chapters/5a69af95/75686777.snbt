@@ -1,0 +1,49 @@
+{
+	title: "§b§l水泥在哪里？",
+	x: 26.0d,
+	y: 10.5d,
+	dependencies: [
+		"a7d644e3"
+	],
+	tasks: [{
+		uid: "35320d9c",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "419ba575",
+		type: "item",
+		item: "tconstruct:smeltery_controller"
+	},
+	{
+		uid: "7337449e",
+		type: "item",
+		item: "tconstruct:casting"
+	},
+	{
+		uid: "612180b9",
+		type: "item",
+		item: "tconstruct:smeltery_io"
+	},
+	{
+		uid: "ed22120f",
+		type: "item",
+		item: "tconstruct:casting 1 1"
+	},
+	{
+		uid: "44c686d0",
+		type: "item",
+		item: "tconstruct:materials",
+		count: 64
+	},
+	{
+		uid: "cc26719d",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 5
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "§e§l商人之路",
+	icon: "additions:ivmixcraft-coins",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

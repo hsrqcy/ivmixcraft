@@ -1,0 +1,88 @@
+{
+  "display": {
+    "icon": {
+      "item": "embers:winding_gears", 
+	   "data": 0
+    },
+    "title": {
+       "text": "§d§l驱动技术"
+    },
+    "description": {
+      "text":"§e§l蒸汽动力进入电力时代，§a§l轻薄铜板、发条齿轮、轻薄钢板"
+    },
+    "x": 4,
+    "y": -2
+  },
+  "parent": "IvMixCraft:Industry/brickfurnace",
+  "idea": {
+    "amount": 3,
+    "ingredients": [
+	  {
+      "type": "forge:ore_dict",
+      "ore": "lightPlateSteel"
+      },
+	  {
+      "type": "forge:ore_dict",
+      "ore": "lightPlateCopper"
+      },
+	  "embers:winding_gears"
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "RRR",
+      "SBS",
+      "SSS"
+    ],
+    "key": {
+    "S": {
+      "item": { 
+        "type": "forge:ore_dict",
+        "ore": "lightPlateSteel"
+       },
+        "hint": {
+          "translate": "轻薄钢板"
+        }
+	},
+	"B": {
+      "item": [ 
+        "embers:winding_gears"
+       ],
+        "hint": {
+          "translate": "发条齿轮"
+        }
+	},
+	
+      "R": {
+      "item": { 
+        "type": "forge:ore_dict",
+        "ore": "lightPlateCopper"
+       },
+        "hint": {
+          "translate": "轻薄铜板"
+        }
+      }
+	
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "magneticraft:crafting",
+        "data": 3
+    },
+	{
+        "item": "magneticraft:crafting",
+        "data": 2
+    },
+	{
+        "item": "magneticraft:electric_piston",
+        "data": 0
+    },
+	{
+        "item": "magneticraft:water_generator",
+        "data": 0
+    }
+  ]
+}

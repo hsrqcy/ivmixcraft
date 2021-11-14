@@ -1,0 +1,19 @@
+{
+	x: 18.5d,
+	y: 7.0d,
+	dependencies: [
+		"0ec10929"
+	],
+	tasks: [{
+		uid: "4b955fba",
+		type: "item",
+		items: [{
+			item: "yabba:item_barrel_connector"
+		}]
+	}],
+	rewards: [{
+		uid: "fade8ab4",
+		type: "random",
+		table: 1
+	}]
+}

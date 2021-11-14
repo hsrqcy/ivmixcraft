@@ -1,0 +1,34 @@
+{
+	x: -18.0d,
+	y: -9.0d,
+	dependencies: [
+		"12ab744c"
+	],
+	tasks: [{
+		uid: "06244387",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	},
+	{
+		uid: "d6d1cb21",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5c57a0cc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

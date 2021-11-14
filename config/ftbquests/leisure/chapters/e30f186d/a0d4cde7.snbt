@@ -1,0 +1,19 @@
+{
+	x: 8.0d,
+	y: -10.0d,
+	dependencies: [
+		"b0f2bffa"
+	],
+	tasks: [{
+		uid: "71188516",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementrelay"
+		}]
+	}],
+	rewards: [{
+		uid: "f46ac0a0",
+		type: "random",
+		table: 1
+	}]
+}

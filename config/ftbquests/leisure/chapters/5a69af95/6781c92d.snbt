@@ -1,0 +1,42 @@
+{
+	title: "§6§l吃饭家伙",
+	x: -11.0d,
+	y: 1.5d,
+	dependencies: [
+		"8c0e1444"
+	],
+	tasks: [{
+		uid: "d9289412",
+		type: "item",
+		items: [{
+			item: "artisanworktables:worktable 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2113c6a1",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "66f5e4a2",
+		type: "item",
+		item: "arcanearchives:lectern_manifest"
+	},
+	{
+		uid: "6c7403d5",
+		type: "item",
+		item: "arcanearchives:monitoring_crystal",
+		count: 2
+	},
+	{
+		uid: "4ada9322",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_3"
+			}
+		}
+	}]
+}

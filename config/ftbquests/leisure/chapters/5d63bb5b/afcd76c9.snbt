@@ -1,0 +1,19 @@
+{
+	x: 8.5d,
+	y: 7.5d,
+	dependencies: [
+		"0b704282"
+	],
+	tasks: [{
+		uid: "77788bef",
+		type: "item",
+		items: [{
+			item: "teslathingies:powder_maker"
+		}]
+	}],
+	rewards: [{
+		uid: "ea1b5a63",
+		type: "random",
+		table: 1
+	}]
+}

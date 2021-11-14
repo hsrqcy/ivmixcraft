@@ -1,0 +1,34 @@
+{
+	title: "§c§l拒绝烈焰人",
+	x: 13.0d,
+	y: 1.5d,
+	text: [
+		"§c§l欲火焚身，哦不烈焰似火"
+	],
+	dependencies: [
+		"14e5c9d9"
+	],
+	tasks: [{
+		uid: "ebb094cf",
+		type: "item",
+		items: [{
+			item: "skyresources:blazepowderblock"
+		}]
+	}],
+	rewards: [{
+		uid: "1393bbb4",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "e64eb113",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "24960434",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 2
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 51.0d,
+	y: -1.5d,
+	dependencies: [
+		"c2dc14bb"
+	],
+	tasks: [{
+		uid: "72bb891c",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone_dust"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "4f83ddfe",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "84fd0e2e",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "d8a2d514",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 10
+	}]
+}

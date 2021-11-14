@@ -1,0 +1,35 @@
+{
+	title: "§2§l符文仪式准备",
+	x: -15.0d,
+	y: 1.0d,
+	dependencies: [
+		"804f439c"
+	],
+	tasks: [{
+		uid: "100d5b1c",
+		type: "item",
+		items: [{
+			item: "roots:runestone"
+		}]
+	}],
+	rewards: [{
+		uid: "99f22f2f",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "654bc09d",
+		type: "item",
+		item: "tp:growth_block"
+	},
+	{
+		uid: "6ad8dd4b",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "9aac73c9",
+		type: "item",
+		item: "scalinghealth:difficultychanger"
+	}]
+}

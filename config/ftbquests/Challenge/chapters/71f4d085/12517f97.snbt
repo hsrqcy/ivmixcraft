@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	dependencies: [
+		"0b4af3e2"
+	],
+	tasks: [{
+		uid: "50442650",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:intermediate_tiered"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "04cffdc2",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "ed1d472c",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

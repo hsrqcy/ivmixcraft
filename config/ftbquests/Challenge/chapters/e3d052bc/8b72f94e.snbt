@@ -1,0 +1,19 @@
+{
+	x: 28.5d,
+	y: -2.0d,
+	dependencies: [
+		"ada27a3e"
+	],
+	tasks: [{
+		uid: "eaf28874",
+		type: "item",
+		items: [{
+			item: "embers:stirling"
+		}]
+	}],
+	rewards: [{
+		uid: "0102514e",
+		type: "random",
+		table: 1
+	}]
+}

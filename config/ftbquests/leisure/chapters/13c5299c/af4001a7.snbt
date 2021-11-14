@@ -1,0 +1,46 @@
+{
+	title: "§6§l血……",
+	x: -5.5d,
+	y: 14.0d,
+	dependencies: [
+		"0acc6919"
+	],
+	tasks: [{
+		uid: "abe81780",
+		type: "item",
+		items: [{
+			item: "roots:wildwood_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "55110192",
+		type: "item",
+		item: "tp:growth_block"
+	},
+	{
+		uid: "472c0e13",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tinymobfarm:lasso",
+			tag: {}
+		}
+	},
+	{
+		uid: "c53935ad",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "b988ad42",
+		type: "item",
+		item: "tinymobfarm:stone_farm"
+	},
+	{
+		uid: "c6d16dc7",
+		type: "item",
+		item: "scalinghealth:difficultychanger"
+	}]
+}

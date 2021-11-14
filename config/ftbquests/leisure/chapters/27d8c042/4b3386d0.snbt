@@ -1,0 +1,33 @@
+{
+	title: "§e§l蒸汽动力",
+	x: -2.0d,
+	y: 0.0d,
+	can_repeat: true,
+	dependencies: [
+		"ada27a3e"
+	],
+	tasks: [{
+		uid: "c3ba3747",
+		type: "fluid",
+		fluid: "steam",
+		amount: 1500000
+	}],
+	rewards: [{
+		uid: "38b98f4d",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	},
+	{
+		uid: "46ef6bf6",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "4f76aafc",
+		type: "item",
+		auto: "disabled",
+		item: "scalinghealth:difficultychanger",
+		count: 10
+	}]
+}

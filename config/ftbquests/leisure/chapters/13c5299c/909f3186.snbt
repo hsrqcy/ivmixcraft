@@ -1,0 +1,18 @@
+{
+	title: "§a§l大地起源",
+	x: -15.0d,
+	y: -4.5d,
+	tasks: [{
+		uid: "c9fd7d95",
+		type: "item",
+		items: [{
+			item: "roots:terra_spores"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "a85b8f77",
+		type: "random",
+		table: 0
+	}]
+}

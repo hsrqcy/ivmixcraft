@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "item": "ceramics:unfired_clay"
+    },
+    "title": {
+       "text": "§b§l陶土技术"
+    },
+    "description": {
+      "text":"§2§l记得任务说粘土可以用泥土和腐肉？§a§l还好可以玩泥巴"
+    },
+    "x": 4,
+    "y": -4
+  },
+  "parent": "IvMixCraft:origin/skyresources",
+  "idea": {
+    "amount": 2,
+    "ingredients": [
+	    [
+        "minecraft:dirt",
+        "minecraft:rotten_flesh"
+       ],
+		[
+        "minecraft:dirt",
+        "minecraft:rotten_flesh"
+       ]
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "   ",
+      "S S",
+      " S "
+    ],
+    "key": {
+
+	   "S": {
+        "item": [
+          "minecraft:clay_ball"
+        ],
+        "hint": {
+          "translate": "泥巴球"
+        }
+      }
+
+    }
+  },
+  "unlock": [
+     {
+        "item": "ceramics:unfired_clay",
+        "data": 32767
+    },
+	"ceramics:clay_barrel_unfired",
+    "ceramics:clay_soft"
+  ]
+}

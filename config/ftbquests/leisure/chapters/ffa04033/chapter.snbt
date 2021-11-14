@@ -1,0 +1,32 @@
+{
+	title: "选择难度",
+	icon: "minecraft:diamond_sword",
+	description: [
+		"选择难度后要重新启动游戏"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -4.0d,
+		y: -1.5d,
+		width: 10.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "image:leisure-mods.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 7.5d,
+		y: -1.5d,
+		width: 10.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "image:challenge-mods.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

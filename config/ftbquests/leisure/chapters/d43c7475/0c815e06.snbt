@@ -1,0 +1,28 @@
+{
+	x: -2.0d,
+	y: 11.0d,
+	dependencies: [
+		"ff45c96d",
+		"dbce68b0",
+		"ae528bad"
+	],
+	tasks: [{
+		uid: "41b3a37c",
+		type: "item",
+		items: [{
+			item: "modularmagic:blockstarlightprovideroutput"
+		}]
+	},
+	{
+		uid: "a99cadff",
+		type: "item",
+		items: [{
+			item: "modularmagic:blockstarlightproviderinput"
+		}]
+	}],
+	rewards: [{
+		uid: "2deb16d3",
+		type: "random",
+		table: 1
+	}]
+}

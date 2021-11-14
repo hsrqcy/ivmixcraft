@@ -1,0 +1,75 @@
+{
+  "display": {
+    "icon": {
+      "item": "tcomplement:high_oven_controller", 
+	   "data": 0
+    },
+    "title": {
+       "text": "§8§l高炉炼钢"
+    },
+    "description": {
+      "text":"§e§l炼钢？§a§l需要高炉的哦！来3个高炉砖试试"
+    },
+    "x": 11,
+    "y": 0
+  },
+  "parent": "IvMixCraft:origin/blacksmith",
+  "idea": {
+    "amount": 3,
+    "ingredients": [
+	  {
+        "item": "tcomplement:materials", 
+        "data": 1
+      },
+	  {
+        "item": "tcomplement:materials", 
+        "data": 1
+      },
+	  {
+        "item": "tcomplement:materials", 
+        "data": 1
+      }
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "SSS",
+      "S S",
+      "SSS"
+    ],
+    "key": {
+      
+	   
+	  
+      "S": {
+        "item": {
+          "item": "tcomplement:materials", 
+        "data": 1
+        },
+        "hint": {
+          "translate": "高炉砖"
+        }
+      }
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "tcomplement:high_oven_controller",
+        "data": 0
+    },
+	{
+        "item": "tcomplement:scorched_casting",
+        "data": 0
+    },
+	{
+        "item": "tcomplement:scorched_casting",
+        "data": 1
+    },
+	{
+        "item": "tcomplement:high_oven_io",
+        "data": 32767
+    }
+  ]
+}

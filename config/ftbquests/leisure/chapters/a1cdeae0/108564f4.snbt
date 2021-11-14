@@ -1,0 +1,30 @@
+{
+	x: -3.0d,
+	y: -6.0d,
+	dependencies: [
+		"7918cd8e"
+	],
+	tasks: [{
+		uid: "53184157",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "danknull:dank_null_1"
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0eff3b8d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "7b5ce525",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 4
+	}]
+}

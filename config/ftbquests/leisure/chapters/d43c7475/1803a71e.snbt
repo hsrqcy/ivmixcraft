@@ -1,0 +1,25 @@
+{
+	x: 9.5d,
+	y: 4.0d,
+	dependencies: [
+		"3701d3e1"
+	],
+	tasks: [{
+		uid: "a004905c",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crystallizer"
+		}]
+	}],
+	rewards: [{
+		uid: "46e44e9c",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "2c5884b4",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 5
+	}]
+}

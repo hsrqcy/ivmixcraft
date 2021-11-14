@@ -1,0 +1,19 @@
+{
+	x: -9.0d,
+	y: -7.0d,
+	dependencies: [
+		"5e338b63"
+	],
+	tasks: [{
+		uid: "d457f7c1",
+		type: "item",
+		items: [{
+			item: "embers:mech_accessor"
+		}]
+	}],
+	rewards: [{
+		uid: "cf50a6cf",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,170 @@
+{
+	title: "§6§l简陋的武器",
+	x: 0.0d,
+	y: 7.5d,
+	text: [
+		"§d§l我的大刀早已饥渴难耐",
+		"§1§l是时候做一个刷怪塔---§e§l非洲人，送你一个火药",
+		"§6§l§6§l千万不要搭太大！！特别友情提示"
+	],
+	dependencies: [
+		"61d557fc"
+	],
+	tasks: [{
+		uid: "366ffc88",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:broadsword",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 1.5f,
+					FreeModifiers: 3,
+					Durability: 82,
+					HarvestLevel: 0,
+					Attack: 3.0f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 1.5f,
+					FreeModifiers: 2,
+					Durability: 82,
+					HarvestLevel: 0,
+					Attack: 3.0f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 1,
+					Materials: [
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: [
+						"leveling_mod",
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "leveling_mod",
+					color: 0,
+					level: 1,
+					exp: 0
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"ecological",
+					"leveling_mod",
+					"toolleveling"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f8e7d0a9",
+		type: "item",
+		item: {
+			id: "conarm:armor_plate",
+			tag: {
+				Material: "bone"
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "516cfe47",
+		type: "item",
+		item: "cyclicmagic:water_candle"
+	},
+	{
+		uid: "b948b64c",
+		type: "item",
+		item: "darkutils:trap_move",
+		count: 36
+	},
+	{
+		uid: "26fd20c8",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "ef744475",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "5f0168ae",
+		type: "item",
+		item: "minecraft:gunpowder"
+	},
+	{
+		uid: "a7f8c9e9",
+		type: "item",
+		item: "arcanearchives:quartz_sliver",
+		count: 32
+	},
+	{
+		uid: "6b857ead",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:flint_and_steel"
+		}
+	},
+	{
+		uid: "70f3c184",
+		type: "item",
+		item: {
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "steal_xp"
+			}
+		}
+	},
+	{
+		uid: "51104353",
+		type: "item",
+		item: {
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "sakurarum"
+			}
+		}
+	},
+	{
+		uid: "bf70bf8a",
+		type: "item",
+		item: "tconstruct:materials 1 18"
+	},
+	{
+		uid: "c5264699",
+		type: "item",
+		item: "contenttweaker:ingot1"
+	},
+	{
+		uid: "cd0d397c",
+		type: "item",
+		item: "minecraft:experience_bottle"
+	}]
+}

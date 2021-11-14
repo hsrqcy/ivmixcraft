@@ -1,0 +1,25 @@
+{
+	title: "§c§l需要大型锅炉",
+	x: -12.5d,
+	y: -4.0d,
+	dependencies: [
+		"981aa5c3",
+		"8fab3f1c"
+	],
+	tasks: [{
+		uid: "c04e7d90",
+		type: "fluid",
+		fluid: "steam",
+		amount: 1000000
+	}],
+	rewards: [{
+		uid: "0aa0840c",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "cebf180f",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

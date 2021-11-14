@@ -1,0 +1,25 @@
+{
+	x: -2.5d,
+	y: 9.0d,
+	dependencies: [
+		"dcea17a6"
+	],
+	tasks: [{
+		uid: "a6696a51",
+		type: "item",
+		items: [{
+			item: "randomthings:advanceditemcollector"
+		}]
+	}],
+	rewards: [{
+		uid: "3229bf4a",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "b3a82feb",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 10
+	}]
+}

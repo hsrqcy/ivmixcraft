@@ -1,0 +1,27 @@
+{
+	title: "§e§l梦想新东方",
+	x: -17.0d,
+	y: -1.5d,
+	dependencies: [
+		"3d77fb12"
+	],
+	tasks: [{
+		uid: "94720353",
+		type: "item",
+		items: [{
+			item: "artisanworktables:worktable 1 11"
+		}],
+		consume_items: false,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "4cefc5e7",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "193a34fd",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

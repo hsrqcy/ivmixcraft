@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 0.5d,
+	dependencies: [
+		"dead7ace"
+	],
+	tasks: [{
+		uid: "1bf545be",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:latex_processing_unit"
+		}]
+	}],
+	rewards: [{
+		uid: "d5f29e49",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

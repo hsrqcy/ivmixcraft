@@ -1,0 +1,38 @@
+{
+	title: "§5§l水晶水晶",
+	x: 31.0d,
+	y: -6.5d,
+	dependencies: [
+		"7d77ed30"
+	],
+	tasks: [{
+		uid: "7fa3c1d9",
+		type: "item",
+		items: [{
+			item: "skyresources:alchemyitemcomponent 1 1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "809f60af",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "0c3460e4",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "1b4ea1ae",
+		type: "item",
+		item: "skyresources:alchemyitemcomponent 1 1",
+		count: 64
+	},
+	{
+		uid: "86c228a6",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 2
+	}]
+}

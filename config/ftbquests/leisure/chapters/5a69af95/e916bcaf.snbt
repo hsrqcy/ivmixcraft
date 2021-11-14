@@ -1,0 +1,58 @@
+{
+	title: "§b§l为炼金做准备",
+	x: 31.0d,
+	y: -1.5d,
+	dependencies: [
+		"4c131018"
+	],
+	tasks: [{
+		uid: "8cd176b7",
+		type: "item",
+		items: [{
+			item: "skyresources:casing 1 1"
+		}],
+		only_from_crafting: false
+	},
+	{
+		uid: "2147be7c",
+		type: "item",
+		items: [{
+			item: "skyresources:heat 1 1"
+		}],
+		only_from_crafting: false
+	},
+	{
+		uid: "794f385a",
+		type: "item",
+		items: [{
+			item: "skyresources:condenser 1 1"
+		}],
+		only_from_crafting: false
+	},
+	{
+		uid: "3bbec30a",
+		type: "item",
+		items: [{
+			item: "skyresources:alchemy 1 1"
+		}],
+		only_from_crafting: false
+	},
+	{
+		uid: "f6b6e846",
+		type: "item",
+		items: [{
+			item: "skyresources:combustionheater 1 1"
+		}],
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "4310b6b2",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "6662f796",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

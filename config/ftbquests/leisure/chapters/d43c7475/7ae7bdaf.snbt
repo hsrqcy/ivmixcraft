@@ -1,0 +1,36 @@
+{
+	title: "§e§l把他们都拖下水",
+	x: -15.5d,
+	y: -0.5d,
+	dependencies: [
+		"af4001a7"
+	],
+	tasks: [{
+		uid: "f03ad2b9",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}]
+	}],
+	rewards: [{
+		uid: "fdfd25e8",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "4a1a0df8",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "46b3ef05",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "dfa162ca",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 2
+	}]
+}

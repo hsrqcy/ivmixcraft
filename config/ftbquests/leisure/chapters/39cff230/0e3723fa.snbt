@@ -1,0 +1,32 @@
+{
+	x: -27.5d,
+	y: -12.5d,
+	dependencies: [
+		"759bc11a"
+	],
+	tasks: [{
+		uid: "b7f59416",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	},
+	{
+		uid: "b9498db0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sky_block"
+		}]
+	}],
+	rewards: [{
+		uid: "c64b21d0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		},
+		count: 5
+	}]
+}

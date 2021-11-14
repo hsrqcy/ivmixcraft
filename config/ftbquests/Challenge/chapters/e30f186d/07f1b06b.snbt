@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: 3.0d,
+	dependencies: [
+		"0afe0318"
+	],
+	tasks: [{
+		uid: "b4b0d5d7",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcustomore 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "54b122a1",
+		type: "random",
+		table: 1
+	}]
+}

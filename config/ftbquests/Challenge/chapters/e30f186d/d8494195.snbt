@@ -1,0 +1,19 @@
+{
+	x: 10.5d,
+	y: 2.0d,
+	dependencies: [
+		"7c81eeae"
+	],
+	tasks: [{
+		uid: "fa75dcca",
+		type: "item",
+		items: [{
+			item: "skyresources:orealchdust 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "9e99d3b8",
+		type: "random",
+		table: 1
+	}]
+}

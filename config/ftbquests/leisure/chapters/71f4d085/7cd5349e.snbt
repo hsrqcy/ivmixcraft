@@ -1,0 +1,48 @@
+{
+	x: 27.0d,
+	y: -1.5d,
+	dependencies: [
+		"36717de8"
+	],
+	tasks: [{
+		uid: "0d374c6f",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:pitiful_fuel_generator"
+		}]
+	},
+	{
+		uid: "30fd18e6",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:turret_base"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f55c6708",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "3d134bab",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "54fc6b26",
+		type: "item",
+		item: "openmodularturrets:turret_base 1 1"
+	},
+	{
+		uid: "5b0243ec",
+		type: "item",
+		item: "openmodularturrets:addon_meta 1 7"
+	},
+	{
+		uid: "bb18ddfd",
+		type: "item",
+		item: "openmodularturrets:addon_meta 1 1"
+	}]
+}

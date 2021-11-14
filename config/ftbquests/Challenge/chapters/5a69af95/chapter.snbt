@@ -1,0 +1,18 @@
+{
+	title: "§b§l起源",
+	icon: "prefab:item_start_house",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 30.0d,
+		y: 5.0d,
+		width: 16.0d,
+		height: 9.0d,
+		rotation: 0.0d,
+		image: "image:mobspawn.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

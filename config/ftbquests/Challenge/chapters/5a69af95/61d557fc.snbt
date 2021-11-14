@@ -1,0 +1,57 @@
+{
+	title: "§6§l小木匠",
+	x: 0.0d,
+	y: 1.5d,
+	dependencies: [
+		"10757baa"
+	],
+	tasks: [{
+		uid: "fb30ed39",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "artisanworktables:artisans_handsaw_wood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9e1ad6df",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "pattern",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any pattern"
+				}
+			}
+		}],
+		count: 8L,
+		consume_items: false,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "6aa52d2a",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "b9046e0e",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "a2fa0863",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 5
+	}]
+}

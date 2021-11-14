@@ -1,0 +1,48 @@
+{
+	x: -13.5d,
+	y: -15.5d,
+	dependencies: [
+		"bc587033"
+	],
+	tasks: [{
+		uid: "ba99a861",
+		type: "item",
+		items: [{
+			id: "arcanearchives:radiant_trove",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8abf0d73",
+		type: "item",
+		items: [{
+			item: "arcanearchives:radiant_tank"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fa7d2bdf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "arcanearchives:radiant_amphora",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "715831f5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		},
+		count: 10
+	}]
+}

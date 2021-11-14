@@ -1,0 +1,37 @@
+{
+	title: "§b§l又?轻又薄",
+	x: -39.0d,
+	y: -6.5d,
+	dependencies: [
+		"058b3554"
+	],
+	tasks: [{
+		uid: "96f8738b",
+		type: "item",
+		items: [{
+			item: "magneticraft:crushing_table"
+		}]
+	},
+	{
+		uid: "f7d1f152",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "magneticraft:iron_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6c2416a6",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "5b56e6b0",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

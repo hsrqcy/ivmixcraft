@@ -1,0 +1,24 @@
+{
+	x: -53.5d,
+	y: -6.5d,
+	dependencies: [
+		"53fb5f33"
+	],
+	tasks: [{
+		uid: "32349684",
+		type: "item",
+		items: [{
+			item: "tinker_io:upg"
+		}]
+	}],
+	rewards: [{
+		uid: "076df703",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "7965f1dc",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

@@ -1,0 +1,69 @@
+{
+	title: "§e§l手动粉碎",
+	x: 23.5d,
+	y: -8.5d,
+	dependencies: [
+		"c5976c78"
+	],
+	tasks: [{
+		uid: "63a8c6dd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "skyresources:irongrinder"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6c7e4274",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "skyresources:diamondgrinder"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b448f4fd",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "f7eb65d5",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 5
+	},
+	{
+		uid: "8fbb9ed3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "skyresources:diamondgrinder",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 33
+				},
+				{
+					lvl: 4s,
+					id: 32
+				},
+				{
+					lvl: 3s,
+					id: 34
+				}]
+			}
+		}
+	}]
+}

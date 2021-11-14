@@ -1,0 +1,19 @@
+{
+	x: -15.0d,
+	y: 3.5d,
+	dependencies: [
+		"e7c14ccc"
+	],
+	tasks: [{
+		uid: "c7422e35",
+		type: "item",
+		items: [{
+			item: "embers:large_tank"
+		}]
+	}],
+	rewards: [{
+		uid: "a0f9401e",
+		type: "random",
+		table: 2
+	}]
+}

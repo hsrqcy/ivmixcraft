@@ -1,0 +1,24 @@
+{
+	x: 21.0d,
+	y: -7.0d,
+	dependencies: [
+		"42c1af4c"
+	],
+	tasks: [{
+		uid: "b1dda616",
+		type: "item",
+		items: [{
+			item: "forestry:squeezer"
+		}]
+	}],
+	rewards: [{
+		uid: "2a08f954",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "0de956d0",
+		type: "xp",
+		xp: 100
+	}]
+}

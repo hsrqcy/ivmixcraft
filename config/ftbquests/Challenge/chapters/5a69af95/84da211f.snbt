@@ -1,0 +1,44 @@
+{
+	title: "§5§l筷子叉子..",
+	x: -11.0d,
+	y: -2.0d,
+	dependencies: [
+		"6781c92d"
+	],
+	tasks: [{
+		uid: "04a4c520",
+		type: "item",
+		items: [{
+			item: "artisanworktables:toolbox"
+		}]
+	}],
+	rewards: [{
+		uid: "f4ddf1d8",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "c281a75a",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "acd7fa5d",
+		type: "item",
+		item: "arcanearchives:radiant_chest",
+		count: 2
+	},
+	{
+		uid: "faa6eea5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -8906606618441326594L,
+					AS_Amulet_HolderMost: -4605424409192872578L
+				}
+			},
+			id: "arcanearchives:scepter_revelation"
+		}
+	}]
+}

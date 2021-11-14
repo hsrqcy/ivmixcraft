@@ -1,0 +1,27 @@
+{
+    "machine": "corporeaindex",
+    "registryName": "corporeaindex_GPOUT",
+    "recipeTime": 120,
+    "requirements": [
+        {
+            "type": "grid",
+            "io-type": "output",
+            "power": 64
+        },
+		{
+        	"type": "energy",
+        	"io-type": "input",
+        	"energyPerTick": 300
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "extrautils2:ingredients@5",
+            "amount": 1,
+            "chance": 0.0895
+        }
+		
+		
+    ]
+}
+

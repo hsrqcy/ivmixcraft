@@ -1,0 +1,19 @@
+{
+    "sortnum": 3,
+	"name": "§3§l技能等级解锁阶段",
+    "icon": "cyclicmagic:ender_snow",
+    "category": "patchouli:skills_category",
+    "read_by_default": false,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(br2)$(c)$(l)农耕【基础】--解锁根源魔法$(br2)$(3)$(l)血色魔法--解锁星辉魔法$(br2)$(6)$(l)建造--解锁磁力科技"
+        },
+		{
+            "type": "text",
+            "text": "$(br2)$(d)$(l)魔法【基础】--解锁余烬、血魔法、奥术光辉$(br2)$(6)$(l)自然灵气--解锁植物魔法$(br2)$(3)$(l)工业革命--解锁热力管道"
+        }
+		
+		
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "enchantability": 10,
+  "harvest_level": 3,
+  "base_tool_durability": 600,
+  "efficiency": 8.0,
+  "base_attack_damage": 9.0,
+  "type": "tool"
+}

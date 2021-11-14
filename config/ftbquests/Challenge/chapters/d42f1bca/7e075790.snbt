@@ -1,0 +1,21 @@
+{
+	x: -8.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: "678e0d3d",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "810fd0e7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

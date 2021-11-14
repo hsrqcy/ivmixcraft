@@ -1,0 +1,44 @@
+{
+	title: "§c§l灼热产物",
+	x: 47.5d,
+	y: -1.5d,
+	dependencies: [
+		"c420dd77"
+	],
+	tasks: [{
+		uid: "ee197bdd",
+		type: "item",
+		items: [{
+			item: "skyresources:casing 1 6"
+		}]
+	},
+	{
+		uid: "4ecce0ab",
+		type: "item",
+		items: [{
+			item: "skyresources:combustionheater 1 6"
+		}]
+	},
+	{
+		uid: "8f5a98d9",
+		type: "item",
+		items: [{
+			item: "skyresources:condenser 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "16babb1a",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "81724327",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "e3f6c5b4",
+		type: "item",
+		item: "scalinghealth:difficultychanger"
+	}]
+}

@@ -1,0 +1,82 @@
+{
+  "display": {
+    "icon": {
+      "item": "magneticraft:iron_pipe", 
+	   "data": 0
+    },
+    "title": {
+       "text": "§7§l流体管道"
+    },
+    "description": {
+      "text":"§e§l液体传输第一课，§a§l钢板如何粘合？用糖浆试试？"
+    },
+    "x": 2,
+    "y": 0
+  },
+  "parent": "IvMixCraft:Industry/ember",
+  "idea": {
+    "amount": 2,
+    "ingredients": [
+	  {
+      "type": "forge:ore_dict",
+      "ore": "plateSteel"
+      },
+	  {
+      "type": "forge:ore_dict",
+      "ore": "cropMaplesyrup"
+      }
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "SSS",
+      "SRS",
+      "SSS"
+    ],
+    "key": {
+    "R": {
+      "item": { 
+        "type": "forge:ore_dict",
+        "ore": "cropMaplesyrup"
+       },
+        "hint": {
+          "translate": "糖浆"
+        }
+	},
+      "S": {
+      "item": { 
+        "type": "forge:ore_dict",
+        "ore": "plateSteel"
+       },
+        "hint": {
+          "translate": "钢板"
+        }
+      }
+	
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "magneticraft:iron_pipe",
+        "data": 0
+    },
+	{
+        "item": "cyclicmagic:item_pipe",
+        "data": 0
+    },
+	{
+        "item": "cyclicmagic:fluid_pipe",
+        "data": 0
+    },
+	{
+        "item": "cyclicmagic:item_pump",
+        "data": 0
+    },
+	{
+        "item": "cyclicmagic:fluid_pump",
+        "data": 0
+    }
+  ]
+}

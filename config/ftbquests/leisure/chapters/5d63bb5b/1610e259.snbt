@@ -1,0 +1,25 @@
+{
+	x: 17.5d,
+	y: -20.0d,
+	dependencies: [
+		"4d02299a"
+	],
+	tasks: [{
+		uid: "08572cde",
+		type: "item",
+		items: [{
+			id: "xnet:advanced_connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.advanced_connector_blue.name"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "06f1bb99",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "item": "sereneseasons:ss_icon", 
+	   "data": 0
+    },
+    "title": {
+       "text": "§e§l农场物语"
+    },
+    "description": {
+      "text":"§a§l我就喜欢种田，放三个土豆试试？§a§l种田达人？"
+    },
+    "x": 4,
+    "y": 2
+  },
+  "parent": "IvMixCraft:origin/firstresearch",
+  "idea": {
+    "amount": 3,
+    "ingredients": [
+	  {
+      "type": "forge:ore_dict",
+      "ore": "listAllveggie"
+    },
+	  {
+      "type": "forge:ore_dict",
+      "ore": "listAllveggie"
+    },
+	  {
+      "type": "forge:ore_dict",
+      "ore": "listAllveggie"
+    }
+    ]
+  },
+  
+  "unlock": [
+  
+	
+	
+	{
+        "item": "sereneseasons:greenhouse_glass",
+        "data": 0
+    },
+	
+	{
+        "item": "sakura:materials", 
+        "data": 32767
+    }
+  ]
+}

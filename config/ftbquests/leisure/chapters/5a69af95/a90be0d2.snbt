@@ -1,0 +1,46 @@
+{
+	x: 27.0d,
+	y: -11.0d,
+	dependencies: [
+		"c5976c78"
+	],
+	tasks: [{
+		uid: "1e146e63",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "betterbuilderswands:wanddiamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "9ba25806",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "41a23b16",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "betterbuilderswands:wandunbreakable"
+		}
+	},
+	{
+		uid: "414d6e67",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "4bdaee81",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 10
+	}]
+}

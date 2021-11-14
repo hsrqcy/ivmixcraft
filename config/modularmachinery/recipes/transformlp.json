@@ -1,0 +1,17 @@
+{
+    "machine": "transformlp",
+    "registryName": "transformlpengry",
+    "recipeTime": 50,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "output",
+            "energyPerTick": 500
+        },
+        {
+            "type": "lifeessence",
+            "io-type": "input",
+            "amount": 100
+        }
+    ]
+}

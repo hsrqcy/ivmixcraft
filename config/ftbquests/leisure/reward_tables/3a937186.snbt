@@ -1,0 +1,360 @@
+{
+	title: "§d§l§ka§r §c§l食品补给箱§d§l§ka§r",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:cake"
+		}
+	},
+	{
+		item: "minecraft:fish",
+		count: 5
+	},
+	{
+		item: "minecraft:fish 1 3"
+	},
+	{
+		item: "minecraft:cooked_fish",
+		count: 2
+	},
+	{
+		item: "minecraft:cooked_fish 1 1",
+		count: 2
+	},
+	{
+		item: "cookingforblockheads:fridge"
+	},
+	{
+		item: "minecraft:carrot",
+		count: 5
+	},
+	{
+		item: "minecraft:bread",
+		count: 6
+	},
+	{
+		item: "harvestcraft:blueberryseeditem"
+	},
+	{
+		item: "harvestcraft:asparagusseeditem"
+	},
+	{
+		item: "harvestcraft:barleyseeditem"
+	},
+	{
+		item: "harvestcraft:ryeseeditem"
+	},
+	{
+		item: "harvestcraft:cornseeditem"
+	},
+	{
+		item: "harvestcraft:raspberryseeditem"
+	},
+	{
+		item: "harvestcraft:ryeseeditem"
+	},
+	{
+		item: "harvestcraft:wintersquashseeditem"
+	},
+	{
+		item: "harvestcraft:kohlrabiseeditem"
+	},
+	{
+		item: "harvestcraft:lentilseeditem"
+	},
+	{
+		item: "harvestcraft:bellpepperseeditem"
+	},
+	{
+		item: "harvestcraft:chilipepperseeditem"
+	},
+	{
+		item: "harvestcraft:sesameseedsseeditem"
+	},
+	{
+		item: "harvestcraft:waterchestnutseeditem"
+	},
+	{
+		item: "harvestcraft:juteseeditem"
+	},
+	{
+		item: "harvestcraft:mulberryseeditem"
+	},
+	{
+		item: "harvestcraft:soursop_sapling"
+	},
+	{
+		item: "harvestcraft:butteredpotatoitem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:glazedcarrotsitem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:eggsaladitem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:caramelitem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:caramelitem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:taffyitem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:zombiejerkyitem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:fishandchipsitem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:hotchocolateitem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:southernstylebreakfastitem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:meatfeastpizzaitem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:thankfuldinneritem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:gourmetbeefburgeritem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:bentoboxitem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:gourmetvenisonburgeritem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:weekendpicnicitem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:minerstewitem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:paradiseburgeritem",
+		count: 3
+	},
+	{
+		item: "sakura:foodset 1 85"
+	},
+	{
+		item: "sakura:foodset 1 91"
+	},
+	{
+		item: "sakura:foodset 1 110"
+	},
+	{
+		item: "sakura:foodset 1 111"
+	},
+	{
+		item: "sakura:foodset 1 112"
+	},
+	{
+		item: "sakura:foodset 1 114"
+	},
+	{
+		item: "sakura:foodset 1 113"
+	},
+	{
+		item: "sakura:foodset 1 107"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:alcoholic",
+			Damage: 10s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:cocktail",
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:cocktail",
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:cocktail",
+			Damage: 3s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:cocktail",
+			Damage: 33s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:cocktail",
+			Damage: 41s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:cocktail",
+			Damage: 40s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:cocktail",
+			Damage: 39s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:cocktail",
+			Damage: 38s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:cocktail",
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:cocktail",
+			Damage: 17s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:alcoholic",
+			Damage: 11s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:alcoholic",
+			Damage: 10s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:cocktail",
+			Damage: 13s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -8906606618441326594L,
+					AS_Amulet_HolderMost: -4605424409192872578L
+				}
+			},
+			id: "sakura:cocktail",
+			Damage: 14s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:cocktail",
+			Damage: 15s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:cocktail",
+			Damage: 16s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:cocktail"
+		}
+	}],
+	loot_crate: {
+		string_id: "a_3",
+		item_name: "§d§l§ka§r §c§l食品补给箱§d§l§ka§r",
+		color: 16737095,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 1
+		}
+	}
+}

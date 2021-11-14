@@ -1,0 +1,25 @@
+{
+	title: "§c§l水泥是这样炼成的",
+	x: 7.5d,
+	y: -3.0d,
+	dependencies: [
+		"5b743468"
+	],
+	tasks: [{
+		uid: "ba973473",
+		type: "item",
+		items: [{
+			item: "tconstruct:soil"
+		}]
+	}],
+	rewards: [{
+		uid: "63bff8ee",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "d50ec7fe",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

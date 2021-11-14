@@ -1,0 +1,40 @@
+{
+	x: -28.5d,
+	y: 3.5d,
+	dependencies: [
+		"fee0d411"
+	],
+	tasks: [{
+		uid: "e58cf1c4",
+		type: "item",
+		items: [{
+			item: "sakura:maple_sapling_red"
+		}]
+	},
+	{
+		uid: "4d4aefa2",
+		type: "item",
+		items: [{
+			item: "sakura:maple_sapling_green"
+		}]
+	},
+	{
+		uid: "8eb113b9",
+		type: "item",
+		items: [{
+			item: "sakura:maple_sapling_orange"
+		}]
+	},
+	{
+		uid: "ec620cf0",
+		type: "item",
+		items: [{
+			item: "sakura:maple_sapling_yellow"
+		}]
+	}],
+	rewards: [{
+		uid: "84b296f3",
+		type: "random",
+		table: 0
+	}]
+}

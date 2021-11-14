@@ -1,0 +1,19 @@
+{
+	x: 16.5d,
+	y: -1.5d,
+	dependencies: [
+		"adc624ed"
+	],
+	tasks: [{
+		uid: "7c3bfc51",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:lever_block"
+		}]
+	}],
+	rewards: [{
+		uid: "0aa91a9f",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	x: -44.5d,
+	y: 6.5d,
+	dependencies: [
+		"355b342e"
+	],
+	tasks: [{
+		uid: "e104fcc3",
+		type: "item",
+		items: [{
+			item: "skyresources:casing 1 4"
+		}]
+	},
+	{
+		uid: "e17f433b",
+		type: "item",
+		items: [{
+			item: "skyresources:alchemy 1 4"
+		}]
+	},
+	{
+		uid: "f4a6ddb8",
+		type: "item",
+		items: [{
+			item: "skyresources:heat 1 4"
+		}]
+	},
+	{
+		uid: "e1d06e51",
+		type: "item",
+		items: [{
+			item: "skyresources:condenser 1 4"
+		}]
+	},
+	{
+		uid: "9527d481",
+		type: "item",
+		items: [{
+			item: "skyresources:combustionheater 1 4"
+		}]
+	}]
+}

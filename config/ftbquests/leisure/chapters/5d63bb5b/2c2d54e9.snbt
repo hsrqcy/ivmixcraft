@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: -9.0d,
+	dependencies: [
+		"ef076534"
+	],
+	tasks: [{
+		uid: "33879be2",
+		type: "item",
+		items: [{
+			item: "magneticraft:heavy_plates"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "495eabb0",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

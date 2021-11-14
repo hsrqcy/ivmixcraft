@@ -1,0 +1,33 @@
+{
+	x: 15.0d,
+	y: 0.5d,
+	text: [
+		"§6§l更换模式需要重新启动游戏后生效",
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "16a77a0c",
+		type: "checkmark",
+		title: "§d§l挑战模式",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:diamond_sword"
+		}
+	}],
+	rewards: [{
+		uid: "c6fc8d92",
+		type: "command",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:diamond_sword"
+		},
+		auto: "disabled",
+		command: "/packmode Challenge",
+		player_command: true
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "§8§l板材加工",
+	x: 40.0d,
+	y: -14.5d,
+	dependencies: [
+		"51eb1c0e"
+	],
+	tasks: [{
+		uid: "948bdf5a",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 320"
+		}],
+		count: 10L
+	},
+	{
+		uid: "62831c38",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 321"
+		}],
+		count: 10L
+	},
+	{
+		uid: "1b0d563e",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 32"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "c07607b6",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "434e3eda",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 2
+	}]
+}

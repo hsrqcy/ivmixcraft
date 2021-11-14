@@ -1,0 +1,19 @@
+{
+	x: 7.0d,
+	y: 10.0d,
+	dependencies: [
+		"af8c9491"
+	],
+	tasks: [{
+		uid: "56758e27",
+		type: "item",
+		items: [{
+			item: "tconevo:metal 1 30"
+		}]
+	}],
+	rewards: [{
+		uid: "db586edc",
+		type: "random",
+		table: 1
+	}]
+}

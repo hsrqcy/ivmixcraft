@@ -1,0 +1,104 @@
+{
+  "display": {
+    "icon": {
+      "item": "danknull:dank_null_6", 
+	   "data": 0
+    },
+    "title": {
+       "text": "§r§l便携设备"
+    },
+    "description": {
+      "text":"§a§l没有WIFI的日子很难过呀？§5§l抽屉、箱子和线"
+    },
+    "x": 6,
+    "y": 6
+  },
+  "parent": "IvMixCraft:origin/storage",
+  "idea": {
+    "amount": 3,
+    "ingredients": [
+	 {
+      "type": "forge:ore_dict",
+      "ore": "drawerBasic"
+    },
+	  {
+      "type": "forge:ore_dict",
+      "ore": "chest"
+    },
+	  {
+      "type": "forge:ore_dict",
+      "ore": "stringAny"
+    }
+    
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "SSS",
+      " R ",
+      "SSS"
+    ],
+    "key": {
+      
+	   "R": {
+        "item": {
+          "type": "forge:ore_dict",
+          "ore": "drawerBasic"
+        },
+        "hint": {
+          "translate": "抽屉"
+        }
+      },
+	   
+	  
+      "S": {
+        "item": {
+          "type": "forge:ore_dict",
+          "ore": "chest"
+        },
+        "hint": {
+          "translate": "箱子"
+        }
+      }
+    }
+  },
+  "unlock": [
+    {
+        "item": "simplybackpacks:commonbackpack",
+        "data": 0
+    },
+    {
+        "item": "simplybackpacks:uncommonbackpack",
+        "data": 0
+    },
+    {
+        "item": "simplybackpacks:rarebackpack",
+        "data": 0
+    },	
+	{
+        "item": "danknull:dank_null_0",
+        "data": 0
+    },
+	{
+        "item": "danknull:dank_null_1",
+        "data": 0
+    },
+	{
+        "item": "danknull:dank_null_2",
+        "data": 0
+    },
+	{
+        "item": "danknull:dank_null_3",
+        "data": 0
+    },
+	{
+        "item": "danknull:dank_null_4",
+        "data": 0
+    },
+	{
+        "item": "danknull:dank_null_5",
+        "data": 0
+    }
+  ]
+}

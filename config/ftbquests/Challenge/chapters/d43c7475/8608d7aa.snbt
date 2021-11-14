@@ -1,0 +1,33 @@
+{
+	title: "§c§l指引图纸？",
+	x: 7.5d,
+	y: -9.0d,
+	dependencies: [
+		"439af352"
+	],
+	tasks: [{
+		uid: "9b7281cd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sanguine_book",
+			tag: {
+				currentTier: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0d831de6",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "7c163c1e",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

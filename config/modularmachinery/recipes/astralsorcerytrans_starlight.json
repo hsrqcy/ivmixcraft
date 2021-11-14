@@ -1,0 +1,22 @@
+{
+    "machine": "astralsorcerytrans",
+    "registryName": "astralsorcerytrans_starlight",
+    "recipeTime": 50,
+    "requirements": [
+        {
+            "type": "starlight",
+            "io-type": "input",
+            "amount": 100
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "astralsorcery:itemcraftingcomponent"
+        },
+        {
+        	"type": "energy",
+        	"io-type": "output",
+        	"energyPerTick": 1000
+        }
+    ]
+}

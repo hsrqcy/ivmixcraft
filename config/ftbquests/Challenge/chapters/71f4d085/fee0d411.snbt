@@ -1,0 +1,41 @@
+{
+	title: "§2§l日式风格",
+	x: -28.5d,
+	y: -1.5d,
+	dependencies: [
+		"3d77fb12"
+	],
+	tasks: [{
+		uid: "2504d621",
+		type: "item",
+		items: [{
+			item: "sakura:bamboo_shoot"
+		}],
+		count: 2L
+	},
+	{
+		uid: "e6577202",
+		type: "item",
+		items: [{
+			item: "sakura:materials 1 24"
+		}],
+		count: 8L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "5e2aa434",
+		type: "item",
+		item: "harvestcraft:ploughmanslunchitem"
+	},
+	{
+		uid: "1e569381",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "6a6f8bf0",
+		type: "item",
+		item: "minecraft:paper",
+		count: 10
+	}]
+}

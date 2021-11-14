@@ -1,0 +1,25 @@
+{
+	x: -10.5d,
+	y: -12.5d,
+	dependencies: [
+		"b6876368"
+	],
+	tasks: [{
+		uid: "9dd53055",
+		type: "item",
+		items: [{
+			item: "arcanearchives:brazier_of_hoarding"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "aefd6223",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

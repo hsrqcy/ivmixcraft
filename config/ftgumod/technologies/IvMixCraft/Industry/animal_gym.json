@@ -1,0 +1,85 @@
+{
+  "display": {
+    "icon": {
+      "item": "teslathingies:animal_gym",
+	   "data": 0
+    },
+    "title": {
+       "text": "§6§ltesla动物学"
+    },
+    "description": {
+      "text":"§5§ltesla动物学，§a§l小麦、tesla种子"
+    },
+    "x": 12,
+    "y": 6
+  },
+  "parent": "IvMixCraft:Industry/tesla",
+  "idea": {
+    "amount": 2,
+    "ingredients": [
+	  {
+      "type": "forge:ore_dict",
+      "ore": "listAllgrain"
+      },
+	  {
+        "item": "teslathingies:tesla_plant_seeds",
+        "data": 0
+      }
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "SSS",
+      "RRR",
+      "SSS"
+    ],
+    "key": {
+    "R": {
+      "item": {
+          "item": "teslathingies:tesla_plant_seeds",
+          "data": 0
+        },
+        "hint": {
+          "translate": "tesla种子"
+        }
+	},
+	
+	
+      "S": {
+       "item": { 
+        "type": "forge:ore_dict",
+        "ore": "listAllgrain"
+       },
+        "hint": {
+          "translate": "小麦"
+        }
+      }
+	
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "teslathingies:animal_gym",
+        "data": 0
+    },
+    {
+        "item": "teslathingies:animal_farm",
+        "data": 0
+    },
+
+	 
+	 {
+        "item": "teslathingies:electric_butcher",
+        "data": 0
+    },
+
+
+
+	{
+        "item": "teslathingies:animal_releaser",
+        "data": 0
+    }
+  ]
+}

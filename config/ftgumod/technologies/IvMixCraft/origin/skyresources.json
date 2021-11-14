@@ -1,0 +1,103 @@
+{
+  "display": {
+    "icon": {
+      "item": "artisanworktables:artisans_hammer_wood"
+    },
+    "title": {
+       "text": "§b§l木锤才是信仰§e解锁（skyresources）"
+    },
+    "description": {
+      "text":"§e§l怎么做木锤子来着？木板、线和手柄,然后再放入研究台中按照提示摆放研究"
+    },
+    "x": 4,
+    "y": -2
+  },
+  "parent": "IvMixCraft:origin/tconstruct",
+  "idea": {
+    "amount": 3,
+    "ingredients": [
+        {
+        "type": "forge:ore_dict",
+        "ore": "plankWood"
+        },
+        {
+          "type": "forge:ore_dict",
+          "ore": "stickWood"
+        },
+		[
+        "minecraft:string",
+        "mysticalworld:silk_thread"
+       ]
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      " RG",
+      " SR",
+      "S  "
+    ],
+    "key": {
+      "R": {
+        "item": {
+          "type": "forge:ore_dict",
+          "ore": "plankWood"
+        },
+        "hint": {
+          "translate": "木板"
+        }
+      },
+	   "G": {
+        "item": [
+          "minecraft:string",
+          "mysticalworld:silk_thread"
+        ],
+        "hint": {
+          "translate": "线"
+        }
+      },
+	  
+      "S": {
+        "item": {
+          "type": "forge:ore_dict",
+          "ore": "stickWood"
+        },
+        "hint": {
+          "translate": "technology.hint.handle"
+        }
+      }
+    }
+  },
+  "unlock": [
+    {
+        "item": "skyresources:casing",
+        "data": 32767
+    },
+	
+	
+	{
+        "item": "skyresources:heat", 
+        "data": 32767
+    },
+	{
+        "item": "skyresources:condenser",
+        "data": 32767
+    },
+	{
+        "item": "skyresources:combustionheater",
+        "data": 32767
+    },
+
+	{
+        "item": "skyresources:baseitemcomponent",
+        "data": 4
+    },
+    "skyresources:waterextractor",
+	"skyresources:sandstoneinfusionstone",
+    "skyresources:survivalistfishingrod",
+	{
+	"type": "gamestages:stage",
+    "stage": "skyresources"	
+	}
+  ]
+}

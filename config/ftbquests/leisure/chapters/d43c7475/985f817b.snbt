@@ -1,0 +1,23 @@
+{
+	title: "星光指引",
+	x: -7.0d,
+	y: 7.5d,
+	dependencies: [
+		"dbce68b0"
+	],
+	tasks: [{
+		uid: "85653393",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:transformlp"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d4aa6556",
+		type: "random",
+		table: 1
+	}]
+}

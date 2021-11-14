@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "item": "magneticraft:brick_furnace", 
+	   "data": 0
+    },
+    "title": {
+       "text": "§7§l锅炉工"
+    },
+    "description": {
+      "text":"§e§l重工业时代从烧锅炉开始，§a§l砖块？钢板？"
+    },
+    "x": 2,
+    "y": -2
+  },
+  "parent": "IvMixCraft:Industry/pipe",
+  "idea": {
+    "amount": 2,
+    "ingredients": [
+	  {
+      "type": "forge:ore_dict",
+      "ore": "plateSteel"
+      },
+	  "minecraft:brick_block"
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "RRR",
+      "S S",
+      "SSS"
+    ],
+    "key": {
+    "S": {
+      "item": [ 
+        "minecraft:brick_block"
+       ],
+        "hint": {
+          "translate": "砖块"
+        }
+	},
+      "R": {
+      "item": { 
+        "type": "forge:ore_dict",
+        "ore": "plateSteel"
+       },
+        "hint": {
+          "translate": "钢板"
+        }
+      }
+	
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "magneticraft:brick_furnace",
+        "data": 0
+    },
+	{
+        "item": "magneticraft:combustion_chamber",
+        "data": 0
+    },
+	
+	{
+        "item": "magneticraft:steam_boiler",
+        "data": 0
+    }
+  ]
+}

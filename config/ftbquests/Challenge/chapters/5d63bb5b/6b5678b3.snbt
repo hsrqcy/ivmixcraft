@@ -1,0 +1,24 @@
+{
+	title: "§6§l暖暖",
+	x: 24.5d,
+	y: -11.5d,
+	dependencies: [
+		"cfec50c2"
+	],
+	tasks: [{
+		uid: "2de5cd6f",
+		type: "fluid",
+		fluid: "hot_crude",
+		amount: 100000
+	}],
+	rewards: [{
+		uid: "6a305f7a",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "ab8a1069",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

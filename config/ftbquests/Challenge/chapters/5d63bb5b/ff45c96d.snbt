@@ -1,0 +1,26 @@
+{
+	x: -16.5d,
+	y: 11.0d,
+	dependencies: [
+		"24342e2b"
+	],
+	tasks: [{
+		uid: "4c8f6e2a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}]
+	},
+	{
+		uid: "9880ce25",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "6c5b217e",
+		type: "random",
+		table: 1
+	}]
+}

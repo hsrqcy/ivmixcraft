@@ -1,0 +1,53 @@
+{
+    "sortnum": 2,
+	"name": "§8§l管道自动化",
+    "icon": "embers:pipe",
+    "category": "patchouli:Embers_category",
+	"read_by_default": false,
+    "pages": [
+        {
+            "type": "crafting",
+            "text": "$(br2)$(3)$(l)拉杆--一切都需要红石信号",
+            "recipe": "embers:caminite_lever"
+        },
+		{
+            "type": "fey_crafting_template",
+			"recipe": "embersitem_pipe" 
+        },
+		{
+            "type": "fey_crafting_template",
+			"recipe": "embersfluid_pipe" 
+        },
+		{
+            "type": "fey_crafting_template",
+			"recipe": "embersfluid_pipe" 
+        },
+		{
+            "type": "fey_crafting_template",
+			"recipe": "embersfluid_pump" 
+        },
+		{
+            "type": "crafting",
+            "text": "$(br2)$(2)$(l)计量表--贴到流体罐上",
+            "recipe": "embers:fluid_gauge"
+        },
+		{
+            "type": "crafting",
+            "text": "$(br2)$(2)$(l)物品过滤器--物品标记--如堵塞拿木棍敲一下",
+            "recipe": "embers:item_transfer"
+        },
+		{
+            "type": "crafting",
+            "text": "$(br2)$(6)$(l)流体过滤器--铁桶装流体标记--$(3)$(l)如堵塞拿木棍敲一下--$(4)$(l)堵塞流体会消失",
+            "recipe": "embers:fluid_transfer"
+        },
+		
+		{
+            "type": "crafting",
+            "text": "$(br2)$(8)$(l)虚空物品吸收器",
+            "recipe": "embers:vacuum"
+        }
+		
+		
+    ]
+}

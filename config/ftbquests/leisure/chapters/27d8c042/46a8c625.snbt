@@ -1,0 +1,42 @@
+{
+	title: "§e§l电网",
+	x: -5.0d,
+	y: 3.5d,
+	can_repeat: true,
+	dependencies: [
+		"708147b5"
+	],
+	tasks: [{
+		uid: "28d84ced",
+		type: "forge_energy",
+		value: 500000000L
+	}],
+	rewards: [{
+		uid: "4ab6782c",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "404eb71b",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	},
+	{
+		uid: "3d0ddf3f",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	},
+	{
+		uid: "5f8a9358",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 2
+	}]
+}

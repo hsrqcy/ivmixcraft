@@ -1,0 +1,84 @@
+{
+  "display": {
+    "icon": {
+      "item": "teslathingies:tesla_plant_seeds",
+	   "data": 0
+    },
+    "title": {
+       "text": "§e§ltesla"
+    },
+    "description": {
+      "text":"§5§ltesla，§a§l机械外壳、tesla种子、钢板"
+    },
+    "x": 10,
+    "y": 5
+  },
+  "parent": "IvMixCraft:Industry/hot",
+  "idea": {
+    "amount": 3,
+    "ingredients": [
+	  {
+        "item": "teslacorelib:machine_case",
+        "data": 0
+      },
+	  {
+        "item": "teslathingies:tesla_plant_seeds",
+        "data": 0
+      },
+	  {
+      "type": "forge:ore_dict",
+      "ore": "plateSteel"
+      }
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "SBS",
+      "SRS",
+      "SSS"
+    ],
+    "key": {
+    "B": {
+      "item": {
+          "item": "teslathingies:tesla_plant_seeds",
+          "data": 0
+        },
+        "hint": {
+          "translate": "tesla种子"
+        }
+	},
+	"R": {
+      "item": [ 
+        "teslacorelib:machine_case"
+       ],
+        "hint": {
+          "translate": "机械外壳"
+        }
+	},
+	
+      "S": {
+       "item": { 
+        "type": "forge:ore_dict",
+        "ore": "plateSteel"
+       },
+        "hint": {
+          "translate": "钢板"
+        }
+      }
+	
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "teslathingies:incinerator",
+        "data": 0
+    },
+
+	{
+        "item": "teslathingies:fluid_burner",
+        "data": 0
+    }
+  ]
+}

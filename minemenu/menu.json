@@ -1,0 +1,134 @@
+{
+  "main": {
+    "0": {
+      "title": "§e§l回到岛屿",
+      "icon": {
+        "name": "prefab:item_start_house",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/is home",
+          "clipboard": false
+        }
+      }
+    },
+    "1": {
+      "title": "§c§l扫地大妈",
+      "icon": {
+        "name": "sakura:broom",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/clearlag",
+          "clipboard": false
+        }
+      }
+    },
+    "2": {
+      "title": "§2§l打开任务",
+      "icon": {
+        "name": "patchouli:guide_book",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.ftbquests.quests",
+          "toggle": false
+        }
+      }
+    },
+    "3": {
+      "title": "§8§l打开指南",
+      "icon": {
+        "name": "contenttweaker:sky_block",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.skyresources.guide",
+          "toggle": false
+        }
+      }
+    },
+    "4": {
+      "title": "§3§l打开存储箱子",
+      "icon": {
+        "name": "danknull:dank_null_6",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.open_danknull.desc",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "§6§l打开随身简易背包",
+      "icon": {
+        "name": "simplybackpacks:commonbackpack",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.simplybackpacks.backpackopen.desc",
+          "toggle": false
+        }
+      }
+    },
+    "6": {
+      "title": "§a§l切换视角",
+      "icon": {
+        "name": "minecraft:skull",
+        "damage": 3
+      },
+      "action": {
+        "key": {
+          "key": "key.mod.desc",
+          "toggle": false
+        }
+      }
+    },
+    "7": {
+      "title": "§a§l清除所有怪物",
+      "icon": {
+        "name": "cyclicmagic:ender_snow",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/killall",
+          "clipboard": false
+        }
+      }
+    },
+    "8": {
+      "title": "§6§l查看难度",
+      "icon": {
+        "name": "arcanearchives:shaped_quartz",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "Difficulty Meter - Show",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "§6§l清理内存",
+      "icon": {
+        "name": "touhou_little_maid:marisa_broom",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/cleanmemory",
+          "clipboard": false
+        }
+      }
+    }
+  }
+}

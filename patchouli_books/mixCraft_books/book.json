@@ -1,0 +1,10 @@
+{
+	"name": "§b§l艾维迷之Craft指导手册™ §e§lEnjoy it",
+	"subtitle": "$c§l艾维科学研究院",
+	"advancement_namespaces": [ "MixCraft" ],
+	"landing_text": "$(5)$(l)$(playername)§c§l欢迎你的到来$()$(br2)§6§l畅玩本整合包§1§l配合§5§l此Craft指导$()$(br2)§5§l手册§c§l食用风味更佳。$()$(br2)\n§3§l点击目录以查看攻略流程哟",
+	"version": 2333,
+	"pause_game": true,
+	"book_texture": "patchouli:textures/gui/book_purple.png",
+	"model": "patchouli:book_purple"
+}

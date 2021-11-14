@@ -1,0 +1,25 @@
+{
+	x: 13.5d,
+	y: 13.5d,
+	dependencies: [
+		"3f0a2afb"
+	],
+	tasks: [{
+		uid: "b2a02a38",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "3a0dd6cb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		}
+	}]
+}

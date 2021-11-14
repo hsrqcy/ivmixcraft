@@ -1,0 +1,24 @@
+{
+	x: -7.0d,
+	y: -16.5d,
+	dependencies: [
+		"c20cfbf6"
+	],
+	tasks: [{
+		uid: "42573771",
+		type: "item",
+		items: [{
+			item: "arcanearchives:shaped_quartz"
+		}]
+	}],
+	rewards: [{
+		uid: "1207f02d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_1"
+			}
+		}
+	}]
+}

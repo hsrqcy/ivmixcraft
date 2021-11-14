@@ -1,0 +1,23 @@
+{
+	title: "异形粉碎者",
+	x: -11.0d,
+	y: 11.0d,
+	dependencies: [
+		"ff45c96d"
+	],
+	tasks: [{
+		uid: "01580355",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:extrastonetrans"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "71207ade",
+		type: "random",
+		table: 1
+	}]
+}

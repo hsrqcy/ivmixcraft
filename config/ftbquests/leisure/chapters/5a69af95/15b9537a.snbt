@@ -1,0 +1,39 @@
+{
+	x: 21.0d,
+	y: -6.5d,
+	dependencies: [
+		"c5976c78"
+	],
+	tasks: [{
+		uid: "d2476848",
+		type: "item",
+		items: [{
+			item: "skyresources:dirtygem 1 1"
+		}],
+		count: 16L
+	},
+	{
+		uid: "4361c05f",
+		type: "item",
+		items: [{
+			item: "skyresources:dirtygem"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "e4bfc2a6",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "3c22bf73",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "c67ca837",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 2
+	}]
+}

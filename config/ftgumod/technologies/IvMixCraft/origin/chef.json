@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "item": "artisanworktables:worktable", 
+	   "data": 11
+    },
+    "title": {
+       "text": "§e§l新东方"
+    },
+    "description": {
+      "text":"§a§l做菜什么的最喜欢了？§a§l没有炊具就烧烤先，放两个烤土豆试试"
+    },
+    "x": 4,
+    "y": 4
+  },
+  "parent": "IvMixCraft:origin/farm",
+  "idea": {
+    "amount": 2,
+    "ingredients": [
+	  "minecraft:baked_potato",
+	  "minecraft:baked_potato"
+    
+    ]
+  },
+  
+  "unlock": [
+     
+	{
+        "item": "artisanworktables:worktable",
+        "data": 11
+    },
+	{
+        "item": "cookingforblockheads:recipe_book",
+        "data": 32767
+    },
+	{
+        "item": "cookingforblockheads:tool_rack",
+        "data": 0
+    },
+	{
+        "item": "cookingforblockheads:spice_rack",
+        "data": 0
+    },
+	{
+        "item": "cookingforblockheads:cooking_table",
+        "data": 0
+    },
+	{
+        "item": "cookingforblockheads:oven",
+        "data": 0
+    },
+	
+	{
+        "item": "cookingforblockheads:fridge", 
+        "data": 0
+    }
+  ]
+}

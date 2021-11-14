@@ -1,0 +1,34 @@
+{
+	x: 40.0d,
+	y: 5.5d,
+	dependencies: [
+		"8082cf64"
+	],
+	tasks: [{
+		uid: "2ce1aec3",
+		type: "item",
+		items: [{
+			item: "techreborn:iron_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "0a2e8940",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_1"
+			}
+		}
+	},
+	{
+		uid: "c35b5e79",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "5390a4aa",
+		type: "item",
+		item: "scalinghealth:difficultychanger"
+	}]
+}

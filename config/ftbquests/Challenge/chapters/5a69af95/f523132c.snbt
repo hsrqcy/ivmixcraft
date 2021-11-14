@@ -1,0 +1,30 @@
+{
+	title: "§e§l加热核心",
+	x: 4.0d,
+	y: 1.5d,
+	dependencies: [
+		"61d557fc"
+	],
+	tasks: [{
+		uid: "57260b55",
+		type: "item",
+		items: [{
+			item: "skyresources:heat"
+		}]
+	}],
+	rewards: [{
+		uid: "557d335e",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "7244cdf2",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "9ff1f7a1",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

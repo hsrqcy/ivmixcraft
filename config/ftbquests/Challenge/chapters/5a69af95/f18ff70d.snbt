@@ -1,0 +1,25 @@
+{
+	x: 44.0d,
+	y: 2.0d,
+	dependencies: [
+		"8082cf64"
+	],
+	tasks: [{
+		uid: "7adb617e",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1024"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "e970d6ed",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "902c4174",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

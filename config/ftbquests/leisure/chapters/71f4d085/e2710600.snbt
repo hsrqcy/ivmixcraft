@@ -1,0 +1,44 @@
+{
+	x: -33.0d,
+	y: -1.5d,
+	dependencies: [
+		"fee0d411"
+	],
+	tasks: [{
+		uid: "f2777a31",
+		type: "item",
+		items: [{
+			item: "sakura:kawara"
+		}],
+		count: 4L
+	},
+	{
+		uid: "71e02afa",
+		type: "item",
+		items: [{
+			item: "sakura:kawara_block"
+		}],
+		count: 4L
+	},
+	{
+		uid: "1d27fba2",
+		type: "item",
+		items: [{
+			item: "sakura:bamboo_block"
+		}],
+		count: 10L
+	},
+	{
+		uid: "82ca0ce5",
+		type: "item",
+		items: [{
+			item: "sakura:plank_bamboo"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "41e858b6",
+		type: "random",
+		table: 0
+	}]
+}

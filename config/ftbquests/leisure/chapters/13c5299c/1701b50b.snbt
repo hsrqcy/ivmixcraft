@@ -1,0 +1,24 @@
+{
+	title: "§a§l看JEI扔水里",
+	x: -5.5d,
+	y: -4.5d,
+	text: [
+		"§a野根是可以种植的哦"
+	],
+	dependencies: [
+		"fb7e3872"
+	],
+	tasks: [{
+		uid: "c54d9325",
+		type: "item",
+		items: [{
+			item: "roots:wildroot"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "4371bbb5",
+		type: "random",
+		table: 0
+	}]
+}

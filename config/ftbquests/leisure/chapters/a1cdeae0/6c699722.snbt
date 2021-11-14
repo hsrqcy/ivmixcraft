@@ -1,0 +1,19 @@
+{
+	x: 9.0d,
+	y: 2.0d,
+	dependencies: [
+		"3d45efe0"
+	],
+	tasks: [{
+		uid: "769d8336",
+		type: "item",
+		items: [{
+			item: "yabba:upgrade_blank"
+		}]
+	}],
+	rewards: [{
+		uid: "adabc04e",
+		type: "random",
+		table: 1
+	}]
+}

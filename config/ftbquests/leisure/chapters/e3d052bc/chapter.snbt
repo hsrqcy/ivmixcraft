@@ -1,0 +1,18 @@
+{
+	title: "§9§l古老的科技",
+	icon: "embers:winding_gears",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 9.5d,
+		y: 5.0d,
+		width: 15.0d,
+		height: 8.0d,
+		rotation: 0.0d,
+		image: "image:embers.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

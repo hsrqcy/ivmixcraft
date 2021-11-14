@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crafting_table"
+    },
+	"title": {
+      "text": "起源",
+      "color": "gold",
+      "bold": true
+	},
+    "description": {
+      "translate": "开始进入这个世界，使用提示研究一下这个世界",
+	  "color": "white",
+      "bold": true
+    },
+    "background": "contenttweaker:textures/blocks/parchment.png",
+    "x": 0,
+    "y": 0
+  },
+  "start": true,
+  "unlock": [
+	"ftgumod:parchment_empty",
+    "ftgumod:idea_table",
+	"minecraft:feather"
+  ]
+}

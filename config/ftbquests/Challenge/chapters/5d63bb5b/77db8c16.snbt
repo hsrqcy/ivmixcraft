@@ -1,0 +1,200 @@
+{
+	x: 24.0d,
+	y: -4.5d,
+	dependencies: [
+		"89431cf2"
+	],
+	tasks: [{
+		uid: "51f2dc79",
+		type: "item",
+		items: [{
+			item: "skyresources:beeattractor"
+		}]
+	}],
+	rewards: [{
+		uid: "41f83fea",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:bee_queen_ge",
+			tag: {
+				MaxH: 20,
+				Mate: {
+					Chromosomes: [{
+						UID1: "magicbees.speciesBOTFloral",
+						UID0: "magicbees.speciesBOTFloral",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlower",
+						UID0: "forestry.speedSlower",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanShorter",
+						UID0: "forestry.lifespanShorter",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityHigh",
+						UID0: "forestry.fertilityHigh",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceBoth1",
+						UID0: "forestry.toleranceBoth1",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceBoth1",
+						UID0: "forestry.toleranceBoth1",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "magicbees:flowersbotania",
+						UID0: "magicbees:flowersbotania",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringMaximum",
+						UID0: "forestry.floweringMaximum",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "forestry.effectNone",
+						UID0: "forestry.effectNone",
+						Slot: 12b
+					}]
+				},
+				Health: 20,
+				IsAnalyzed: 0b,
+				Genome: {
+					Chromosomes: [{
+						UID1: "magicbees.speciesBOTFloral",
+						UID0: "magicbees.speciesBOTFloral",
+						Slot: 0b
+					},
+					{
+						UID1: "forestry.speedSlower",
+						UID0: "forestry.speedSlower",
+						Slot: 1b
+					},
+					{
+						UID1: "forestry.lifespanShorter",
+						UID0: "forestry.lifespanShorter",
+						Slot: 2b
+					},
+					{
+						UID1: "forestry.fertilityHigh",
+						UID0: "forestry.fertilityHigh",
+						Slot: 3b
+					},
+					{
+						UID1: "forestry.toleranceBoth1",
+						UID0: "forestry.toleranceBoth1",
+						Slot: 4b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 5b
+					},
+					{
+						UID1: "forestry.toleranceBoth1",
+						UID0: "forestry.toleranceBoth1",
+						Slot: 6b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 7b
+					},
+					{
+						UID1: "forestry.boolFalse",
+						UID0: "forestry.boolFalse",
+						Slot: 8b
+					},
+					{
+						UID1: "magicbees:flowersbotania",
+						UID0: "magicbees:flowersbotania",
+						Slot: 9b
+					},
+					{
+						UID1: "forestry.floweringMaximum",
+						UID0: "forestry.floweringMaximum",
+						Slot: 10b
+					},
+					{
+						UID1: "forestry.territoryAverage",
+						UID0: "forestry.territoryAverage",
+						Slot: 11b
+					},
+					{
+						UID1: "forestry.effectNone",
+						UID0: "forestry.effectNone",
+						Slot: 12b
+					}]
+				}
+			}
+		}
+	},
+	{
+		uid: "29b20576",
+		type: "item",
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "beegonia"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "9de27702",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:portable_alyzer"
+		}
+	},
+	{
+		uid: "b631b0e2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:frame_proven"
+		},
+		count: 10
+	},
+	{
+		uid: "7a7244de",
+		type: "item",
+		item: "randomthings:rainshield"
+	}]
+}

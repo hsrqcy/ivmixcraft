@@ -1,0 +1,107 @@
+{
+  "display": {
+    "icon": {
+      "item": "yabba:item_barrel", 
+	   "data": 0
+    },
+    "title": {
+       "text": "§d§l桶桶"
+    },
+    "description": {
+      "text":"§a§l另一种存放工具？§a§l好像木板和盖子组成的"
+    },
+    "x": 8,
+    "y": 4
+  },
+  "parent": "IvMixCraft:origin/storage",
+  "idea": {
+    "amount": 2,
+    "ingredients": [
+	 
+	  {
+      "type": "forge:ore_dict",
+      "ore": "slabWood"
+    },
+	  {
+      "type": "forge:ore_dict",
+      "ore": "plankWood"
+    }
+    
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "SSS",
+      "R R",
+      "RRR"
+    ],
+    "key": {
+      
+	   "S": {
+        "item": {
+          "type": "forge:ore_dict",
+          "ore": "slabWood"
+        },
+        "hint": {
+          "translate": "盖子"
+        }
+      },
+	   
+	  
+      "R": {
+        "item": {
+          "type": "forge:ore_dict",
+          "ore": "plankWood"
+        },
+        "hint": {
+          "translate": "木板"
+        }
+      }
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "yabba:item_barrel",
+        "data": 0
+    },
+	{
+        "item": "yabba:upgrade_blank",
+        "data": 0
+    },
+	{
+        "item": "yabba:upgrade_iron_tier",
+        "data": 0
+    },
+	{
+        "item": "yabba:upgrade_gold_tier",
+        "data": 0
+    },
+	{
+        "item": "yabba:upgrade_diamond_tier",
+        "data": 0
+    },
+	{
+        "item": "yabba:upgrade_star_tier",
+        "data": 0
+    },
+	{
+        "item": "yabba:antibarrel",
+        "data": 0
+    },
+	
+	{
+        "item": "yabba:painter",
+        "data": 0
+    },
+	{
+        "item": "yabba:hammer",
+        "data": 0
+    },
+	{
+        "item": "yabba:wrench",
+        "data": 0
+    }
+  ]
+}

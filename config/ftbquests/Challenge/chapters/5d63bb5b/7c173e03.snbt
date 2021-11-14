@@ -1,0 +1,25 @@
+{
+	title: "§e§l恩机捏儿",
+	x: -24.5d,
+	y: -0.5d,
+	dependencies: [
+		"c0f7a35e"
+	],
+	tasks: [{
+		uid: "70721cc6",
+		type: "item",
+		items: [{
+			item: "artisanworktables:worktable 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "d86836ab",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "7d1487e3",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	x: 20.0d,
+	y: -10.5d,
+	dependencies: [
+		"b860287f"
+	],
+	tasks: [{
+		uid: "d01380e7",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_iron"
+		}]
+	},
+	{
+		uid: "ec4b504e",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_copper"
+		}]
+	},
+	{
+		uid: "157b5895",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_lead"
+		}]
+	},
+	{
+		uid: "59d2125c",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_silver"
+		}]
+	},
+	{
+		uid: "2f244fff",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_dawnstone"
+		}]
+	}],
+	rewards: [{
+		uid: "bb7e63b7",
+		type: "random",
+		table: 1
+	}]
+}

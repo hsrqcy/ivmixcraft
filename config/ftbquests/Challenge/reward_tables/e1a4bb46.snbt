@@ -1,0 +1,345 @@
+{
+	title: "§6§l§ka§r初级奖励箱§6§l§ka§r",
+	loot_size: 3,
+	use_title: true,
+	rewards: [{
+		item: "minecraft:log 1 1",
+		count: 16
+	},
+	{
+		item: "minecraft:wool",
+		count: 16
+	},
+	{
+		item: "minecraft:paper",
+		count: 3
+	},
+	{
+		item: "minecraft:iron_ingot",
+		count: 2
+	},
+	{
+		item: "darkutils:trap_move"
+	},
+	{
+		item: "minecraft:log 1 2",
+		count: 16
+	},
+	{
+		item: "minecraft:paper",
+		count: 3
+	},
+	{
+		item: "minecraft:bone",
+		count: 2
+	},
+	{
+		item: "minecraft:stone"
+	},
+	{
+		item: "roots:wildewheet_seed",
+		count: 3
+	},
+	{
+		item: "roots:terra_spores"
+	},
+	{
+		item: "roots:wildroot"
+	},
+	{
+		item: "mysticalworld:iron_dust_tiny",
+		count: 3
+	},
+	{
+		item: "mysticalworld:cooked_carrot",
+		count: 5
+	},
+	{
+		item: "mysticalworld:aubergine_salad",
+		count: 3
+	},
+	{
+		item: "mysticalworld:stewed_eggplant",
+		count: 3
+	},
+	{
+		item: "cyclicmagic:plate_push_slow",
+		count: 3
+	},
+	{
+		item: "cyclicmagic:food_step"
+	},
+	{
+		item: "cyclicmagic:dynamite_safe"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:tool_rotate"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:tool_warp_spawn"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:crystal_sword"
+		}
+	},
+	{
+		item: "cyclicmagic:end_coal_ore"
+	},
+	{
+		item: "cyclicmagic:plate_launch_large"
+	},
+	{
+		item: "cookingforblockheads:tool_rack"
+	},
+	{
+		item: "minecraft:cooked_mutton",
+		count: 16
+	},
+	{
+		item: "minecraft:beetroot",
+		count: 3
+	},
+	{
+		item: "harvestcraft:raspberryitem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:raspberryitem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:raspberryseeditem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:strawberryseeditem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:cactusfruititem",
+		count: 3
+	},
+	{
+		item: "harvestcraft:cactusfruitseeditem",
+		count: 3
+	},
+	{
+		item: "sakura:foodset 1 29",
+		count: 16
+	},
+	{
+		item: "sakura:maple_sapling_red"
+	},
+	{
+		item: "sakura:maple_sapling_yellow"
+	},
+	{
+		item: "sakura:maple_sapling_orange"
+	},
+	{
+		item: "sakura:radish",
+		count: 5
+	},
+	{
+		item: "sakura:radish",
+		count: 5
+	},
+	{
+		item: "sakura:rice_seeds",
+		count: 3
+	},
+	{
+		item: "sakura:foodset 1 16",
+		count: 16
+	},
+	{
+		item: "sakura:foodset 1 26",
+		count: 16
+	},
+	{
+		item: "minecraft:beetroot_seeds"
+	},
+	{
+		item: "minecraft:melon_seeds"
+	},
+	{
+		item: "minecraft:pumpkin_seeds"
+	},
+	{
+		item: "harvestcraft:blackberryseeditem"
+	},
+	{
+		item: "mysticalworld:aubergine_seed"
+	},
+	{
+		item: "brewcraft:hopsseeditem"
+	},
+	{
+		item: "harvestcraft:blueberryseeditem"
+	},
+	{
+		item: "harvestcraft:candleberryseeditem"
+	},
+	{
+		item: "harvestcraft:raspberryseeditem"
+	},
+	{
+		ftb_money: 1L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 2L,
+		type: "ftbmoney:money"
+	},
+	{
+		item: "harvestcraft:spinachseeditem"
+	},
+	{
+		item: "harvestcraft:gingerseeditem"
+	},
+	{
+		item: "harvestcraft:teaseeditem"
+	},
+	{
+		item: "harvestcraft:coffeeseeditem"
+	},
+	{
+		item: "harvestcraft:mustardseeditem"
+	},
+	{
+		item: "harvestcraft:broccoliseeditem"
+	},
+	{
+		item: "harvestcraft:cauliflowerseeditem"
+	},
+	{
+		item: "harvestcraft:leekseeditem"
+	},
+	{
+		item: "harvestcraft:artichokeseeditem"
+	},
+	{
+		item: "xlfoodmod:strawberry_seeds"
+	},
+	{
+		item: "xlfoodmod:rice_seeds"
+	},
+	{
+		item: "xlfoodmod:corn_seeds"
+	},
+	{
+		item: "xlfoodmod:cucumber_seeds"
+	},
+	{
+		item: "xlfoodmod:lettuce_seeds"
+	},
+	{
+		item: "sakura:tomato_seeds"
+	},
+	{
+		item: "sakura:eggplant_seeds"
+	},
+	{
+		item: "sakura:cabbage_seeds"
+	},
+	{
+		item: "sakura:onion_seeds"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:water_spreader"
+		}
+	},
+	{
+		item: "cyclicmagic:plate_push_slow"
+	},
+	{
+		item: "minecraft:reeds"
+	},
+	{
+		item: "minecraft:melon_seeds"
+	},
+	{
+		item: "minecraft:pumpkin_seeds"
+	},
+	{
+		item: "minecraft:pumpkin_seeds"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:netherbrick_hoe"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -8906606618441326594L,
+					AS_Amulet_HolderMost: -4605424409192872578L
+				}
+			},
+			id: "cyclicmagic:netherbrick_pickaxe"
+		}
+	},
+	{
+		item: "cyclicmagic:plate_push_slowest_corner"
+	},
+	{
+		item: "cyclicmagic:dynamite_safe"
+	},
+	{
+		item: "cyclicmagic:block_workbench"
+	},
+	{
+		item: "ceramics:unfired_clay"
+	},
+	{
+		item: "sakura:windbell"
+	},
+	{
+		item: "darkutils:trap_move"
+	},
+	{
+		item: "sakura:white_lantern"
+	},
+	{
+		item: "sakura:red_lantern"
+	},
+	{
+		item: "sakura:bamboo_lantern"
+	},
+	{
+		item: "sakura:andon"
+	}],
+	loot_crate: {
+		string_id: "a_1",
+		item_name: "§6§l§ka§r初级奖励箱§6§l§ka§r",
+		color: 65407,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

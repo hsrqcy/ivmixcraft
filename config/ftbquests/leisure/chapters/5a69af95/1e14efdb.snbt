@@ -1,0 +1,46 @@
+{
+	title: "§6§l更高级的桌子",
+	x: 21.5d,
+	y: -1.5d,
+	dependencies: [
+		"a5d0c38f"
+	],
+	tasks: [{
+		uid: "52978520",
+		type: "item",
+		items: [{
+			item: "artisanworktables:worktable 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "81a824cf",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "b380ad34",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:tool_warp_spawn"
+		}
+	},
+	{
+		uid: "ab738c92",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "5f06e22f",
+		type: "item",
+		item: "waystones:waystone",
+		count: 2
+	},
+	{
+		uid: "fc5ec900",
+		type: "item",
+		item: "scalinghealth:difficultychanger"
+	}]
+}

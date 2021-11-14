@@ -1,0 +1,24 @@
+{
+	x: 2.5d,
+	y: -7.0d,
+	dependencies: [
+		"25e9a9c5"
+	],
+	tasks: [{
+		uid: "81ce2653",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "naturesaura:eye"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b248fcf6",
+		type: "random",
+		table: 1
+	}]
+}

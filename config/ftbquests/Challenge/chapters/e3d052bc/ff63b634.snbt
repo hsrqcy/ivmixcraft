@@ -1,0 +1,28 @@
+{
+	x: -29.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "240b0f14",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "embers:tinker_hammer",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1fa376e8",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "0fa00d02",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 2
+	}]
+}

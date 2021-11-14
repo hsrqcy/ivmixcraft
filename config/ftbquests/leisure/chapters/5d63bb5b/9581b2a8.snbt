@@ -1,0 +1,23 @@
+{
+	x: 29.0d,
+	y: -11.5d,
+	dependencies: [
+		"6b5678b3"
+	],
+	tasks: [{
+		uid: "a62223e5",
+		type: "fluid",
+		fluid: "heavy_oil",
+		amount: 100000
+	}],
+	rewards: [{
+		uid: "7ecfc892",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "f8aad753",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

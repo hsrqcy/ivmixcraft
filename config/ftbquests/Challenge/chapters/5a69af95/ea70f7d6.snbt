@@ -1,0 +1,25 @@
+{
+	x: 21.5d,
+	y: 7.5d,
+	dependencies: [
+		"a7d644e3"
+	],
+	tasks: [{
+		uid: "a87b7a7f",
+		type: "item",
+		items: [{
+			item: "foundry:machine 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "df99104f",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "2a4a8c8f",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 2
+	}]
+}

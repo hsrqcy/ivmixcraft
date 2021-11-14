@@ -1,0 +1,92 @@
+{
+  "display": {
+    "icon": {
+      "item": "magneticraft:electric_pole", 
+	   "data": 0
+    },
+    "title": {
+       "text": "§6§l建网配电"
+    },
+    "description": {
+      "text":"§e§l电网传输，§a§l轻薄铜板、小型铜线圈、红石"
+    },
+    "x": 6,
+    "y": -2
+  },
+  "parent": "IvMixCraft:Industry/eletric",
+  "idea": {
+    "amount": 3,
+    "ingredients": [
+	  {
+        "item": "magneticraft:crafting", 
+        "data": 3
+      },
+	  {
+      "type": "forge:ore_dict",
+      "ore": "lightPlateCopper"
+      },
+	  "minecraft:redstone"
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "RRR",
+      "SBS",
+      "BBB"
+    ],
+    "key": {
+    "S": {
+      "item": {
+          "item": "magneticraft:crafting",
+          "data": 3
+        },
+        "hint": {
+          "translate": "小型铜线圈"
+        }
+	},
+	"B": {
+      "item": [ 
+        "minecraft:redstone"
+       ],
+        "hint": {
+          "translate": "红石"
+        }
+	},
+	
+      "R": {
+      "item": { 
+        "type": "forge:ore_dict",
+        "ore": "lightPlateCopper"
+       },
+        "hint": {
+          "translate": "轻薄铜板"
+        }
+      }
+	
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "magneticraft:electric_pole_transformer",
+        "data": 0
+    },
+	{
+        "item": "magneticraft:electric_pole",
+        "data": 0
+    },
+	{
+        "item": "magneticraft:electric_cable",
+        "data": 0
+    },
+	{
+        "item": "magneticraft:energy_receiver",
+        "data": 0
+    },
+	{
+        "item": "magneticraft:connector",
+        "data": 0
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+	x: -23.5d,
+	y: 12.5d,
+	dependencies: [
+		"488ecc35"
+	],
+	tasks: [{
+		uid: "8b0c91e7",
+		type: "item",
+		items: [{
+			item: "sakura:stone_mortar"
+		}]
+	}],
+	rewards: [{
+		uid: "de0b4b3c",
+		type: "random",
+		table: 1
+	}]
+}

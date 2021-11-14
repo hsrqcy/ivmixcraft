@@ -1,0 +1,28 @@
+{
+	title: "§c§l虚空也是有原油的",
+	x: 13.5d,
+	y: -11.5d,
+	dependencies: [
+		"e627f286"
+	],
+	tasks: [{
+		uid: "4dfe799f",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:oilcraft"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "710efbba",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "88723cfc",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

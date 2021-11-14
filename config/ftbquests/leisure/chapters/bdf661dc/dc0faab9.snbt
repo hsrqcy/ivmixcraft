@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: -2.0d,
+	dependencies: [
+		"25e9a9c5"
+	],
+	tasks: [{
+		uid: "a801d724",
+		type: "item",
+		items: [{
+			item: "naturesaura:token_euphoria"
+		}]
+	}],
+	rewards: [{
+		uid: "c4c2dcbc",
+		type: "random",
+		table: 1
+	}]
+}

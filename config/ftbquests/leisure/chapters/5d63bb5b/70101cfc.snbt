@@ -1,0 +1,24 @@
+{
+	x: -1.5d,
+	y: -11.5d,
+	dependencies: [
+		"41946f33"
+	],
+	tasks: [{
+		uid: "1d2fe4cd",
+		type: "item",
+		items: [{
+			item: "magneticraft:electric_engine"
+		}]
+	}],
+	rewards: [{
+		uid: "50ab14f0",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "d97e3f2c",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

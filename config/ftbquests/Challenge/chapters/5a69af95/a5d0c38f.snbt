@@ -1,0 +1,59 @@
+{
+	title: "§6§l石器时代",
+	x: 21.5d,
+	y: 1.5d,
+	dependencies: [
+		"f5a39ced"
+	],
+	tasks: [{
+		uid: "3d3819bf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "cobblestone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any cobblestone"
+				}
+			}
+		}],
+		count: 16L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "14796a3c",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "90012575",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "eee46147",
+		type: "item",
+		item: "skyresources:blazepowderblock",
+		count: 3
+	},
+	{
+		uid: "baae9723",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "9e2a6ee4",
+		type: "item",
+		item: "tp:cobblegen_block"
+	},
+	{
+		uid: "ddeafbc5",
+		type: "item",
+		item: "scalinghealth:difficultychanger"
+	}]
+}

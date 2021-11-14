@@ -1,0 +1,31 @@
+{
+	x: 2.5d,
+	y: 13.5d,
+	dependencies: [
+		"f6feb890"
+	],
+	tasks: [{
+		uid: "3ddc4a69",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "af3519aa",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		}
+	},
+	{
+		uid: "43bbed1c",
+		type: "item",
+		item: "arcanearchives:monitoring_crystal",
+		count: 2
+	}]
+}

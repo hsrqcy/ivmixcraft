@@ -1,0 +1,35 @@
+{
+	x: 22.5d,
+	y: 4.5d,
+	dependencies: [
+		"1365ff5b"
+	],
+	tasks: [{
+		uid: "cf67a6f8",
+		type: "item",
+		items: [{
+			id: "forestry:chipsets",
+			tag: {
+				T: 3s
+			},
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "f182b8e4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forestry:soldering_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7da2f384",
+		type: "random",
+		table: 1
+	}]
+}

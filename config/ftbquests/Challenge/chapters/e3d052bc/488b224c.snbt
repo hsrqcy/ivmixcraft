@@ -1,0 +1,19 @@
+{
+	x: 32.0d,
+	y: -2.0d,
+	dependencies: [
+		"8b72f94e"
+	],
+	tasks: [{
+		uid: "00d97fa7",
+		type: "item",
+		items: [{
+			item: "embers:catalytic_plug"
+		}]
+	}],
+	rewards: [{
+		uid: "c20f7c3b",
+		type: "random",
+		table: 1
+	}]
+}

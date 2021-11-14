@@ -1,0 +1,59 @@
+{
+	title: "§2§l高农武器",
+	x: -23.5d,
+	y: -5.5d,
+	dependencies: [
+		"3d77fb12"
+	],
+	tasks: [{
+		uid: "b13603ed",
+		type: "item",
+		items: [{
+			item: "minecraft:potato"
+		}],
+		count: 64L,
+		consume_items: false
+	},
+	{
+		uid: "25471c9e",
+		type: "item",
+		items: [{
+			item: "minecraft:carrot"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "1f204984",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "304a26b9",
+		type: "item",
+		items: [{
+			item: "minecraft:beetroot"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b0173fba",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "302badb1",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "b8e09cae",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

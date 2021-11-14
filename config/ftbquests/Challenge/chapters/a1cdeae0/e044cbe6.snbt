@@ -1,0 +1,44 @@
+{
+	x: -9.0d,
+	y: 0.0d,
+	dependencies: [
+		"d4acbb9b"
+	],
+	tasks: [{
+		uid: "b4396205",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Filter: [],
+					Inventory: []
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplybackpacks:uncommonbackpack",
+			tag: {
+				inv: {
+					Size: 33,
+					Items: []
+				},
+				filter: {
+					Size: 16,
+					Items: []
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b5a26b5a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	}]
+}

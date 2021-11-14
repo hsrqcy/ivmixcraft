@@ -1,0 +1,25 @@
+{
+	x: -7.0d,
+	y: -9.0d,
+	dependencies: [
+		"c2962203"
+	],
+	tasks: [{
+		uid: "3f723adc",
+		type: "item",
+		items: [{
+			item: "arcanearchives:raw_quartz"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "12aeab89",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

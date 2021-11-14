@@ -1,0 +1,40 @@
+{
+	x: 5.0d,
+	y: -29.5d,
+	dependencies: [
+		"d0f189fb"
+	],
+	tasks: [{
+		uid: "98e6aa31",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	},
+	{
+		uid: "391b8e8e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	},
+	{
+		uid: "d68d5eb3",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	},
+	{
+		uid: "bed050af",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "aab57c2e",
+		type: "random",
+		table: 1
+	}]
+}

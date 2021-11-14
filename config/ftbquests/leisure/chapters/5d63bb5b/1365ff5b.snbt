@@ -1,0 +1,19 @@
+{
+	x: 17.5d,
+	y: 4.5d,
+	dependencies: [
+		"1d98a317"
+	],
+	tasks: [{
+		uid: "196b58f0",
+		type: "item",
+		items: [{
+			item: "teslathingies:incinerator"
+		}]
+	}],
+	rewards: [{
+		uid: "72edc3a7",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 19.5d,
+	y: -9.0d,
+	dependencies: [
+		"2c2c8944"
+	],
+	tasks: [{
+		uid: "76c5766a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:experience_tome",
+			tag: {
+				experience: 141.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3b8588ae",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "5c89f453",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

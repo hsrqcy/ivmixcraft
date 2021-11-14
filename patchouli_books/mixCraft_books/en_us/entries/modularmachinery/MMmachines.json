@@ -1,0 +1,51 @@
+{
+    "sortnum": 1,
+	"name": "§d§l多方块机械配方",
+    "icon": "modularmachinery:itemblueprint",
+    "category": "patchouli:MM_category",
+    "read_by_default": false,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(li)$(c)$(l)模块化机械：$(br2)$(3)$(l)使用具体图纸可以可视化摆放$(br2)$(5)$(l)机器工作可以不用图纸哦！$(br2)$(6)$(l)多种类型输出需要物品输出仓格子足够哦！"
+        },
+		
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:oilcraft\"}",
+			"title": "原油转化装置",
+            "text": "$(li)$(c)$(l)原油转化装置$(br2)$(6)$(l)消耗大量电力和蒸汽转化含油地层$(br2)$(4)$(l)含油地层摆放至石油钻井下"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:transformlp\"}",
+			"title": "鲜血转化装置",
+            "text": "$(li)$(c)$(l)鲜血转化装置$(br2)$(6)$(l)配方1：消耗生命源质发电$(br2)$(4)$(l)配方2：使用蒸汽和生命源质产生最初星光$(br2)$(7)$(l)星光需要链接器链接哦"
+        },
+		
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:extrastonetrans\"}",
+			"title": "艾维异形粉碎者",
+            "text": "$(li)$(c)$(l)艾维异形粉碎者$(br2)$(6)$(l)消耗电力和星光转化原石为碎矿$(br2)$(4)$(l)需要星光满足哦！$(br2)$(7)$(l)物品输出仓需要达到需求才工作"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:astralsorcerytrans\"}",
+			"title": "星辉星力转化装置",
+            "text": "$(li)$(c)$(l)星辉星力转化装置$(br2)$(6)$(l)消耗海蓝宝石和星光发电$(br2)$(4)$(l)需要星光满足哦！$(br2)$(7)$(l)发电量中规中矩"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:attunementrelay\"}",
+			"title": "星辉增效祭坛",
+            "text": "$(li)$(c)$(l)星辉增效祭坛$(br2)$(6)$(l)消耗海蓝宝石和星光产生大量的星能液$(br2)$(4)$(l)需要星光满足哦！$(br2)$(7)$(l)重要副产物为星辉矿石"
+        }
+		
+		
+		
+		
+		
+		
+    ]
+}

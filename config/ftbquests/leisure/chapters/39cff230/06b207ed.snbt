@@ -1,0 +1,25 @@
+{
+	x: -18.0d,
+	y: -13.5d,
+	dependencies: [
+		"26b31543"
+	],
+	tasks: [{
+		uid: "4e860e3f",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 1"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "603e73df",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

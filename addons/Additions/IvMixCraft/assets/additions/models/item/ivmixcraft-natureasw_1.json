@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "additions:items/ivmixcraft-natureasw_1-layer0"
+  }
+}

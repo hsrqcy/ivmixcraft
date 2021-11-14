@@ -1,0 +1,84 @@
+{
+  "display": {
+    "icon": {
+      "item": "teslathingies:tf-molten_tesla_block",
+	   "data": 0
+    },
+    "title": {
+       "text": "§6§ltesla液化"
+    },
+    "description": {
+      "text":"§5§ltesla，§a§l自然之锭、tesla种子"
+    },
+    "x": 8,
+    "y": 7
+  },
+  "parent": "IvMixCraft:Industry/tesla",
+  "idea": {
+    "amount": 2,
+    "ingredients": [
+	  {
+        "item": "additions:ivmixcraft-natrue_ingot",
+        "data": 0
+      },
+	  {
+        "item": "teslathingies:tesla_plant_seeds",
+        "data": 0
+      }
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "SSS",
+      "RRR",
+      "SSS"
+    ],
+    "key": {
+    "R": {
+      "item": {
+          "item": "teslathingies:tesla_plant_seeds",
+          "data": 0
+        },
+        "hint": {
+          "translate": "tesla种子"
+        }
+	},
+	
+	
+      "S": {
+       "item": {
+          "item": "additions:ivmixcraft-natrue_ingot",
+          "data": 0
+        },
+        "hint": {
+          "translate": "自然之锭"
+        }
+      }
+	
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "teslathingies:item_liquefier",
+        "data": 0
+    },
+    {
+        "item": "teslathingies:item_compound_producer",
+        "data": 0
+    },
+
+	 {
+        "item": "teslathingies:fluid_compound_producer",
+        "data": 0
+    },
+
+
+
+	{
+        "item": "teslathingies:powder_maker",
+        "data": 0
+    }
+  ]
+}

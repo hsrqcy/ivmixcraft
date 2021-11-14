@@ -1,0 +1,95 @@
+{
+  "display": {
+    "icon": {
+      "item": "storagedrawers:basicdrawers", 
+	   "data": 32767
+    },
+    "title": {
+       "text": "§r§l粮仓"
+    },
+    "description": {
+      "text":"§a§l怎么做抽屉来着？§a§l尝试一下木板和箱子"
+    },
+    "x": 6,
+    "y": 4
+  },
+  "parent": "IvMixCraft:origin/chef",
+  "idea": {
+    "amount": 2,
+    "ingredients": [
+	 
+	  {
+      "type": "forge:ore_dict",
+      "ore": "chest"
+    },
+	  {
+      "type": "forge:ore_dict",
+      "ore": "plankWood"
+    }
+    
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "SSS",
+      " R ",
+      "SSS"
+    ],
+    "key": {
+      
+	   "R": {
+        "item": {
+          "type": "forge:ore_dict",
+          "ore": "chest"
+        },
+        "hint": {
+          "translate": "箱子"
+        }
+      },
+	   
+	  
+      "S": {
+        "item": {
+          "type": "forge:ore_dict",
+          "ore": "plankWood"
+        },
+        "hint": {
+          "translate": "木板"
+        }
+      }
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "storagedrawers:basicdrawers",
+        "data": 32767
+    },
+	{
+        "item": "storagedrawers:upgrade_template",
+        "data": 32767
+    },
+	{
+        "item": "storagedrawers:upgrade_storage",
+        "data": 32767
+    },
+	{
+        "item": "storagedrawers:drawer_key",
+        "data": 0
+    },
+	{
+        "item": "storagedrawers:shroud_key",
+        "data": 0
+    },
+	{
+        "item": "storagedrawers:personal_key",
+        "data": 0
+    },
+	
+	{
+        "item": "storagedrawers:tape", 
+        "data": 0
+    }
+  ]
+}

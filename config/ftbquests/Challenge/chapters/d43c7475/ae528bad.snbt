@@ -1,0 +1,26 @@
+{
+	x: -7.0d,
+	y: 11.0d,
+	dependencies: [
+		"985f817b"
+	],
+	tasks: [{
+		uid: "2a1955c9",
+		type: "item",
+		items: [{
+			item: "modularmagic:blocklifeessenceprovideroutput"
+		}]
+	},
+	{
+		uid: "1823a029",
+		type: "item",
+		items: [{
+			item: "modularmagic:blocklifeessenceproviderinput"
+		}]
+	}],
+	rewards: [{
+		uid: "3b0e1f12",
+		type: "random",
+		table: 1
+	}]
+}

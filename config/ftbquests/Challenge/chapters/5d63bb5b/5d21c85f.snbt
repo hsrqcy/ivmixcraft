@@ -1,0 +1,26 @@
+{
+	x: 9.5d,
+	y: -25.5d,
+	dependencies: [
+		"d0f189fb"
+	],
+	tasks: [{
+		uid: "e1ebf0c6",
+		type: "item",
+		items: [{
+			item: "threng:material 1 4"
+		}]
+	},
+	{
+		uid: "86a3d702",
+		type: "item",
+		items: [{
+			item: "threng:machine"
+		}]
+	}],
+	rewards: [{
+		uid: "0cea8e93",
+		type: "random",
+		table: 1
+	}]
+}

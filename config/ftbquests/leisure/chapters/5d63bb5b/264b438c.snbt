@@ -1,0 +1,19 @@
+{
+	x: 0.5d,
+	y: 11.0d,
+	dependencies: [
+		"9fb7cff1"
+	],
+	tasks: [{
+		uid: "4981293c",
+		type: "item",
+		items: [{
+			item: "teslathingies:sewer"
+		}]
+	}],
+	rewards: [{
+		uid: "ad4c02dd",
+		type: "random",
+		table: 1
+	}]
+}

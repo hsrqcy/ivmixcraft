@@ -1,0 +1,95 @@
+{
+  "display": {
+    "icon": {
+      "item": "artisanworktables:worktable",
+	   "data": 12
+    },
+    "title": {
+       "text": "§3§l设计师的创意"
+    },
+    "description": {
+      "text":"§e§l设计师的创意，§a§l自然之锭、纸、轻薄钢板"
+    },
+    "x": 5,
+    "y": -4
+  },
+  "parent": "IvMixCraft:Industry/eletric",
+  "idea": {
+    "amount": 3,
+    "ingredients": [
+	  {
+        "item": "additions:ivmixcraft-natrue_ingot",
+        "data": 0
+      },
+	  {
+        "item": "minecraft:paper",
+        "data": 0
+      },
+	  {
+      "type": "forge:ore_dict",
+      "ore": "lightPlateSteel"
+      }
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "BSB",
+      "SRS",
+      "BSB"
+    ],
+    "key": {
+    "R": {
+      "item": {
+          "item": "minecraft:paper",
+          "data": 0
+        },
+        "hint": {
+          "translate": "纸"
+        }
+	},
+	"S": {
+      "item": [ 
+        "additions:ivmixcraft-natrue_ingot"
+       ],
+        "hint": {
+          "translate": "自然之锭"
+        }
+	},
+	
+      "B": {
+       "item": { 
+        "type": "forge:ore_dict",
+        "ore": "lightPlateSteel"
+       },
+        "hint": {
+          "translate": "轻薄钢板"
+        }
+      }
+	
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "artisanworktables:design_pattern",
+        "data": 0
+    },
+	{
+        "item": "artisanworktables:worktable",
+        "data": 12
+    },
+	{
+        "item": "artisanworktables:workstation",
+        "data": 12
+    },
+	{
+        "item": "artisanworktables:workshop",
+        "data": 12
+    }
+	
+	
+	
+	
+  ]
+}

@@ -1,0 +1,19 @@
+{
+	x: 22.5d,
+	y: 1.5d,
+	dependencies: [
+		"ca718b5a"
+	],
+	tasks: [{
+		uid: "47879df6",
+		type: "item",
+		items: [{
+			item: "embers:clockwork_attenuator"
+		}]
+	}],
+	rewards: [{
+		uid: "22f28b9b",
+		type: "random",
+		table: 0
+	}]
+}

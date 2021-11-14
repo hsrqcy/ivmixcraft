@@ -1,0 +1,594 @@
+{
+	title: "§e§l§ka§r §d§l中级奖励箱 §e§l§ka§r",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:meta_pet"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:samurai_helmet",
+			tag: {
+				texture_name: "samurai_armor_1"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:samurai_chest",
+			tag: {
+				texture_name: "samurai_armor_1"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:samurai_shoes",
+			tag: {
+				texture_name: "samurai_armor_1"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:tachi"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:sakura_kodachi"
+		}
+	},
+	{
+		item: "scalinghealth:heartdust",
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tp:lapis_helmet"
+		}
+	},
+	{
+		item: "tp:blackberry_juice",
+		count: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tp:birthday_pickaxe"
+		}
+	},
+	{
+		item: "tp:triple_compressed_sugar_cane"
+	},
+	{
+		item: "tp:little_candy",
+		count: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tp:redstone_chestplate"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tp:redstone_chestplate"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tp:lava_chestplate"
+		}
+	},
+	{
+		item: "tp:iron_furnace_block"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tp:bone_chestplate"
+		}
+	},
+	{
+		item: "tp:emerald_apple"
+	},
+	{
+		item: "tp:growth_block"
+	},
+	{
+		item: "minecraft:stone"
+	},
+	{
+		item: "minecraft:cobblestone"
+	},
+	{
+		item: "minecraft:bone",
+		count: 2
+	},
+	{
+		item: "waystones:waystone"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tinymobfarm:lasso",
+			tag: {}
+		}
+	},
+	{
+		item: "tinymobfarm:wood_farm"
+	},
+	{
+		item: "tinymobfarm:stone_farm"
+	},
+	{
+		item: "tinymobfarm:iron_farm"
+	},
+	{
+		item: "xlfoodmod:cheese_cake",
+		count: 8
+	},
+	{
+		item: "tconstruct:slime_sapling 1 1"
+	},
+	{
+		item: "tconstruct:slime_grass"
+	},
+	{
+		item: "skyresources:baseitemcomponent",
+		count: 4
+	},
+	{
+		item: "skyresources:baseitemcomponent 1 4",
+		count: 5
+	},
+	{
+		item: "skyresources:orealchdust",
+		count: 3
+	},
+	{
+		item: "skyresources:orealchdust 1 1",
+		count: 3
+	},
+	{
+		item: "skyresources:orealchdust 1 2",
+		count: 3
+	},
+	{
+		item: "skyresources:alchemyitemcomponent 1 2",
+		count: 3
+	},
+	{
+		item: "skyresources:alchemyitemcomponent 1 3",
+		count: 3
+	},
+	{
+		item: "skyresources:alchemyitemcomponent 1 4"
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 1"
+	},
+	{
+		item: "storagedrawers:upgrade_one_stack"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "storagedrawers:tape"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "touhou_little_maid:maid_model_coupon",
+			tag: {
+				com.github.tartaricacid.touhoulittlemaid.client.resources.ModelData: "touhou_little_maid:komeiji_satori"
+			},
+			Damage: 5s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "touhou_little_maid:maid_model_coupon",
+			tag: {
+				com.github.tartaricacid.touhoulittlemaid.client.resources.ModelData: "touhou_little_maid:luna_child"
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: "minecraft:log 1 2",
+		count: 16
+	},
+	{
+		item: "tp:fmf_block"
+	},
+	{
+		item: "tp:cactus_juice"
+	},
+	{
+		item: "tp:bams_pizza"
+	},
+	{
+		item: "tp:mycelium_seeds"
+	},
+	{
+		item: "tp:monster_jerky"
+	},
+	{
+		item: "tp:asphalt_block"
+	},
+	{
+		item: "tp:hardened_stone_stairs"
+	},
+	{
+		item: "tp:blueberry_berry"
+	},
+	{
+		item: "minecraft:redstone_block"
+	},
+	{
+		item: "tp:chicken_sandwhich"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tp:stone_helmet"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tp:lava_leggings"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tp:bone_helmet"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tp:flint_shears"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tp:bsc_gold_pickaxe"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -8906606618441326594L,
+					AS_Amulet_HolderMost: -4605424409192872578L
+				}
+			},
+			id: "tp:emerald_battle"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tp:diamond_multi"
+		}
+	},
+	{
+		item: "tp:fried_egg"
+	},
+	{
+		item: "minecraft:redstone_block"
+	},
+	{
+		item: "astralsorcery:itemcraftingcomponent"
+	},
+	{
+		item: "tp:colored_glowstone 1 3"
+	},
+	{
+		item: "tp:colored_glowstone 1 4"
+	},
+	{
+		item: "tp:colored_glowstone 1 5"
+	},
+	{
+		item: "tp:colored_glowstone 1 6"
+	},
+	{
+		item: "tp:colored_glowstone 1 6"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tp:emerald_spear"
+		}
+	},
+	{
+		item: "tp:large_med_kit"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tp:obsidian_helmet"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tp:wooden_chestplate"
+		}
+	},
+	{
+		item: "tp:cobblegen_block"
+	},
+	{
+		item: "arcanearchives:raw_quartz",
+		count: 2
+	},
+	{
+		item: "naturesaura:infused_slab_double"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:bento",
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:bento",
+			Damage: 3s
+		}
+	},
+	{
+		item: "sakura:ume_sapling"
+	},
+	{
+		item: "sakura:sakura_sapling"
+	},
+	{
+		item: "sakura:barrel"
+	},
+	{
+		item: "sakura:sakura_diamond_ore"
+	},
+	{
+		item: "sakura:materials 1 49"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "sakura:sakura_katana"
+		}
+	},
+	{
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		item: "minecraft:redstone_block"
+	},
+	{
+		item: "mob_grinding_utils:entity_conveyor"
+	},
+	{
+		item: "tconstruct:slime_sapling 1 1"
+	},
+	{
+		item: "tconstruct:slime_sapling 1 2"
+	},
+	{
+		item: "tconstruct:slime_dirt"
+	},
+	{
+		item: "xlfoodmod:tortilla"
+	},
+	{
+		item: "xlfoodmod:roasted_marshmallow"
+	},
+	{
+		item: "xlfoodmod:bourbon_biscuit"
+	},
+	{
+		item: "xlfoodmod:chocolate"
+	},
+	{
+		item: "magneticraft:rocky_chunks",
+		count: 32
+	},
+	{
+		item: "magneticraft:rocky_chunks 1 1",
+		count: 32
+	},
+	{
+		item: "magneticraft:rocky_chunks 1 2",
+		count: 32
+	},
+	{
+		item: "magneticraft:rocky_chunks 1 3",
+		count: 32
+	},
+	{
+		item: "prefab:item_watch_tower"
+	},
+	{
+		item: "prefab:item_green_house"
+	},
+	{
+		item: "prefab:item_mineshaft_entrance"
+	},
+	{
+		item: "prefab:item_barn"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -8906606618441326594L,
+					AS_Amulet_HolderMost: -4605424409192872578L
+				}
+			},
+			id: "randomthings:spectrekey"
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ironchest:wood_iron_chest_upgrade"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ironchest:wood_copper_chest_upgrade"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ironchest:iron_gold_chest_upgrade"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ironchest:copper_silver_chest_upgrade"
+		}
+	},
+	{
+		item: "touhou_little_maid:power_point",
+		count: 4
+	},
+	{
+		item: "appliedenergistics2:quartz_ore"
+	},
+	{
+		item: "bloodmagic:demon_brick_1"
+	},
+	{
+		item: "roots:spirit_herb_seed",
+		count: 6
+	},
+	{
+		item: "minecraft:redstone_block"
+	},
+	{
+		item: "arcanearchives:radiant_dust"
+	},
+	{
+		item: "randomthings:blockofsticks",
+		count: 32
+	},
+	{
+		item: "botania:dreamwood"
+	},
+	{
+		item: "minecraft:gold_ore",
+		count: 16
+	},
+	{
+		item: "minecraft:iron_ore",
+		count: 16
+	},
+	{
+		item: "minecraft:coal_ore",
+		count: 32
+	},
+	{
+		item: "minecraft:redstone_block"
+	}],
+	loot_crate: {
+		string_id: "a_2",
+		item_name: "§e§l§ka§r §d§l中级奖励箱 §e§l§ka§r",
+		color: 15658496,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

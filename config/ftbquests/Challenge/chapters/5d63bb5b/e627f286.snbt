@@ -1,0 +1,25 @@
+{
+	title: "§6§l万恶的石油",
+	x: 9.0d,
+	y: -11.5d,
+	dependencies: [
+		"ef076534"
+	],
+	tasks: [{
+		uid: "eb3d8a35",
+		type: "item",
+		items: [{
+			item: "magneticraft:pumpjack"
+		}]
+	}],
+	rewards: [{
+		uid: "945594ac",
+		type: "choice",
+		table: 1
+	},
+	{
+		uid: "80655c84",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

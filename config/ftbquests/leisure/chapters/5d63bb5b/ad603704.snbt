@@ -1,0 +1,26 @@
+{
+	x: 9.5d,
+	y: -22.0d,
+	dependencies: [
+		"5d21c85f"
+	],
+	tasks: [{
+		uid: "2c9b9341",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 1"
+		}]
+	},
+	{
+		uid: "a2fac7c0",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:molecular_assembler"
+		}]
+	}],
+	rewards: [{
+		uid: "26f794fe",
+		type: "random",
+		table: 1
+	}]
+}

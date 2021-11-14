@@ -1,0 +1,40 @@
+{
+	x: -1.5d,
+	y: -20.0d,
+	text: [
+		"§e先放能源接收器，上方放入自动工匠台",
+		"§e打开自动工匠台GUI，第一页放入需要自动化的工作台",
+		"§e底部接入能源，第二页放入设计图纸，第三页放配方物品",
+		"§e最后一页放工具便可自动化",
+		"可以使用电力引擎对着能源接收器，用电缆链接磁场发电机或电池"
+	],
+	dependencies: [
+		"b63e23db"
+	],
+	tasks: [{
+		uid: "c338b08e",
+		type: "item",
+		items: [{
+			item: "artisanworktables:mechanical_toolbox"
+		}]
+	},
+	{
+		uid: "2076d0a8",
+		type: "item",
+		items: [{
+			item: "artisanautomation:automator"
+		}]
+	},
+	{
+		uid: "74270677",
+		type: "item",
+		items: [{
+			item: "artisanautomation:automator_power_rf"
+		}]
+	}],
+	rewards: [{
+		uid: "4130a5d9",
+		type: "random",
+		table: 1
+	}]
+}

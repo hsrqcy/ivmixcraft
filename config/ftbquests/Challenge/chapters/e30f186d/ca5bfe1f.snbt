@@ -1,0 +1,19 @@
+{
+	x: 18.5d,
+	y: -5.5d,
+	dependencies: [
+		"25b892af"
+	],
+	tasks: [{
+		uid: "e3923fe4",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcelestialgateway"
+		}]
+	}],
+	rewards: [{
+		uid: "56ab97ab",
+		type: "random",
+		table: 1
+	}]
+}

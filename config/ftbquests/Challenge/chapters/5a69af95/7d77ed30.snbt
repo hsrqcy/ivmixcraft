@@ -1,0 +1,33 @@
+{
+	title: "§c§l炼金第一课",
+	x: 31.0d,
+	y: -4.0d,
+	text: [
+		"§c§l点火就绪"
+	],
+	dependencies: [
+		"e916bcaf"
+	],
+	tasks: [{
+		uid: "98370d1c",
+		type: "item",
+		items: [{
+			item: "skyresources:fusiontable"
+		}]
+	}],
+	rewards: [{
+		uid: "f6c80d0b",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "41121280",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "70da303a",
+		type: "item",
+		item: "skyresources:alchemyitemcomponent 1 4"
+	}]
+}

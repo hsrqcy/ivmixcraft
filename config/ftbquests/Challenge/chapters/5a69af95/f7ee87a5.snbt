@@ -1,0 +1,33 @@
+{
+	title: "§8§l尝试合金",
+	x: 35.0d,
+	y: 10.5d,
+	dependencies: [
+		"85ad1506"
+	],
+	tasks: [{
+		uid: "7d15db55",
+		type: "item",
+		items: [{
+			item: "foundry:componentblock"
+		}]
+	},
+	{
+		uid: "5d47fa23",
+		type: "item",
+		items: [{
+			item: "foundry:machine 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "08639889",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "fdd9231b",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 2
+	}]
+}

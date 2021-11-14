@@ -1,0 +1,19 @@
+{
+	x: 25.0d,
+	y: -10.5d,
+	dependencies: [
+		"39218186"
+	],
+	tasks: [{
+		uid: "f29c9713",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ingot2"
+		}]
+	}],
+	rewards: [{
+		uid: "8f82268c",
+		type: "random",
+		table: 1
+	}]
+}

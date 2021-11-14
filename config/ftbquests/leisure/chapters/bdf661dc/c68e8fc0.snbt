@@ -1,0 +1,19 @@
+{
+	x: 9.5d,
+	y: 3.5d,
+	dependencies: [
+		"7d95cb82"
+	],
+	tasks: [{
+		uid: "bdaf155e",
+		type: "item",
+		items: [{
+			item: "naturesaura:crushing_catalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "9ef1d68d",
+		type: "random",
+		table: 1
+	}]
+}

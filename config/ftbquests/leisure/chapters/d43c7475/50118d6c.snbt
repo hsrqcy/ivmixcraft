@@ -1,0 +1,34 @@
+{
+	x: 4.5d,
+	y: 15.0d,
+	dependencies: [
+		"3e219dba"
+	],
+	tasks: [{
+		uid: "17a4dfd2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5bf13f0c",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "18a06bf1",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "6fa0ce03",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 10
+	}]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "§a§l戴还是不戴？",
+  "tooltip": [
+    "§9有些时候....还是挺需要的",
+    "§a绿色的心情总是.."
+  ],
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.maxHealth",
+      "amount": 10.0,
+      "slot": "head",
+      "uuid": "377c633a-d2de-4c8d-b78a-c2cf92c749bc"
+    }
+  ],
+  "durability": 666,
+  "has_overlay": false,
+  "enchantability": 22,
+  "repair_stacks": {},
+  "type": "additions:hat"
+}

@@ -1,0 +1,54 @@
+{
+	x: -9.0d,
+	y: 3.0d,
+	dependencies: [
+		"e044cbe6"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "210dc39e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Filter: [],
+					Inventory: []
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplybackpacks:rarebackpack",
+			tag: {
+				inv: {
+					Size: 66,
+					Items: []
+				},
+				filter: {
+					Size: 16,
+					Items: []
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bc347002",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "f2e2b904",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extracells:storage.physical",
+			tag: {
+				upgrades: {},
+				config: {},
+				fuzzyMode: "IGNORE_ALL"
+			}
+		}
+	}]
+}

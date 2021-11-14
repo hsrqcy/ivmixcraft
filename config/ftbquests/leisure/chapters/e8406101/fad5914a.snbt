@@ -1,0 +1,32 @@
+{
+	x: 0.5d,
+	y: 1.0d,
+	text: [
+		"§6§l需要重新启动游戏后生效"
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "51f3a72e",
+		type: "checkmark",
+		title: "§6§l休闲模式",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:bed_pet"
+		}
+	}],
+	rewards: [{
+		uid: "2660bcb9",
+		type: "command",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:bed_pet"
+		},
+		auto: "disabled",
+		command: "/packmode leisure",
+		player_command: true
+	}]
+}

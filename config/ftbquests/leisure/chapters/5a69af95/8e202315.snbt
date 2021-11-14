@@ -1,0 +1,32 @@
+{
+	title: "§6§l匠魂之旅",
+	x: 0.0d,
+	y: -2.5d,
+	dependencies: [
+		"61d557fc"
+	],
+	tasks: [{
+		uid: "04e0de1e",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "27652a90",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "dddf058b",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "da7e7f9c",
+		type: "item",
+		item: "tp:growth_block",
+		count: 3
+	}]
+}

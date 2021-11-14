@@ -1,0 +1,24 @@
+{
+	x: -14.0d,
+	y: -9.0d,
+	dependencies: [
+		"b6876368"
+	],
+	tasks: [{
+		uid: "47b7aa71",
+		type: "item",
+		items: [{
+			item: "arcanearchives:radiant_dust"
+		}]
+	}],
+	rewards: [{
+		uid: "df647fd9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

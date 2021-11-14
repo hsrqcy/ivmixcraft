@@ -1,0 +1,31 @@
+{
+	title: "§e§l最喜欢的运动",
+	x: -20.5d,
+	y: -7.5d,
+	dependencies: [
+		"b58fdd05"
+	],
+	tasks: [{
+		uid: "647e0591",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "magneticraft:electric_piston",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b55840ff",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "8fbfc071",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

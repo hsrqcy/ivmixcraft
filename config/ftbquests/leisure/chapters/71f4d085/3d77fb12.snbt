@@ -1,0 +1,75 @@
+{
+	title: "§3§l口粮危机",
+	icon: "minecraft:wheat",
+	x: -23.5d,
+	y: -1.5d,
+	text: [
+		"§6§l在饥饿和发育中你选择哪个",
+		"§6§l小麦种子可以氧化制作哦"
+	],
+	tasks: [{
+		uid: "f588901a",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "853e5fdd",
+		type: "item",
+		items: [{
+			item: "skyresources:baseitemcomponent"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "224a6caf",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "e3eb762f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cyclicmagic:charm_air",
+			tag: {}
+		}
+	},
+	{
+		uid: "d610a7a4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "spiceoflife:lunchbox"
+		}
+	},
+	{
+		uid: "8dadb091",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "c67583ea",
+		type: "item",
+		item: "minecraft:carrot",
+		count: 16
+	},
+	{
+		uid: "a7697112",
+		type: "item",
+		item: "minecraft:potato",
+		count: 16
+	},
+	{
+		uid: "788dd4ee",
+		type: "item",
+		item: "harvestcraft:market"
+	}]
+}

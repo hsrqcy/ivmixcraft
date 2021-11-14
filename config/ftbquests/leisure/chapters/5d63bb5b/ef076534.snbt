@@ -1,0 +1,25 @@
+{
+	title: "§6§l健康锤",
+	x: 4.0d,
+	y: -11.5d,
+	dependencies: [
+		"70101cfc"
+	],
+	tasks: [{
+		uid: "96afa6a9",
+		type: "item",
+		items: [{
+			item: "magneticraft:hydraulic_press"
+		}]
+	}],
+	rewards: [{
+		uid: "2574b252",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "6a363132",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

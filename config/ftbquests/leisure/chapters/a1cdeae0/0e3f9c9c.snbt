@@ -1,0 +1,22 @@
+{
+	x: -13.0d,
+	y: 10.5d,
+	dependencies: [
+		"3e17723f"
+	],
+	tasks: [{
+		uid: "7f4cef8b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_star_tier"
+		}]
+	}],
+	rewards: [{
+		uid: "6dc561f3",
+		type: "item",
+		item: "extracells:storage.component 1 1"
+	}]
+}

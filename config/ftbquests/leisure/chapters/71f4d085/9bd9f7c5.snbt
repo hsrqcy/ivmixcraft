@@ -1,0 +1,25 @@
+{
+	title: "§3§l自来水公司",
+	x: -16.0d,
+	y: -8.5d,
+	dependencies: [
+		"54033cfd"
+	],
+	tasks: [{
+		uid: "0bea801b",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:sink"
+		}]
+	}],
+	rewards: [{
+		uid: "493fa08a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "adca76ed",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

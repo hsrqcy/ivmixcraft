@@ -1,0 +1,19 @@
+{
+	x: -6.5d,
+	y: 9.0d,
+	dependencies: [
+		"8148a736"
+	],
+	tasks: [{
+		uid: "36e2511f",
+		type: "item",
+		items: [{
+			item: "randomthings:itemcollector"
+		}]
+	}],
+	rewards: [{
+		uid: "6a8f1ae5",
+		type: "random",
+		table: 0
+	}]
+}

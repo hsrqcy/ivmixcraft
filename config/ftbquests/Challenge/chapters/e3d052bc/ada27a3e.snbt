@@ -1,0 +1,19 @@
+{
+	x: 28.5d,
+	y: 1.5d,
+	dependencies: [
+		"ca718b5a"
+	],
+	tasks: [{
+		uid: "242588b7",
+		type: "item",
+		items: [{
+			item: "embers:mini_boiler"
+		}]
+	}],
+	rewards: [{
+		uid: "f09c8682",
+		type: "random",
+		table: 1
+	}]
+}

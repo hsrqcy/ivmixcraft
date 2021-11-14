@@ -1,0 +1,29 @@
+{
+	title: "§b§l高空融化冷凝技术",
+	x: 35.5d,
+	y: -6.5d,
+	dependencies: [
+		"6e37b917",
+		"bf820366"
+	],
+	tasks: [{
+		uid: "f0a0abad",
+		type: "item",
+		items: [{
+			item: "skyresources:crucible"
+		}]
+	},
+	{
+		uid: "f5ded88b",
+		type: "item",
+		items: [{
+			item: "skyresources:fluiddropper"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "4e2b1f57",
+		type: "random",
+		table: 1
+	}]
+}

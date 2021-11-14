@@ -1,0 +1,87 @@
+{
+  "display": {
+    "icon": {
+      "item": "modularmachinery:blockcontroller",
+	   "data": 0
+    },
+    "title": {
+       "text": "§7§l创新工业"
+    },
+    "description": {
+      "text":"§e§l创新工业，§a§l自然之锭、钢板、交流发电机"
+    },
+    "x": 5,
+    "y": 4
+  },
+  "parent": "IvMixCraft:Industry/eletric",
+  "idea": {
+    "amount": 3,
+    "ingredients": [
+	  {
+        "item": "additions:ivmixcraft-natrue_ingot",
+        "data": 0
+      },
+	  {
+        "item": "magneticraft:crafting",
+        "data": 1
+      },
+	  {
+      "type": "forge:ore_dict",
+      "ore": "plateSteel"
+      }
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "BSB",
+      "SRS",
+      "BSB"
+    ],
+    "key": {
+    "R": {
+      "item": {
+          "item": "magneticraft:crafting",
+          "data": 1
+        },
+        "hint": {
+          "translate": "交流发电机"
+        }
+	},
+	"S": {
+      "item": [ 
+        "additions:ivmixcraft-natrue_ingot"
+       ],
+        "hint": {
+          "translate": "自然之锭"
+        }
+	},
+	
+      "B": {
+       "item": { 
+        "type": "forge:ore_dict",
+        "ore": "plateSteel"
+       },
+        "hint": {
+          "translate": "钢板"
+        }
+      }
+	
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "modularmachinery:blockcasing",
+        "data": 0
+    },
+	{
+        "item": "modularmachinery:blockcasing",
+        "data": 32767
+    },
+	{
+        "item": "modularmachinery:blockcontroller",
+        "data": 0
+    }
+  ]
+}

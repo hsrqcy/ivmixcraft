@@ -1,0 +1,37 @@
+{
+	title: "§e§l基础粮仓",
+	x: -13.5d,
+	y: -3.0d,
+	dependencies: [
+		"3d77fb12",
+		"7a1b8192"
+	],
+	tasks: [{
+		uid: "35f8d154",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "fa21032d",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "effd3de9",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "482f05ed",
+		type: "item",
+		item: {
+			id: "arcanearchives:radiant_trove",
+			tag: {}
+		}
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -16.5d,
+	y: -3.0d,
+	dependencies: [
+		"949798e9"
+	],
+	tasks: [{
+		uid: "1bf6af4d",
+		type: "item",
+		items: [{
+			item: "embers:caminite_lever"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "f49ce0d3",
+		type: "random",
+		table: 0
+	}]
+}

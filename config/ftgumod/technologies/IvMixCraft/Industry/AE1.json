@@ -1,0 +1,102 @@
+{
+  "display": {
+    "icon": {
+      "item": "appliedenergistics2:inscriber",
+	   "data": 0
+    },
+    "title": {
+       "text": "§3§lAE的开始"
+    },
+    "description": {
+      "text":"§e§l走上自动化之路，§a§l充能赛特斯石英、轻薄钢板、高纯福鲁"
+    },
+    "x": 8,
+    "y": -4
+  },
+  "parent": "IvMixCraft:Industry/automation",
+  "idea": {
+    "amount": 3,
+    "ingredients": [
+	  {
+        "item": "appliedenergistics2:material",
+        "data": 1
+      },
+	  {
+        "item": "appliedenergistics2:material",
+        "data": 12
+      },
+	  {
+      "type": "forge:ore_dict",
+      "ore": "lightPlateSteel"
+      }
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "BSB",
+      "SRS",
+      "BSB"
+    ],
+    "key": {
+    "R": {
+      "item": {
+          "item": "appliedenergistics2:material",
+          "data": 12
+        },
+        "hint": {
+          "translate": "高纯福鲁"
+        }
+	},
+	"S": {
+      "item": {
+          "item": "appliedenergistics2:material",
+          "data": 1
+        },
+        "hint": {
+          "translate": "充能赛特斯石英"
+        }
+	},
+	
+      "B": {
+       "item": { 
+        "type": "forge:ore_dict",
+        "ore": "lightPlateSteel"
+       },
+        "hint": {
+          "translate": "轻薄钢板"
+        }
+      }
+	
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "appliedenergistics2:inscriber",
+        "data": 0
+    },
+	{
+        "item": "appliedenergistics2:grindstone",
+        "data": 0
+    },
+	{
+        "item": "appliedenergistics2:material",
+        "data": 52
+    },
+	{
+        "item": "appliedenergistics2:material",
+        "data": 39
+    },
+	
+	
+	{
+        "item": "appliedenergistics2:quartz_growth_accelerator",
+        "data": 0
+    }
+	
+	
+	
+	
+  ]
+}

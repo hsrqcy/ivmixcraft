@@ -1,0 +1,18 @@
+{
+	x: -3.5d,
+	y: 1.0d,
+	description: "已经创建过无需选择，仅为不会初始命令提供任务选择",
+	tasks: [{
+		uid: "9cf6764a",
+		type: "checkmark",
+		title: "开始创建空岛世界",
+		icon: "minecraft:sapling"
+	}],
+	rewards: [{
+		uid: "c6f909e2",
+		type: "command",
+		icon: "minecraft:sapling",
+		command: "/is create",
+		player_command: true
+	}]
+}

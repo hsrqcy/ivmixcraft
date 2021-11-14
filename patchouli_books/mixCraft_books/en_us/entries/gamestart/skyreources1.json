@@ -1,0 +1,83 @@
+{
+    "sortnum": 2,
+	"name": "§3§l天空资源（一）",
+    "icon": "skyresources:casing",
+    "category": "patchouli:gamestart_category",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(li)$(6)$(l)长按R键打开内置教程。$(br2)$(4)$(l)一切从氧化开始。$(br2)$(d)$(l)许多多方块结构哟$(br2)$(3)$(l)记得JEI查看配方$(br2)$(7)$(l)材料丢进去红石信号即可"
+        },
+		{
+            "type": "spotlight",
+			"title": "§2§l木质氧化加热器",
+			"item": "skyresources:combustionheater",
+            "text": "$(br)$(2)小提示：加热器几个相对应的值$(br)$(3)Speed：速度。$(br)$(7)Efficiency:效率。$(br)$(d)注：不同的框架和加热器可以混搭。$()"
+        },
+		{
+            "type": "spotlight",
+			"title": "§2§l木质框架",
+			"item": "skyresources:casing",
+            "text": "$(br)$(2)小提示：框架几个相对应的值$(br)$(3)MAX HU：最高温度。$(br)$(7)Efficiency:效率。$(br)$(d)注：高等级框架效率更快，耐热更高。$()"
+        },
+		{
+      "type": "multiblock",
+      "anchor": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "skyresources:casing",
+          "P": "minecraft:planks",
+          "D": "minecraft:trapdoor",
+          "B": "minecraft:lever"
+        },
+        "pattern": [
+          ["   "," D ","   "],
+          [" P ","P P"," P "],
+          ["   "," 0B","   "]
+      ]
+      },
+	  "enable_visualize": true,
+      "text": "$(d)$(l)小技巧：$()$(4)$(l)先摆框架再放加热器。$()$(6)框架边上放一个红石信号比如拉杆或按钮"
+    },
+	{
+            "type": "spotlight",
+			"title": "§2§l堆肥机",
+			"item": "charm:composter",
+            "text": "$(br)$(2)小提示：骨粉前期必须品。$(br)$(7)无法手搓只能堆肥。$(br)$(d)注：手动吧。$()"
+    },
+	{
+            "type": "spotlight",
+			"title": "§c§l烈焰粉块",
+			"item": "skyresources:blazepowderblock",
+            "text": "$(br)$(2)小提示：前期岩浆由来。$(br)$(7)进入石器时代必备氧化产物。$(br)$(d)注：无法使用天空资源坩埚融化。$()$(d)只能使用金属工坊的坩埚融化"
+    },
+	{
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "foundry:burner_heater",
+          "P": "foundry:machine",
+          "D": "ceramics:faucet",
+          "B": "ceramics:porcelain_barrel"
+        },
+        "pattern": [
+          ["   ","   ","   "],
+          ["   "," P "," D "],
+          ["   "," 0 "," B "]
+      ]
+      },
+	  "enable_visualize": false,
+      "text": "$(d)$(l)小技巧：$()$(4)$(l)底部摆燃烧加热器。$()$(6)顶部摆坩埚，排放至陶瓷桶存放"
+    },
+	{
+            "type": "spotlight",
+			"title": "§c§l黏土桶",
+			"item": "ceramics:clay_bucket",
+            "text": "$(br)$(2)小提示：温度过高会损坏"
+    }
+		
+		
+		
+    ]
+}

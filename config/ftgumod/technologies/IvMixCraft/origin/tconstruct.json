@@ -1,0 +1,93 @@
+{
+  "display": {
+    "icon": {
+      "item": "tconstruct:pattern"
+    },
+    "title": {
+       "text": "§3§l工匠之作§e解锁（tconstruct）"
+    },
+    "description": {
+      "text":"§e§l木棍木板放入创作台试试,然后再放入研究台中按照提示摆放研究"
+    },
+    "x": 2,
+    "y": -2
+  },
+  "parent": "IvMixCraft:origin/firstresearch",
+  "idea": {
+    "amount": 2,
+    "ingredients": [
+        {
+        "type": "forge:ore_dict",
+        "ore": "plankWood"
+        },
+        {
+          "type": "forge:ore_dict",
+          "ore": "stickWood"
+        }
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "   ",
+      " RS",
+      " SR"
+    ],
+    "key": {
+      "R": {
+        "item": {
+          "type": "forge:ore_dict",
+          "ore": "plankWood"
+        },
+        "hint": {
+          "translate": "木板"
+        }
+      },
+      "S": {
+        "item": {
+          "type": "forge:ore_dict",
+          "ore": "stickWood"
+        },
+        "hint": {
+          "translate": "technology.hint.handle"
+        }
+      }
+    }
+  },
+  "unlock": [
+     {
+        "item": "tconstruct:tooltables",
+        "data": 3
+    },
+	{
+        "item": "tconstruct:tooltables",
+        "data": 2
+    },
+	{
+        "item": "tconstruct:tooltables",
+        "data": 3
+    },
+	{
+        "item": "tconstruct:tooltables",
+        "data": 4
+    },
+	{
+        "item": "tconstruct:tooltables",
+        "data": 5
+    },
+	{
+        "item": "conarm:armorstation",
+		 "data": 0
+    },
+	{
+        "item": "tconstruct:rack",
+		 "data": 1
+    },
+	
+	
+	{
+	"type": "gamestages:stage",
+    "stage": "tconstruct"	
+	}
+  ]
+}

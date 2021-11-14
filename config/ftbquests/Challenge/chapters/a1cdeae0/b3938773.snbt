@@ -1,0 +1,35 @@
+{
+	title: "§b§l液体？抽屉？",
+	x: 26.5d,
+	y: -3.0d,
+	dependencies: [
+		"64c337e6"
+	],
+	tasks: [{
+		uid: "cde0550d",
+		type: "item",
+		items: [{
+			item: "fluiddrawers:tank"
+		}]
+	}],
+	rewards: [{
+		uid: "ffedd29b",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "cf0c2afe",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "29ee6633",
+		type: "item",
+		item: "arcanearchives:radiant_tank"
+	},
+	{
+		uid: "c6dc8e72",
+		type: "item",
+		item: "appliedenergistics2:drive"
+	}]
+}

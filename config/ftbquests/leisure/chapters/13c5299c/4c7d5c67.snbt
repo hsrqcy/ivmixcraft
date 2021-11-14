@@ -1,0 +1,31 @@
+{
+	title: "§2§l注入灵魂",
+	x: -1.0d,
+	y: 9.5d,
+	dependencies: [
+		"fbee534e"
+	],
+	tasks: [{
+		uid: "45bf261c",
+		type: "item",
+		items: [{
+			item: "roots:imbuer"
+		}]
+	}],
+	rewards: [{
+		uid: "b13eefda",
+		type: "item",
+		item: "minecraft:cactus",
+		count: 16
+	},
+	{
+		uid: "c30d427b",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "51be16e3",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

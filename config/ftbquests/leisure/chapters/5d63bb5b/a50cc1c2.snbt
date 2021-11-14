@@ -1,0 +1,59 @@
+{
+	x: -11.0d,
+	y: 7.5d,
+	dependencies: [
+		"24342e2b"
+	],
+	tasks: [{
+		uid: "f95de724",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 2"
+		}]
+	},
+	{
+		uid: "cc1d13df",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 2"
+		}]
+	},
+	{
+		uid: "cb4fc5ee",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch 1 2"
+		}]
+	},
+	{
+		uid: "9e3cc5f2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidoutputhatch 1 2"
+		}]
+	},
+	{
+		uid: "8c291b17",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 2"
+		}]
+	},
+	{
+		uid: "33620b3f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyoutputhatch 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "70f3edd4",
+		type: "item",
+		item: "additions:ivmixcraft-coins"
+	},
+	{
+		uid: "e64cc73d",
+		type: "random",
+		table: 1
+	}]
+}

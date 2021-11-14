@@ -1,0 +1,19 @@
+{
+	x: 9.5d,
+	y: -3.0d,
+	dependencies: [
+		"7a565688"
+	],
+	tasks: [{
+		uid: "cdacca34",
+		type: "item",
+		items: [{
+			item: "embers:ember_activator"
+		}]
+	}],
+	rewards: [{
+		uid: "9459ab71",
+		type: "random",
+		table: 1
+	}]
+}

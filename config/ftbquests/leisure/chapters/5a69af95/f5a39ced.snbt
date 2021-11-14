@@ -1,0 +1,56 @@
+{
+	title: "§6§l怎么融化它们？",
+	x: 17.5d,
+	y: 1.5d,
+	text: [
+		"§5§l小小火把加热快"
+	],
+	dependencies: [
+		"6e2b328b",
+		"9ea1b030"
+	],
+	tasks: [{
+		uid: "539b8156",
+		type: "item",
+		items: [{
+			item: "foundry:machine"
+		}]
+	},
+	{
+		uid: "eaad2f87",
+		type: "item",
+		items: [{
+			item: "foundry:burner_heater"
+		}]
+	}],
+	rewards: [{
+		uid: "be2579e2",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "9df93b19",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "30d8a3f3",
+		type: "item",
+		item: "scalinghealth:difficultychanger"
+	},
+	{
+		uid: "7617be09",
+		type: "item",
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "sakura_diamond"
+			}
+		}
+	},
+	{
+		uid: "76d559a3",
+		type: "item",
+		item: "sakura:sakura_diamond_block"
+	}]
+}

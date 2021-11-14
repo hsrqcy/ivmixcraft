@@ -1,0 +1,19 @@
+{
+	x: 12.5d,
+	y: 3.5d,
+	dependencies: [
+		"7d95cb82"
+	],
+	tasks: [{
+		uid: "73dc814b",
+		type: "item",
+		items: [{
+			item: "naturesaura:conversion_catalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "ac7f3379",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -10.5d,
+	y: 3.5d,
+	dependencies: [
+		"f3e01c6f"
+	],
+	tasks: [{
+		uid: "973812a9",
+		type: "item",
+		items: [{
+			item: "sereneseasons:greenhouse_glass"
+		}]
+	}],
+	rewards: [{
+		uid: "95301870",
+		type: "random",
+		table: 1
+	}]
+}

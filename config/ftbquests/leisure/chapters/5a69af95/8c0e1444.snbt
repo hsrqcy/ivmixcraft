@@ -1,0 +1,25 @@
+{
+	title: "§a§l我有个好点子",
+	x: -14.5d,
+	y: 1.5d,
+	dependencies: [
+		"7b505493"
+	],
+	tasks: [{
+		uid: "fc8eb87c",
+		type: "item",
+		items: [{
+			item: "ftgumod:idea_table"
+		}]
+	}],
+	rewards: [{
+		uid: "8ca713f8",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "f32bc775",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

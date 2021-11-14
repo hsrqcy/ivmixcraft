@@ -1,0 +1,33 @@
+{
+    "sortnum": 3,
+	"name": "§7§l石器时代",
+    "icon": "minecraft:cobblestone",
+    "category": "patchouli:gamestart_category",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(li)$(5)$(l)有了岩浆，奔向石器时代。$(br2)$(3)$(l)石器时代可以鸟枪换炮。$(br2)$(4)$(l)可以做更好的石器工作台$(br2)$(d)$(l)这时候需要一些工具和流体，比如说岩浆$(br2)$(3)$(l)使用黏土桶吧$(br2)$(7)$(l)岩浆多多益善"
+        },
+		{
+            "type": "spotlight",
+			"title": "§2§l小石匠",
+			"item": "artisanworktables:worktable:2",
+            "text": "$(br)$(2)小提示：石匠工作台可以做一些石器时代的物品$(br)$(3)大部分关于石头的产品都由此加工$(br)$(7)可以升级更高等级的工作台。$()"
+        },
+		{
+            "type": "spotlight",
+			"title": "§2§l原石破坏者",
+			"item": "skyresources:stonegrinder",
+            "text": "$(br)$(2)小提示：可以使用手杖一键摆放原石。$(br)$(7)按住~键连锁破坏。$(br)$(d)注：消耗大量的饥饿哦$()"
+    },
+	{
+            "type": "spotlight",
+			"title": "§2§l石质手杖",
+			"item": "betterbuilderswands:wandstone",
+            "text": "$(br)$(2)小提示：可以使用手杖一键摆放背包物品。$(br)$(d)注：耐久不高，多备几把$()"
+    }
+		
+		
+    ]
+}

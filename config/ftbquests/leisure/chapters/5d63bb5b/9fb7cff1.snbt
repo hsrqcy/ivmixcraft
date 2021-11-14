@@ -1,0 +1,53 @@
+{
+	x: 8.5d,
+	y: 11.0d,
+	dependencies: [
+		"afcd76c9"
+	],
+	tasks: [{
+		uid: "065217ee",
+		type: "item",
+		items: [{
+			item: "teslathingies:animal_farm"
+		}]
+	},
+	{
+		uid: "3267d1d9",
+		type: "item",
+		items: [{
+			item: "teslathingies:animal_releaser"
+		}]
+	},
+	{
+		uid: "42f0fcab",
+		type: "item",
+		items: [{
+			item: "teslathingies:animal_gym"
+		}]
+	},
+	{
+		uid: "92cf783b",
+		type: "item",
+		items: [{
+			item: "teslathingies:electric_butcher"
+		}]
+	},
+	{
+		uid: "f3d58545",
+		type: "item",
+		items: [{
+			item: "teslathingies:animal_package"
+		}]
+	}],
+	rewards: [{
+		uid: "470bb478",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "6c95d0ee",
+		type: "item",
+		item: "additions:ivmixcraft-coins",
+		count: 5
+	}]
+}

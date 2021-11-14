@@ -1,0 +1,27 @@
+{
+	x: -24.5d,
+	y: -9.0d,
+	dependencies: [
+		"ce3ebd8d"
+	],
+	tasks: [{
+		uid: "363748b8",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "afd47e98",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

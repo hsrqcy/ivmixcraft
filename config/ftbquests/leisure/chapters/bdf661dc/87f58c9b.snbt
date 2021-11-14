@@ -1,0 +1,29 @@
+{
+	x: -3.0d,
+	y: -12.5d,
+	dependencies: [
+		"c564b8de"
+	],
+	tasks: [{
+		uid: "1fb50b56",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "arcanearchives:scepter_manipulation"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6ec3014e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

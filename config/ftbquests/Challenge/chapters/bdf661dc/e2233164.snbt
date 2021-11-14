@@ -1,0 +1,46 @@
+{
+	x: -18.0d,
+	y: -9.0d,
+	dependencies: [
+		"adbef2be"
+	],
+	tasks: [{
+		uid: "dfbdec75",
+		type: "item",
+		items: [{
+			item: "arcanearchives:scintillating_inlay"
+		}]
+	},
+	{
+		uid: "e3525b5e",
+		type: "item",
+		items: [{
+			item: "arcanearchives:matrix_brace"
+		}]
+	},
+	{
+		uid: "39a9466d",
+		type: "item",
+		items: [{
+			item: "arcanearchives:material_interface"
+		}]
+	},
+	{
+		uid: "37638364",
+		type: "item",
+		items: [{
+			item: "arcanearchives:containment_field"
+		}]
+	}],
+	rewards: [{
+		uid: "90889bbf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		},
+		count: 5
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -34.0d,
+	y: -12.5d,
+	dependencies: [
+		"d9f68faf"
+	],
+	tasks: [{
+		uid: "598f61f1",
+		type: "item",
+		items: [{
+			item: "botania:corporeaspark"
+		}]
+	}],
+	rewards: [{
+		uid: "4887c624",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

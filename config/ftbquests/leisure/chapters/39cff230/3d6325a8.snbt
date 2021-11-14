@@ -1,0 +1,24 @@
+{
+	x: -24.5d,
+	y: -13.5d,
+	dependencies: [
+		"0e3723fa"
+	],
+	tasks: [{
+		uid: "e23d1745",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "fa5b4f84",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

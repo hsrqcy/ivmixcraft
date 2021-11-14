@@ -1,0 +1,102 @@
+{
+  "display": {
+    "icon": {
+      "item": "threng:material",
+	   "data": 4
+    },
+    "title": {
+       "text": "§3§l懒惰的开始"
+    },
+    "description": {
+      "text":"§e§l走上自动化之路2，§a§l福鲁伊克斯钢锭、轻薄钢板、工程处理器"
+    },
+    "x": 10,
+    "y": -4
+  },
+  "parent": "IvMixCraft:Industry/AE1",
+  "idea": {
+    "amount": 3,
+    "ingredients": [
+	  {
+        "item": "threng:material",
+        "data": 0
+      },
+	  {
+        "item": "appliedenergistics2:material",
+        "data": 24
+      },
+	  {
+      "type": "forge:ore_dict",
+      "ore": "lightPlateSteel"
+      }
+    ]
+  },
+  "research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "BSB",
+      "SRS",
+      "BSB"
+    ],
+    "key": {
+    "S": {
+      "item": {
+          "item": "threng:material",
+          "data": 0
+        },
+        "hint": {
+          "translate": "福鲁伊克斯钢锭"
+        }
+	},
+	"R": {
+      "item": {
+          "item": "appliedenergistics2:material",
+          "data": 24
+        },
+        "hint": {
+          "translate": "工程处理器"
+        }
+	},
+	
+      "B": {
+       "item": { 
+        "type": "forge:ore_dict",
+        "ore": "lightPlateSteel"
+       },
+        "hint": {
+          "translate": "轻薄钢板"
+        }
+      }
+	
+    }
+  },
+  "unlock": [
+     
+	{
+        "item": "threng:material",
+        "data": 4
+    },
+	{
+        "item": "appliedenergistics2:material",
+        "data": 43
+    },
+	{
+        "item": "appliedenergistics2:material",
+        "data": 44
+    },
+	{
+        "item": "threng:machine",
+        "data": 0
+    },
+	
+	
+	{
+        "item": "threng:machine",
+        "data": 2
+    }
+	
+	
+	
+	
+  ]
+}

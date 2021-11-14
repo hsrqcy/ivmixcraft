@@ -1,0 +1,22 @@
+{
+	x: -3.5d,
+	y: -3.0d,
+	dependencies: [
+		"92be606e"
+	],
+	tasks: [{
+		uid: "59e5cb7c",
+		type: "item",
+		items: [{
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:nether"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d1bdf2f5",
+		type: "random",
+		table: 1
+	}]
+}

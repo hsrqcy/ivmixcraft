@@ -1,0 +1,33 @@
+{
+	x: 9.5d,
+	y: 1.0d,
+	dependencies: [
+		"bdeec2cd"
+	],
+	tasks: [{
+		uid: "57c5366c",
+		type: "item",
+		items: [{
+			item: "embers:ember_emitter"
+		}]
+	},
+	{
+		uid: "7a1f96e9",
+		type: "item",
+		items: [{
+			item: "embers:ember_receiver"
+		}]
+	},
+	{
+		uid: "e38da651",
+		type: "item",
+		items: [{
+			item: "embers:ember_relay"
+		}]
+	}],
+	rewards: [{
+		uid: "42485696",
+		type: "random",
+		table: 0
+	}]
+}

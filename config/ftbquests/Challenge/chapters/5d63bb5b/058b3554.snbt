@@ -1,0 +1,28 @@
+{
+	x: -44.5d,
+	y: -6.5d,
+	tasks: [{
+		uid: "670563e2",
+		type: "item",
+		items: [{
+			item: "tcomplement:materials 1 1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "741fdad8",
+		type: "item",
+		item: "tcomplement:high_oven_controller"
+	},
+	{
+		uid: "98afb27b",
+		type: "item",
+		item: "tcomplement:materials 1 1",
+		count: 64
+	},
+	{
+		uid: "efebce8d",
+		type: "item",
+		item: "tcomplement:scorched_casting"
+	}]
+}

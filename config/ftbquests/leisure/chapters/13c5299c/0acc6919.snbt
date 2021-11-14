@@ -1,0 +1,45 @@
+{
+	title: "§2§l生命的意义",
+	x: -1.0d,
+	y: 14.0d,
+	dependencies: [
+		"4c7d5c67"
+	],
+	tasks: [{
+		uid: "e8dc0068",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "skyresources:sandstoneinfusionstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7fa11def",
+		type: "item",
+		item: "tp:growth_block"
+	},
+	{
+		uid: "c4025bd8",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "9073ffe3",
+		type: "item",
+		item: "scalinghealth:difficultychanger"
+	},
+	{
+		uid: "cf823290",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "additions:ivmixcraft-lvmaozi"
+		}
+	}]
+}

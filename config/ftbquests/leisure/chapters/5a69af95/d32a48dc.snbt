@@ -1,0 +1,61 @@
+{
+	title: "§b§l用铁套武装自己",
+	x: 40.0d,
+	y: -1.5d,
+	dependencies: [
+		"6e37b917",
+		"0ac6ba75"
+	],
+	tasks: [{
+		uid: "c39fb4a9",
+		type: "item",
+		items: [{
+			item: "skyresources:heat 1 3"
+		}]
+	},
+	{
+		uid: "69bd4bdb",
+		type: "item",
+		items: [{
+			item: "skyresources:alchemy 1 3"
+		}]
+	},
+	{
+		uid: "89a24263",
+		type: "item",
+		items: [{
+			item: "skyresources:casing 1 3"
+		}]
+	},
+	{
+		uid: "6fefea17",
+		type: "item",
+		items: [{
+			item: "skyresources:condenser 1 3"
+		}]
+	},
+	{
+		uid: "43c2902a",
+		type: "item",
+		items: [{
+			item: "skyresources:combustionheater 1 3"
+		}]
+	},
+	{
+		uid: "50895706",
+		type: "item",
+		items: [{
+			item: "skyresources:ironfreezer"
+		}]
+	}],
+	rewards: [{
+		uid: "3376402c",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "577bc824",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	x: 8.5d,
+	y: 16.0d,
+	dependencies: [
+		"9fb7cff1"
+	],
+	tasks: [{
+		uid: "354d5803",
+		type: "item",
+		items: [{
+			item: "teslathingies:tree_farm"
+		}]
+	},
+	{
+		uid: "95ff3303",
+		type: "item",
+		items: [{
+			item: "teslathingies:misc_farmer"
+		}]
+	},
+	{
+		uid: "253d57ce",
+		type: "item",
+		items: [{
+			item: "teslathingies:crop_farm"
+		}]
+	}],
+	rewards: [{
+		uid: "929667e9",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "f07367e6",
+		type: "item",
+		item: "additions:ivmixcraft-coins",
+		count: 5
+	}]
+}

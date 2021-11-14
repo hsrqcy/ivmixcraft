@@ -1,0 +1,20 @@
+{
+	x: -17.0d,
+	y: 12.5d,
+	dependencies: [
+		"f2765550"
+	],
+	tasks: [{
+		uid: "d2ca67a5",
+		type: "item",
+		items: [{
+			item: "sakura:materials 1 43"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "47558a3f",
+		type: "random",
+		table: 0
+	}]
+}

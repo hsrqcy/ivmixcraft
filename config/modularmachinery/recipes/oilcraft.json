@@ -1,0 +1,23 @@
+{
+    "machine": "oilcraft",
+    "registryName": "oilcraft",
+    "recipeTime": 30000,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 300
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "steam",
+			"amount": 3000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "magneticraft:oil_source"
+        }
+    ]
+}

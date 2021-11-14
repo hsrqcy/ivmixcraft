@@ -1,0 +1,25 @@
+{
+	title: "§b§l随身WIFI",
+	x: -3.0d,
+	y: -3.0d,
+	dependencies: [
+		"d4acbb9b"
+	],
+	tasks: [{
+		uid: "97594040",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "danknull:dank_null_0"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "70679c93",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,60 @@
+{
+	title: "§3§l土生土长",
+	x: 8.5d,
+	y: -6.0d,
+	text: [
+		"§e§l粘土可以用抽水器右键水源或者树叶，然后对着泥土右键",
+		"§e§l也可以将腐肉和泥土扔到水中获得（消耗水哟）"
+	],
+	dependencies: [
+		"46b1d78c"
+	],
+	tasks: [{
+		uid: "b33afece",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}],
+		count: 32L
+	},
+	{
+		uid: "caf0947c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -8906606618441326594L,
+					AS_Amulet_HolderMost: -4605424409192872578L
+				}
+			},
+			id: "skyresources:waterextractor",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f6fa0c4d",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "8c5162a6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:sheep_pet",
+			tag: {
+				GiveItems: 1b
+			}
+		}
+	},
+	{
+		uid: "c9d6a788",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 2
+	}]
+}

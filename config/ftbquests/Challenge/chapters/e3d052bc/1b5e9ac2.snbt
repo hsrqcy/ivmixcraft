@@ -1,0 +1,19 @@
+{
+	x: 25.0d,
+	y: 9.5d,
+	dependencies: [
+		"ca718b5a"
+	],
+	tasks: [{
+		uid: "c517e854",
+		type: "item",
+		items: [{
+			item: "embers:beam_cannon"
+		}]
+	}],
+	rewards: [{
+		uid: "06ef766a",
+		type: "random",
+		table: 1
+	}]
+}

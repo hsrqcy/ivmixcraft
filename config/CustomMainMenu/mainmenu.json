@@ -1,0 +1,209 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "customloadingscreen:image/logo.png",
+             "posX": -125,
+            "posY": 20,
+            "width": 300,
+            "height": 120,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "§b§l独闯江湖",
+			"texture": "mainmenu:button.png",
+			"normalTextColor": 16777215,
+            "hoverTextColor": 13846211,
+            "posX" : -60,
+            "posY" : 60,
+            "width":112,
+            "height":20,
+            "imageWidth": 560,
+            "imageHeight": 118,
+			"tooltip": "§b§lsingleplayer",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "§b§l组队嗨皮",
+			"texture": "mainmenu:button.png",
+			"normalTextColor": 16777215,
+            "hoverTextColor": 13846211,
+            "posX" : -60,
+            "posY" : 80,
+            "width":112,
+            "height":24,
+            "imageWidth": 560,
+            "imageHeight": 118,
+			"tooltip": "§b§lmultiplayer",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },       
+        "options":
+        {
+            "text" : "§b§lIvMixCrift设置",
+            "normalTextColor": 16777215,
+            "hoverTextColor": 13846211,
+            "texture": "mainmenu:button.png",
+            "posX" : -60,
+            "posY" : 100,
+            "width":112,
+            "height":24,
+            "imageWidth": 560,
+            "imageHeight": 118,
+			"tooltip": "§b§loptions",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        "home":
+        {
+            "text" : "§b§l欢迎加入QQ群",
+			"texture": "mainmenu:button.png",
+			"normalTextColor": 16777215,
+            "hoverTextColor": 13846211,
+            "posX" : -60,
+            "posY" : 120,
+            "width":112,
+            "height":24,
+            "imageWidth": 560,
+            "imageHeight": 118,
+			"tooltip": "§d§l一群:1047012278\n§3§l二群:272352857",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://jq.qq.com/?_wv=1027&k=xtvPg1nH"
+            }
+        },
+        "quit":
+        {
+            "text" : "§b§l溜了溜了",
+            "texture": "mainmenu:button.png",
+			"normalTextColor": 16777215,
+            "hoverTextColor": 13846211,
+            "posX" : -60,
+            "posY" : 140,
+            "width":112,
+            "height":24,
+            "imageWidth": 560,
+            "imageHeight": 118,
+			"tooltip": "§b§lquit",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },   
+		"video":
+        {
+            "text" : "",
+            "posX" : -85,
+            "posY" : 145,
+            "width": 20,
+            "height": 20,
+            "texture" : "mainmenu:video.png",
+			"tooltip": "§b§l前往视频网站",
+			"imageWidth": 498,
+            "imageHeight": 498,
+            "action" : 
+            {
+                "type" : "openLink",
+				"link": "https://www.bilibili.com/"
+            }
+        }, 
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 55,
+            "posY" : 145,
+            "width": 20,
+            "height": 20,
+            "texture" : "mainmenu:refresh.png",
+			"tooltip": "§b§l点击刷新界面\n§6§l当前登录账户§e§l#username#！",
+			"imageWidth": 498,
+            "imageHeight": 498,
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "§6§lCopyright:§e§lAwright5,hsrqcy",
+		  "hoverText" : "§e§lMcbbs",
+            "posX" : -120,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        "modinfo": {
+            "alignment": "bottom_left",
+			"text": "§9§lForge 版本:  §b§l#forgeversion#  §e§l已加载   §d§l#modsloaded#§e§l  模组",
+			"hoverText": "§9§lForge version:  §2§l#forgeversion#  §e§lLoading   §d§l#modsactive#§b§l  Mods",
+            "color": -1,
+            "posX": 2,
+            "posY": -10
+        },
+		"time": {
+			"text": "§e§l欢迎来到  §w§l艾维迷之MixCraft整合包，§b§l#username# \n§d§l当前时间：§2§l#time#",
+			"hoverText": "§9§lWell come to §b§lIVMixCraft，§e§l#username#§9§l！\n§8§ltimes is：§2§l#date# §d§l#time#",
+            "posX": 2,
+            "posY": 12,
+            "color": -1,
+            "alignment": "top_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 130,
+            "color" : -200,
+			
+            "alignment" : "top_center",
+            "texts" : "file:mainmenu:splashes.txt"
+        },
+        "background":
+        {
+            "image": "",
+            "mode": "fill",
+            "slideshow": {
+            "images": [
+			"mainmenu:backgrounds/1.png",
+			"mainmenu:backgrounds/2.png",
+			"mainmenu:backgrounds/3.png"
+			],
+			"shuffle": true,
+            "displayDuration": 90,
+            "fadeDuration": 40,
+            "sync": true
+        }
+	}
+  }
+}

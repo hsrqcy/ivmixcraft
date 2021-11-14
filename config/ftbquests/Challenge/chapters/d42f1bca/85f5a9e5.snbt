@@ -1,0 +1,21 @@
+{
+	x: -8.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "c8bd3351",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}],
+	rewards: [{
+		uid: "26c7069a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

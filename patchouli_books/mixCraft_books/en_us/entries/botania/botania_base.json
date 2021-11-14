@@ -1,0 +1,28 @@
+{
+    "sortnum": 1,
+	"name": "§2§l绿色植物",
+    "icon": "botania:flower",
+    "category": "patchouli:Botania_category",
+	"read_by_default": false,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(li)$(5)$(l)植物魔法。$(br2)$(3)$(l)需要主线任务做到野外蜜蜂吸引装置。$(br2)$(4)$(l)无法自然获得神秘花$(br2)$(d)$(l)养蜂使用蜂蜜滴换取花袋$(br2)$(3)$(l)或者商店采购"
+        },
+		{
+            "type": "offering",
+            "text": "$(br2)$(c)$(l)花药台$(br2)$(d)花药台需要先做完自然之力篇章任务，解锁献给众神仪式制作",
+            "recipe": "botania_altar"
+        },
+		{
+            "type": "fey_crafting_template",
+            "recipe": "botania_spreader"
+        },
+		{
+            "type": "fey_crafting_template",
+            "recipe": "botania_pool"
+        }
+		
+		
+    ]
+}

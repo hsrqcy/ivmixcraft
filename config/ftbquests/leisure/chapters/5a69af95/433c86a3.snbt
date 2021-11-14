@@ -1,0 +1,104 @@
+{
+	title: "§e§l经典搓木板",
+	icon: "minecraft:planks",
+	x: -17.5d,
+	y: -4.0d,
+	text: [
+		"§c§l女仆蛋使用后用蛋糕给她吃驯服哦！"
+	],
+	dependencies: [
+		"d87649f2"
+	],
+	tasks: [{
+		uid: "981e87b8",
+		type: "item",
+		title: "§e§l手搓木板",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plankWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankWood"
+				}
+			}
+		}],
+		count: 16L,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	},
+	{
+		uid: "c4a4a4d5",
+		type: "item",
+		items: [{
+			item: "mysticalworld:silk_cocoon"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "46141441",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pouchofunknown:pouch",
+			tag: {
+				Inventory: []
+			}
+		}
+	},
+	{
+		uid: "05c7926f",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "c1d51ac5",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "touhou_little_maid:entity.passive.maid"
+				}
+			}
+		}
+	},
+	{
+		uid: "0780e820",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:cake"
+		}
+	},
+	{
+		uid: "07301641",
+		type: "item",
+		item: "minecraft:sapling",
+		count: 32
+	},
+	{
+		uid: "b3cfb0b6",
+		type: "item",
+		item: "touhou_little_maid:maid_bed"
+	},
+	{
+		uid: "07b46de5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_1"
+			}
+		}
+	}]
+}

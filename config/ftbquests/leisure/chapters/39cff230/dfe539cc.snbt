@@ -1,0 +1,25 @@
+{
+	x: -5.5d,
+	y: -7.5d,
+	dependencies: [
+		"9ae80b94"
+	],
+	tasks: [{
+		uid: "7883cdbb",
+		type: "item",
+		items: [{
+			item: "botania:sparkchanger"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "0eeeac6e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

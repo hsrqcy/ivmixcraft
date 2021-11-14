@@ -1,0 +1,69 @@
+{
+	title: "§b§l加工模具",
+	x: 17.5d,
+	y: 10.5d,
+	text: [
+		"§7§l使用铸形加工，放入未烧制陶瓷块按照JEI压制深度"
+	],
+	dependencies: [
+		"4efee223"
+	],
+	tasks: [{
+		uid: "464266ba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "foundry:mold"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "11725316",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "foundry:mold",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5a56b68b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "foundry:mold",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "071df934",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "foundry:mold",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dccf8e9e",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "3b898beb",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 2
+	}]
+}

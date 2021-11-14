@@ -1,0 +1,58 @@
+{
+	title: "§c§l原石破坏者",
+	x: 27.0d,
+	y: -1.5d,
+	dependencies: [
+		"1e14efdb"
+	],
+	tasks: [{
+		uid: "f80968de",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "skyresources:stonegrinder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6c5ccd36",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "d5b5671b",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "6d1671aa",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "skyresources:irongrinder",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 27
+				},
+				{
+					lvl: 4s,
+					id: 32
+				},
+				{
+					lvl: 3s,
+					id: 43
+				},
+				{
+					lvl: 3s,
+					id: 38
+				}]
+			}
+		}
+	}]
+}

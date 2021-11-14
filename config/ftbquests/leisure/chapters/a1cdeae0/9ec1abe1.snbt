@@ -1,0 +1,28 @@
+{
+	x: -8.0d,
+	y: 10.5d,
+	dependencies: [
+		"f58b851b"
+	],
+	tasks: [{
+		uid: "ad56ed2f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_diamond_tier"
+		}]
+	}],
+	rewards: [{
+		uid: "f32e8e82",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	}]
+}

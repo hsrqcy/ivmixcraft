@@ -1,0 +1,29 @@
+{
+	title: "§e§l植物魔法",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:lexicon",
+		tag: {
+			knowledge.minecraft: 1b,
+			knowledge.alfheim: 1b,
+			knowledge.dream: 1b,
+			knowledge.relic: 1b
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -31.5d,
+		y: -17.0d,
+		width: 10.0d,
+		height: 6.0d,
+		rotation: 0.0d,
+		image: "image:botania.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

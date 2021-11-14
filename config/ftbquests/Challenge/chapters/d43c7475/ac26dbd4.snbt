@@ -1,0 +1,45 @@
+{
+	title: "§6§l推测仪式--自动化",
+	x: 10.5d,
+	y: -15.0d,
+	dependencies: [
+		"e0a2d835"
+	],
+	tasks: [{
+		uid: "9cb17f0e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:ritual_diviner",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3e46b47b",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_controller"
+		}]
+	},
+	{
+		uid: "43fd1349",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_stone"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "2b4ab1b2",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "a15f118b",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

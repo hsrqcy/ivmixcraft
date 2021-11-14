@@ -1,0 +1,24 @@
+{
+	x: -29.5d,
+	y: -6.5d,
+	dependencies: [
+		"66ee112f"
+	],
+	tasks: [{
+		uid: "7ebd412a",
+		type: "item",
+		items: [{
+			item: "ftbquests:screen"
+		}]
+	}],
+	rewards: [{
+		uid: "6c8eb09f",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "7d4f257d",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

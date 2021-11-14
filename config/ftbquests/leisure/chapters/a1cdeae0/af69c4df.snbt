@@ -1,0 +1,59 @@
+{
+	x: 29.5d,
+	y: 2.0d,
+	dependencies: [
+		"c0c50ee2"
+	],
+	tasks: [{
+		uid: "85bf418d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Down: 1b,
+					Progress: 0b,
+					Collect: 0b,
+					Up: 1b
+				}
+			},
+			id: "yabba:upgrade_hopper"
+		}]
+	},
+	{
+		uid: "e3ca07ad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_pickup"
+		}]
+	},
+	{
+		uid: "839175d3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Progress: 0s
+				}
+			},
+			id: "yabba:upgrade_smelting"
+		}]
+	},
+	{
+		uid: "092a9815",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "yabba:upgrade_void"
+		}]
+	}],
+	rewards: [{
+		uid: "afb8525b",
+		type: "random",
+		table: 1
+	}]
+}

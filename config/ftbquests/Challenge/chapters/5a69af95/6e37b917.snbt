@@ -1,0 +1,26 @@
+{
+	title: "§c§l第一桶.铁",
+	x: 35.5d,
+	y: -1.5d,
+	dependencies: [
+		"e916bcaf"
+	],
+	tasks: [{
+		uid: "4aed0f4f",
+		type: "item",
+		items: [{
+			item: "skyresources:orealchdust"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "48303ede",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "581f8bea",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

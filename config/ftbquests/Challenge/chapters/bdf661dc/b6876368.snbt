@@ -1,0 +1,25 @@
+{
+	x: -10.5d,
+	y: -9.0d,
+	dependencies: [
+		"c20cfbf6"
+	],
+	tasks: [{
+		uid: "a439b531",
+		type: "item",
+		items: [{
+			item: "arcanearchives:gemcutters_table"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f18d2990",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

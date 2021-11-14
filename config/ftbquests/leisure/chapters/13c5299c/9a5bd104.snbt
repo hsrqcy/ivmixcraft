@@ -1,0 +1,35 @@
+{
+	title: "§6§l神秘仪式：锅庄",
+	x: -5.5d,
+	y: 5.0d,
+	text: [
+		"§b§l柴堆合成需要打火机点燃，木制或Zippo皆可"
+	],
+	dependencies: [
+		"3a6f2144"
+	],
+	tasks: [{
+		uid: "4709ad88",
+		type: "item",
+		items: [{
+			item: "roots:pyre"
+		}]
+	},
+	{
+		uid: "b4b33db4",
+		type: "item",
+		items: [{
+			item: "roots:fire_starter"
+		}]
+	}],
+	rewards: [{
+		uid: "31827505",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "bd9095d2",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

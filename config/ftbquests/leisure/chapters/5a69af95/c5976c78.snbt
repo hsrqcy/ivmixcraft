@@ -1,0 +1,35 @@
+{
+	title: "§5§l反方向的钟",
+	x: 27.0d,
+	y: -6.5d,
+	dependencies: [
+		"4c131018"
+	],
+	tasks: [{
+		uid: "3b6ef0e2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "betterbuilderswands:wandstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "58eb40f9",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "80b5654c",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "b9505ab2",
+		type: "item",
+		item: "scalinghealth:difficultychanger"
+	}]
+}

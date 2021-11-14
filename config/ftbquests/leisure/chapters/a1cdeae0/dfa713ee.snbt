@@ -1,0 +1,30 @@
+{
+	x: 2.5d,
+	y: -3.0d,
+	dependencies: [
+		"7918cd8e"
+	],
+	tasks: [{
+		uid: "e34cf253",
+		type: "item",
+		items: [{
+			item: "extrautils2:drum"
+		}]
+	}],
+	rewards: [{
+		uid: "74499ea0",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "f80af52d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		}
+	}]
+}

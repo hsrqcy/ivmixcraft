@@ -1,0 +1,22 @@
+{
+	title: "§b§l陶瓷模子",
+	x: 17.5d,
+	y: 4.5d,
+	dependencies: [
+		"f5a39ced"
+	],
+	tasks: [{
+		uid: "d0941397",
+		type: "item",
+		items: [{
+			item: "ceramics:clay_soft"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "e98bc15f",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 2
+	}]
+}

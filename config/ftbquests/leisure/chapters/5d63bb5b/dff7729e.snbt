@@ -1,0 +1,44 @@
+{
+	title: "§6§l锅炉工",
+	x: -34.5d,
+	y: -0.5d,
+	dependencies: [
+		"5df6bc01"
+	],
+	tasks: [{
+		uid: "523a6831",
+		type: "item",
+		items: [{
+			item: "magneticraft:combustion_chamber"
+		}]
+	},
+	{
+		uid: "1386099c",
+		type: "item",
+		items: [{
+			item: "magneticraft:steam_boiler"
+		}]
+	},
+	{
+		uid: "5681868f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "magneticraft:wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3201a7ca",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "c3216ec8",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

@@ -1,0 +1,153 @@
+{
+    "sortnum": 6,
+	"name": "§b§l根源魔法（二）",
+    "icon": "roots:fey_crafter",
+    "category": "patchouli:gamestart_category",
+    "read_by_default": false,
+    "pages": [
+        {
+      "type": "multiblock",
+      "name": "§7§l森流之石",
+      "multiblock": {
+        "mapping": {
+          "0": "roots:grove_stone",
+          "M": "roots:grove_stone[half=middle]",
+          "T": "roots:grove_stone[half=top]"
+        },
+        "pattern": [
+          [
+            " ",
+            "T",
+            " "
+          ],
+          [
+            " ",
+            "M",
+            " "
+          ],
+          [
+            " ",
+            "0",
+            " "
+          ],
+          [
+            " ",
+            " ",
+            " "
+          ],
+          [
+            " ",
+            " ",
+            " "
+          ]
+        ]
+      },
+      "enable_visualize": false,
+      "text": "$(br)$(2)$(l)森流之石，需要仪式：森流祈愿激活"
+    },
+	 {
+      "name": "§3§l森流祈愿",
+	  "type": "multiblock",
+      "anchor": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "roots:pyre",
+          "1": "roots:grove_stone[facing=north,half=bottom,valid=false]",
+          "2": "roots:grove_stone[facing=north,half=middle,valid=false]",
+          "3": "roots:grove_stone[facing=north,half=top,valid=false]"
+        },
+        "pattern": [
+          ["       ","       ","       ","3      ","       ","       ","       "],
+          ["       ","       ","       ","2      ","       ","       ","       "],
+          ["       ","       ","       ","1  0   ","       ","       ","       "]
+        ]
+      },
+      "text": "$(br)$(2)$(l)森流祈愿仪式摆放后在柴堆启动。成功后森石会变绿色"
+    },
+	{
+      "type": "pyre_template",
+      "ritual": "ritual_grove_supplication",
+      "text": "As a $(l:rituals/tiers)$(bold)tier I$() ritual, $(l:rituals/ritual_grove_supplication#multiblock)a grove stone$() is required for the ritual to be effective."
+    },
+	{
+      "type": "multiblock",
+      "name": "§6§l精灵合成台",
+      "multiblock": {
+        "mapping": {
+          "0": "roots:fey_crafter"
+        },
+        "pattern": [
+          [
+            " ",
+            "0",
+            " "
+          ]
+        ]
+      },
+      "enable_visualize": false,
+      "text": "$(br)$(2)$(l)精灵合成台，需要森流祈愿激活的森流之石旁边"
+    },
+		{
+            "type": "spotlight",
+			"title": "§3§l符文石",
+			"item": "roots:runestone",
+            "text": "$(br)$(2)小提示：仪式必备"
+    },
+		{
+       "name": "§c§l火焰风暴",
+	  "type": "multiblock",
+      "anchor": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "roots:pyre",
+          "R": "roots:runestone",
+          "C": "roots:chiseled_runestone"
+        },
+        "pattern": [
+          ["   C   ","       ","       ","C     C","       ","       ","       "],
+          ["   R   ","       ","       ","R     R","       ","       ","   C   "],
+          ["   R   ","       ","       ","R     R","       ","       ","   R   "],
+          ["   R   ","       ","       ","R  0  R","       ","       ","   R   "]
+        ]
+      },
+      "text": "$(br)$(2)$(l)大范围AOE，刷怪很爽"
+    },
+	{
+      "type": "pyre_template",
+      "ritual": "ritual_fire_storm",
+      "text": "$(standing_stones) As a $(l:rituals/tiers)$(bold)tier IV$() ritual, $(l:rituals/ritual_fire_storm#multiblock)4 standing stones are required to begin$(). Please see later pages of this entry."
+    },
+	{
+      "type": "multiblock",
+      "anchor": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "roots:pyre",
+          "R": "roots:runestone",
+          "C": "roots:chiseled_runestone"
+        },
+        "pattern": [
+          ["       ","       ","       ","       ","       ","       ","       "],
+          ["   C   ","       ","       ","       ","       ","       ","       "],
+          ["   R   ","       ","       ","       ","       ","       ","       "],
+          ["   R   ","       ","       ","   0   ","       ","       ","       "]
+        ]
+      },
+      "text": "$(br)$(2)$(l)自然嬗变仪式"
+    },
+	{
+      "type": "pyre_template",
+      "ritual": "ritual_transmutation",
+      "text": "$(standing_stones) As a $(l:rituals/tiers)$(bold)tier I$() ritual, $(l:rituals/ritual_transmutation#multiblock)a single standing stone is required to begin$(). Please see later pages of this entry."
+    },
+	
+	{
+            "type": "spotlight",
+			"title": "§3§l野木树苗",
+			"item": "roots:wildwood_sapling",
+            "text": "$(br)$(2)小提示：使用生命灌注获得，生命不够?那就加点或者吃不同的食物吧。"
+    }
+		
+		
+    ]
+}

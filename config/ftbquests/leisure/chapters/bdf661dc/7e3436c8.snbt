@@ -1,0 +1,20 @@
+{
+	x: 22.0d,
+	y: 0.5d,
+	dependencies: [
+		"06592b48",
+		"20f0219a"
+	],
+	tasks: [{
+		uid: "4421cfc0",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "969b0468",
+		type: "random",
+		table: 1
+	}]
+}

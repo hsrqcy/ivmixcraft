@@ -1,0 +1,19 @@
+{
+	x: 16.0d,
+	y: -3.5d,
+	dependencies: [
+		"f268bc95"
+	],
+	tasks: [{
+		uid: "195f95ba",
+		type: "item",
+		items: [{
+			item: "minecraft:ghast_tear"
+		}]
+	}],
+	rewards: [{
+		uid: "5d1ab124",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "§d§l灌注生命",
+	x: -11.0d,
+	y: -0.5d,
+	dependencies: [
+		"7ae7bdaf"
+	],
+	tasks: [{
+		uid: "7c8209a9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {
+				sacrifice: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4d1f4ef8",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "c98b637a",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

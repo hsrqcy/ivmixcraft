@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	dependencies: [
+		"c0ba5c95"
+	],
+	tasks: [{
+		uid: "e902636b",
+		type: "item",
+		items: [{
+			item: "extrautils2:decorativesolid 1 7"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "26542d60",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

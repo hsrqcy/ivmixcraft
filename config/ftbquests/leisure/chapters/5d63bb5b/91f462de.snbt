@@ -1,0 +1,26 @@
+{
+	title: "§6§l缠绕的线圈",
+	x: -24.5d,
+	y: -4.0d,
+	dependencies: [
+		"7c173e03"
+	],
+	tasks: [{
+		uid: "fe4e7e48",
+		type: "item",
+		items: [{
+			item: "magneticraft:crafting 1 3"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "9d054647",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "04875d73",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

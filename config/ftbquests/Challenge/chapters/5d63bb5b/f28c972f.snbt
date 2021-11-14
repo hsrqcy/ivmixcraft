@@ -1,0 +1,24 @@
+{
+	x: 17.5d,
+	y: -11.5d,
+	dependencies: [
+		"5d38d87c"
+	],
+	tasks: [{
+		uid: "d8cb9688",
+		type: "item",
+		items: [{
+			item: "magneticraft:refinery"
+		}]
+	}],
+	rewards: [{
+		uid: "9e12859c",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "ff3847a8",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

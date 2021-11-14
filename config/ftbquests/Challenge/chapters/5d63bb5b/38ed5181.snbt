@@ -1,0 +1,19 @@
+{
+	x: 0.5d,
+	y: 4.5d,
+	dependencies: [
+		"531f53aa"
+	],
+	tasks: [{
+		uid: "1ed8dc87",
+		type: "item",
+		items: [{
+			item: "teslathingies:fluid_compound_producer"
+		}]
+	}],
+	rewards: [{
+		uid: "c2a7fb1b",
+		type: "random",
+		table: 1
+	}]
+}

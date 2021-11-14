@@ -1,0 +1,29 @@
+{
+	x: 19.5d,
+	y: -3.0d,
+	dependencies: [
+		"acda2211"
+	],
+	tasks: [{
+		uid: "a01a93f5",
+		type: "item",
+		items: [{
+			item: "skyresources:orealchdust 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "c3fc611d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "a87a9848",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "74cca4b8",
+		type: "item",
+		item: "scalinghealth:difficultychanger"
+	}]
+}

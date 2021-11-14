@@ -1,0 +1,25 @@
+{
+	title: "§c§l固体？石油？",
+	x: 13.5d,
+	y: -15.0d,
+	dependencies: [
+		"5d38d87c"
+	],
+	tasks: [{
+		uid: "f8096cef",
+		type: "item",
+		items: [{
+			item: "magneticraft:oil_source"
+		}]
+	}],
+	rewards: [{
+		uid: "35f3b352",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "8e5c4b6a",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

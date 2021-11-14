@@ -1,0 +1,34 @@
+{
+	title: "§6§l无情铁手是不存在的",
+	x: 17.5d,
+	y: 7.5d,
+	text: [
+		"§6§l需要使用未烧制的陶瓷块压模哦"
+	],
+	dependencies: [
+		"00ed52d4"
+	],
+	tasks: [{
+		uid: "c05e1301",
+		type: "item",
+		items: [{
+			item: "foundry:mold_station"
+		}]
+	}],
+	rewards: [{
+		uid: "76f2868f",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "e6851585",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "a27ec51c",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 2
+	}]
+}

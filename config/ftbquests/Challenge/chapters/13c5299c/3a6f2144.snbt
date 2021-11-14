@@ -1,0 +1,37 @@
+{
+	title: "§6§l粉碎破坏者mini版",
+	x: -5.5d,
+	y: 0.0d,
+	dependencies: [
+		"1701b50b"
+	],
+	tasks: [{
+		uid: "bbdd54da",
+		type: "item",
+		items: [{
+			item: "roots:mortar"
+		}]
+	},
+	{
+		uid: "7d5fef02",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:pestle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "566bb05f",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "387e0e95",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

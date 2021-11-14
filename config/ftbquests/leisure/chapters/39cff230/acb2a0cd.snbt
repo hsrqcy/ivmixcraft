@@ -1,0 +1,24 @@
+{
+	x: -21.5d,
+	y: -4.5d,
+	dependencies: [
+		"2189370f"
+	],
+	tasks: [{
+		uid: "ac00bdd0",
+		type: "item",
+		items: [{
+			item: "botania:opencrate"
+		}]
+	}],
+	rewards: [{
+		uid: "00c59829",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "a_2"
+			}
+		}
+	}]
+}

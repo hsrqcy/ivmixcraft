@@ -1,0 +1,36 @@
+{
+	x: 13.5d,
+	y: 7.0d,
+	dependencies: [
+		"42409e41"
+	],
+	tasks: [{
+		uid: "063abb49",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "138e74f2",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "988efac9",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "dfad82b7",
+		type: "item",
+		item: "appliedenergistics2:controller",
+		count: 2
+	},
+	{
+		uid: "75f1d591",
+		type: "item",
+		item: "appliedenergistics2:part 1 56",
+		count: 8
+	}]
+}

@@ -1,0 +1,138 @@
+{
+    "machine": "extrastonetrans",
+    "registryName": "extrastonetrans_stone",
+    "recipeTime": 80,
+    "requirements": [
+        
+		{
+        	"type": "energy",
+        	"io-type": "input",
+        	"energyPerTick": 500
+        },
+		{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "steam",
+			"amount": 1000
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:cobblestone"
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "magneticraft:chunks",
+            "amount": 1,
+            "chance": 0.3125
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "magneticraft:chunks@1",
+            "amount": 1,
+            "chance": 0.255
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "magneticraft:chunks@2",
+            "amount": 1,
+            "chance": 0.2395
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "magneticraft:chunks@3",
+            "amount": 1,
+            "chance": 0.2395
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "magneticraft:chunks@4",
+            "amount": 1,
+            "chance": 0.1395
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "magneticraft:chunks@5",
+            "amount": 1,
+            "chance": 0.1395
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "magneticraft:chunks@7",
+            "amount": 1,
+            "chance": 0.0495
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "magneticraft:chunks@9",
+            "amount": 1,
+            "chance": 0.0695
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "magneticraft:chunks@10",
+            "amount": 1,
+            "chance": 0.075
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "magneticraft:chunks@11",
+            "amount": 1,
+            "chance": 0.0895
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "magneticraft:chunks@12",
+            "amount": 1,
+            "chance": 0.0895
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "magneticraft:chunks@13",
+            "amount": 1,
+            "chance": 0.0495
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "magneticraft:chunks@14",
+            "amount": 1,
+            "chance": 0.0395
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "additions:ivmixcraft-green_catalyzer@0", 
+            "amount": 1,
+            "chance": 0.00395
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "additions:ivmixcraft-purple_catalyzer@0", 
+            "amount": 1,
+            "chance": 0.00395
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "additions:ivmixcraft-yellow_catalyzer@0", 
+            "amount": 1,
+            "chance": 0.00395
+        }
+		
+		
+    ]
+}

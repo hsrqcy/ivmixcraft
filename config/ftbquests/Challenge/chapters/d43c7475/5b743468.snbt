@@ -1,0 +1,31 @@
+{
+	title: "§c§l新式炼金",
+	x: 4.5d,
+	y: -3.0d,
+	dependencies: [
+		"6c48d1b5"
+	],
+	tasks: [{
+		uid: "f9cfd995",
+		type: "item",
+		items: [{
+			item: "skyresources:orealchdust 1 8"
+		}],
+		count: 11L
+	}],
+	rewards: [{
+		uid: "0c8adb25",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "0fdeb080",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "2f51b420",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

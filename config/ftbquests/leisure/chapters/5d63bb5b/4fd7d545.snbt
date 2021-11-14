@@ -1,0 +1,25 @@
+{
+	title: "§3§l清洁能源",
+	x: -20.5d,
+	y: -15.5d,
+	dependencies: [
+		"0bca1e67"
+	],
+	tasks: [{
+		uid: "bef8e2ab",
+		type: "item",
+		items: [{
+			item: "magneticraft:wind_turbine"
+		}]
+	}],
+	rewards: [{
+		uid: "0679c532",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "62564a99",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

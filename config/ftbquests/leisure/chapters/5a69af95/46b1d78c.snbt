@@ -1,0 +1,48 @@
+{
+	x: 8.5d,
+	y: -2.5d,
+	dependencies: [
+		"14e5c9d9"
+	],
+	tasks: [{
+		uid: "ddc81121",
+		type: "item",
+		items: [{
+			id: "tconstruct:rack",
+			tag: {
+				textureBlock: {
+					id: "minecraft:wooden_slab",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e664ce2b",
+		type: "item",
+		items: [{
+			item: "minecraft:deadbush"
+		}]
+	}],
+	rewards: [{
+		uid: "25bfe783",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "8aae703f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:pig_pet",
+			tag: {
+				GiveItems: 1b
+			}
+		}
+	}]
+}

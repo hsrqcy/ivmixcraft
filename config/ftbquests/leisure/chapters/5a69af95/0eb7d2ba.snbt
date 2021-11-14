@@ -1,0 +1,48 @@
+{
+	x: 30.5d,
+	y: 22.5d,
+	dependencies: [
+		"7e7b7bf7"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "e8ce70b9",
+		type: "dimension",
+		dim: -6
+	}],
+	rewards: [{
+		uid: "f709c3bd",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "128a30e4",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "e1fedd4e",
+		type: "item",
+		item: "additions:ivmixcraft-coins"
+	},
+	{
+		uid: "bd7e1b0c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -8906606618441326594L,
+					AS_Amulet_HolderMost: -4605424409192872578L
+				}
+			},
+			id: "thermalexpansion:reservoir",
+			tag: {}
+		}
+	},
+	{
+		uid: "8296edcd",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 10
+	}]
+}

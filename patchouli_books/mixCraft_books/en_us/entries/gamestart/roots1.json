@@ -1,0 +1,45 @@
+{
+    "sortnum": 4,
+	"name": "§5§l根源魔法（一）",
+    "icon": "roots:pestle",
+    "category": "patchouli:gamestart_category",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(li)$(5)$(l)石器时代可以研究世界的根源。$(br2)$(3)$(l)根源魔法是一切魔法的基础。$(br2)$(4)$(l)可以合成物品、神秘仪式、多方块召唤等等$(br2)$(d)$(l)根源魔法的基础第一章$(br2)$(3)$(l)物品增产$(br2)$(7)$(l)研钵也可以合成一些东西哟"
+        },
+		{
+            "type": "spotlight",
+			"title": "§2§l研钵",
+			"item": "roots:pestle",
+            "text": "$(br)$(2)小提示：配合研杵一起使用$(br)$(3)可以捣碎一些物品$(br)$(7)合成物品右键扔进去就可以了$()"
+        },
+		{
+            "type": "spotlight",
+			"title": "§2§l柴堆",
+			"item": "roots:pyre",
+            "text": "$(br)$(2)小提示：柴堆合成。$(br)$(7)最原始的火焰力量，需要Zippor引燃。$(br)$(d)注：点SHIFT右键可以上一次合成(材料足够才可)$()"
+    },
+	{
+            "type": "spotlight",
+			"title": "§2§l守门者之杖",
+			"item": "roots:staff",
+            "text": "$(br)$(2)小提示：默认K键打开GUI"
+    },
+	{
+            "type": "spotlight",
+			"title": "§3§l注造器",
+			"item": "roots:imbuer",
+            "text": "$(br)$(2)小提示：放入咒术尘"
+    },
+	{
+            "type": "spotlight",
+			"title": "§3§l森之古术",
+			"item": "roots:gramary",
+            "text": "$(br)$(2)小提示：注造器放入咒术尘后右键加入网络"
+    }
+		
+		
+    ]
+}
